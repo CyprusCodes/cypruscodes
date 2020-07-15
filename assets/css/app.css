@@ -15350,7 +15350,7 @@ Download Two
 }
 
 #footer.footer-five {
-  background: linear-gradient(-3deg, #fa7070b2 -60%, #1a5b99 100%);;
+  background: linear-gradient(-6deg, #fa7070 -75%, #1b5fa0 100%);;
  
 }
 
@@ -15359,20 +15359,20 @@ Download Two
 }
 
 #footer.footer-five .widget p {
-  color: #a39eb9;
+  color: #cfd4df;
 }
 
 #footer.footer-five .footer-menu li a {
-  color: #a39eb9;
+  color: #cfd4df;
 }
 
 #footer.footer-five .footer-menu li a:hover {
-  color: #1a5b99;
+  color: #fa7070;
 }
 
 #footer.footer-five .footer-social-link li a {
-  border-color: #5a647e;
-  color: #9ea3b9;
+  border-color: #d6dae2;
+  color: #cfd4df;
 }
 
 #footer.footer-five .footer-social-link li a:hover {
@@ -15384,8 +15384,7 @@ Download Two
 }
 
 #footer.footer-five .site-info-menu li a {
-  color: #999ea7;
-  ;
+  color: #cfd4df;
 }
 
 #footer.footer-five .site-info-menu li a:hover {
@@ -15397,11 +15396,11 @@ Download Two
 }
 
 #footer.footer-five .site-info p {
-  color: #9c99a7;
+  color: #cfd4df;
 }
 
 #footer.footer-five .site-info p a {
-  color: #215f99;
+  color: #064580;
 }
 
 #footer.footer-tax-service {
@@ -15440,7 +15439,6 @@ Download Two
 
 #footer.footer-tax-service .footer-menu li a:hover {
   color: #1a5b99; 
-  /* bumu */
 }
 
 #footer.footer-tax-service .footer-bottom-element .shape-element {
