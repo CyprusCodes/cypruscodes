@@ -380,7 +380,7 @@ section {
 }
 
 .pix-btn.color-two {
-  background: #7052fb;
+  background: #1a5b99;
   -webkit-box-shadow: 0px 20px 30px 0px rgba(90, 70, 176, 0.3);
           box-shadow: 0px 20px 30px 0px rgba(90, 70, 176, 0.3);
 }
@@ -427,15 +427,15 @@ section {
 }
 
 .pix-btn.btn-outline-two {
-  border: 1px solid #7052fb;
+  border: 1px solid #1a5b99;
   background: transparent;
-  color: #7052fb;
+  color: #1a5b99;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
 .pix-btn.btn-outline-two:hover {
-  background: #7052fb;
+  background: #1a5b99;
   color: #fff;
   -webkit-box-shadow: 0px 20px 30px 0px rgba(90, 70, 176, 0.3);
           box-shadow: 0px 20px 30px 0px rgba(90, 70, 176, 0.3);
@@ -455,7 +455,7 @@ section {
 }
 
 .pix-btn.btn-light.color-two {
-  color: #7052fb;
+  color: #1a5b99;
 }
 
 .pix-btn.btn-light:hover {
@@ -7012,13 +7012,13 @@ select {
 }
 
 #pix-tabs-nav.pix-tab-two li a:hover {
-  color: #7052fb;
+  color: #1a5b99;
   -webkit-box-shadow: 0px 20px 30px 0px rgba(90, 70, 176, 0.3);
           box-shadow: 0px 20px 30px 0px rgba(90, 70, 176, 0.3);
 }
 
 #pix-tabs-nav.pix-tab-two li.active a {
-  color: #7052fb;
+  color: #1a5b99
   -webkit-box-shadow: 0px 20px 30px 0px rgba(90, 70, 176, 0.3);
           box-shadow: 0px 20px 30px 0px rgba(90, 70, 176, 0.3);
 }
@@ -7149,7 +7149,7 @@ select {
   border-radius: 4px;
   -webkit-box-shadow: 0px 20px 40px 0px rgba(43, 35, 79, 0.08);
           box-shadow: 0px 20px 40px 0px rgba(43, 35, 79, 0.08);
-  border-left: 5px solid #7052fb;
+  border-left: 5px solid #1a5b99;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -7194,7 +7194,7 @@ select {
 }
 
 .gp-tabs-navigation li .more-btn:hover {
-  color: #7052fb;
+  color: #1a5b99;
 }
 
 .gp-tabs-navigation li.active-tab {
@@ -7649,7 +7649,7 @@ select {
 
 #testimonial-wrapper .slider-nav .swiper-button-prev:hover,
 #testimonial-wrapper .slider-nav .swiper-button-next:hover {
-  color: #7052fb;
+  color: #1a5b99;
 }
 
 #testimonial-wrapper .slider-nav .swiper-button-next {
@@ -7913,6 +7913,8 @@ select {
   background: #fdf8f8;
   padding: 116px 0 58px;
   overflow: hidden;
+
+
 }
 
 .testimonials-two-about .testimonial-two .testi-content-inner {
