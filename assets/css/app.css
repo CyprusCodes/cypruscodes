@@ -10031,36 +10031,36 @@ Logo List
   height: 60px;
   width: 60px;
   line-height: 68px;
-  background: rgba(112, 82, 251, 0.141);
+  background: #fa505021;
   margin: 0 auto 43px;
 }
 
 .fun-fact-two .icon-container i {
   font-size: 25px;
-  color: #7052fb;
+  color: #fa5050;
 }
 
 .fun-fact-two .counter p {
   font-size: 20px;
-  color: #5e5b74;
+  color: #5b6074;
 }
 
 .fun-fact-two .counter h4 {
   font-size: 54px;
   font-weight: 300;
-  color: #7052fb;
+  color: #fa5050;
 }
 
 .fun-fact-two.color-two .icon-container {
-  background: rgba(253, 176, 26, 0.141);
+  background: #1a5c991e;
 }
 
 .fun-fact-two.color-two .icon-container i {
-  color: #fdb01a;
+  color: #1a5b99;
 }
 
 .fun-fact-two.color-two .counter h4 {
-  color: #fdb01a;
+  color: #1a5b99;
 }
 
 .fun-fact-two.color-three .icon-container {
@@ -15352,7 +15352,7 @@ Download Two
 }
 
 #footer.footer-five {
-  background: linear-gradient(-6deg, #fa7070 -75%, #1b5fa0 100%);;
+  background: linear-gradient(-6deg, #fa7070ce -100%, #1b60a0 100%);;
  
 }
 

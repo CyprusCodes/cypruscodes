@@ -578,3 +578,13 @@ var PIXELSIGNS = PIXELSIGNS || {};
     $(window).on('scroll', PIXELSIGNS.documentOnScroll.init);
 
 })(jQuery);
+
+
+
+$("a.nav-faq").click(function() {
+    $('html, body').animate({scrollTop: $("#faq").offset().top}, 1000);
+  });
+
+$("a.nav-contact").click(function() {
+    $('html, body').animate({scrollTop: $("#contact").offset().top}, 1000);
+  });
