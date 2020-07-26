@@ -384,7 +384,7 @@ var PIXELSIGNS = PIXELSIGNS || {};
             tabItems.on('click', function(event) {
                 event.preventDefault();
                 var selectedItem = $(this);
-                if(event.target.tagName.toLowerCase() !== 'a') {
+                if(event.target.tagName.toLowerCase() === 'li') {
                     selectedItem.find("a").click();
                 }
                 if (!selectedItem.hasClass('active-tab')) {
