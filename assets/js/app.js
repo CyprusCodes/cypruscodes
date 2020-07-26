@@ -384,17 +384,20 @@ var PIXELSIGNS = PIXELSIGNS || {};
             tabItems.on('click', function(event) {
                 event.preventDefault();
                 var selectedItem = $(this);
+                if(event.target.tagName.toLowerCase() !== 'a') {
+                    selectedItem.find("a").click();
+                }
                 if (!selectedItem.hasClass('active-tab')) {
                     var selectedTab = selectedItem.data('content'),
                         selectedContent = tabContentWrapper.find('.pix-tab-item[data-content="' + selectedTab + '"]'),
-                        slectedContentHeight = selectedContent.innerHeight();
-
+                        selectedContentHeight = selectedContent.innerHeight();
+                        
                     tabItems.removeClass('active-tab');
                     selectedItem.addClass('active-tab');
                     selectedContent.addClass('active-tab').siblings('.pix-tab-item').removeClass('active-tab');
                     //animate tabContentWrapper height when content changes
                     tabContentWrapper.animate({
-                        'height': slectedContentHeight
+                        'height': selectedContentHeight
                     }, 500);
                 }
             });
