@@ -312,6 +312,7 @@ section {
 .pix-btn.submit-btn.clicked {
   min-width: 210px;
   min-height: 50px;
+  background: #db9b9b;
 }
 
 .pix-btn.submit-btn.clicked i {

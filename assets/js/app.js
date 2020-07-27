@@ -582,8 +582,7 @@ var PIXELSIGNS = PIXELSIGNS || {};
 
 })(jQuery);
 
-
-
+//Scrolldown from banner
 $("a.nav-faq").click(function() {
     $('html, body').animate({scrollTop: $("#faq").offset().top}, 1000);
   });
@@ -591,3 +590,44 @@ $("a.nav-faq").click(function() {
 $("a.nav-contact").click(function() {
     $('html, body').animate({scrollTop: $("#contact").offset().top}, 1000);
   });
+
+
+//Contact form Submission
+
+  var $form = $('#contact'), 
+  url = 'https://script.google.com/macros/s/AKfycbwXYukJ1OUGnDJGsG5zw4xv_wOiEJSxmwOPPDBL_azHfS8MBaA/exec'
+
+$('#submit-form').on('click', function(e) {
+     e.preventDefault();
+
+        var jqxhr = $.ajax({
+            url: url,
+            method: "GET",
+            dataType: "json",
+            data: $form.serializeArray(),
+            success: function success(data) {
+                $('button[type="submit"]').removeClass('clicked');
+                $('#submit-form').html('Gönder');
+                $('#submit-form').prop('disabled', false);
+                $('.form-result').addClass('alert-warning').removeClass('alert-success alert-danger').css('display', 'block'); 
+                $('.form-result').addClass('alert-success').removeClass('alert-warning alert-danger').css('display', 'block');
+                $('.form-result > .content').html('Mesajınız Gönderildi!');
+            },
+            error: function error() {
+                $('button[type="submit"]').removeClass('clicked');
+                $('#submit-form').html('Gönder');
+                $('#submit-form').prop('disabled', false);
+                $('.form-result').addClass('alert-danger').removeClass('alert-warning alert-success').css('display', 'block');
+                $('.form-result > .content').html('Malesef mesajınız iletilemedi. Lütfen tekrar deneyin. Alternatif olarak 05338483559 numaralı telefondan bize ulaşabilirsiniz');               
+            }
+        })
+            .then(
+                $('.form-result').css('display', 'none'),
+                $('button[type="submit"]').addClass('clicked'),
+                $('#submit-form').prop('disabled', true),
+                $('#submit-form').html('Gönderiliyor..')  
+            )                       
+})
+
+
+
