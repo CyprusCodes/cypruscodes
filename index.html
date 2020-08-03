@@ -109,18 +109,8 @@
 							<ul class="site-main-menu">
 								<li class="menu-item-has-children">
 									<a href="index.html">Kurs</a>
-								<!--<ul class="sub-menu">
-										<li><a href="index.html">Home One</a></li>
-										 <li><a href="index-two.html">Home Two</a></li>
-										<li><a href="index-three.html">Home Three</a></li>
-										<li><a href="index-four.html">Home Four</a></li>
-										<li><a href="index-five.html">Home Five</a></li>
-										<li><a href="index-six.html">Home Six</a></li>
-										<li><a href="index-seven.html">Home Seven</a></li>
-										<li><a href="index-eight.html">Home Eight</a></li> 
-									</ul> -->
 								</li>
-								<li><a href="about.html">Eğitim Portalı</a></li>
+								<li><a href="index.html">Eğitim Portalı</a></li>
 						
 								<li>
 									<a class="nav-faq" href="#faq">Sıkça Sorulan Sorular</a>
@@ -130,7 +120,7 @@
 							</ul>
 
 							<div class="nav-right">
-								<a href="signup.html" class="nav-btn">Tek tıkla bilgi al</a>
+								<a id= "tek" class="nav-btn">Yerini Ayır</a>
 							</div>
 						</div>
 						<!-- /.menu-wrapper -->
@@ -148,13 +138,57 @@
 				<img src="media/banner/banner-five/shape-bg.png" alt="">
 			</div>
 			<div class="container">
-				<div class="banner-content-wrap-five">
+				<div class="banner-content-wrap-five">	
 					<div class="row">
-						<div class="col-lg-6">
+						<div class="col-lg-6">				
 							<div class="banner-content">
+									<div id="modal-wrapper">	
+										<div class="modal fade bs-example-modal-centered" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-modal="true" style="display: none;">
+											<div class="modal-dialog modal-dialog-centered">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h5 class="modal-title mt-0">Başvuru Formu</h5>
+														<button type="button" id="close-modal" class="close" data-dismiss="modal" aria-label="Close">
+															<span aria-hidden="true">x</span>
+														</button>
+													</div>
+													<div class="modal-body">
+															<form action="#" class="faq-form" id="booking-form" data-pixsaas="contact-froms" >
+																	<div class="row">
+																		<div class="col-md-6">
+																			<input type="text" name ="isim" placeholder="Ad">
+																		</div>
+											
+																		<div class="col-md-6">
+																			<input type="text" name="soyad" placeholder="Soyad" required>
+																		</div>
+																	</div>
+																	<div class= "row">
+																		<div class="col-md-12">
+																			<input type="text" name="telefon" placeholder="Telefon No" required>
+																		</div>	
+																		</div>	
+																	<div class= "row">
+																		<div class="col-md-12">
+																			<input type="email" name="email" placeholder="E-posta" required>
+																		</div>	
+																	</div>																																						
+																	<button type="submit" id="submit-form" class="pix-btn submit-btn">Yerini Ayır</button>
+																		<div class="row">
+																			<div class="form-result alert">
+																				<div class="content"></div>
+																			</div>
+																		</div>
+															</form>
+													</div>
+												</div><!-- /.modal-content -->
+											</div><!-- /.modal-dialog -->
+										</div>
+									
+									</div>
 								<h5 class="sub-title">CyprusCodes’a HOŞ GELDİNİZ</h5>
 								<h1 class="banner-title wow pixFadeUp" data-wow-delay="0.3s">
-									Geleceğini şekillendir!
+									Geleceğini Şekillendir!
 								</h1>
 								<p class="description wow pixFadeUp" data-wow-delay="0.5s">
 										Yazılım alanında kendinizi geliştirmek ve <br>kendinize yeni iş alanları yaratmak ister misiniz?</p>
@@ -162,6 +196,8 @@
 										Kıbrıs’ın ilk ve tek <b>yarı-zamanlı</b> programlama okuluyla<br>
 									<b>gelişen dünyaya ayak uydur!</b>
 								</p>
+								<!-- <p class="description wow pixFadeUp" data-wow-delay="0.5s"> Ilgilendiniz mi? </p> -->
+								<a href="#contact" class="nav-contact banner-btn pix-btn wow fadeInUp" data-wow-delay="0.7s">Bilgi İste</a>
 							</div><!-- /.banner-content -->
 						</div>
 						<!-- /.col-lg-6 -->
@@ -184,6 +220,7 @@
 						<!-- /.col-lg-7 -->
 					</div>
 					<!-- /.row -->
+					
 				</div><!-- /.banner-content-wrap -->
 			</div><!-- /.container -->
 
@@ -596,7 +633,7 @@
 						<div class="section-title text-center">
 								<h3 class="sub-title">S.S.S</h3>
 
-								<h2 class="title">Sikca Sorulan Sorular ve Cevaplari</h2>
+								<h2 class="title">Sıkça Sorulan Sorular ve Cevapları</h2>
 						</div>
 						<ul class="nav faq-tabs" role="tablist">
 							<li class="nav-item">
@@ -616,14 +653,14 @@
 										<div class="card-header" id="heading10">
 											<h5>
 												<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse00" aria-expanded="false" aria-controls="collapse00">
-													CyprusCodes Nedir?
+													CyprusCodes nedir?
 												</button>
 											</h5>
 										</div>
 										<div id="collapse00" class="collapse" aria-labelledby="heading10" data-parent="#accordionsing">
 											<div class="card-body">
 												<p>
-													Kuzey Kibrisin ilk ve tek yari-zamanli web app programlama kursu. Amacimiz Kuzey Kibris icindeki yetenekleri biraraya getirip, dunya standardlarinda web ve mobil uygulamalar gelistirmek.
+													Kuzey Kıbrısın ilk ve tek yarı-zamanlı web ve mobil uygulama (web & mobile app) programlama kursu. Amacımız Kuzey Kıbrıs icindeki yetenekleri biraraya getirip, dunya standardlarında web ve mobil uygulamalar gelistirmek.
 												</p>
 											</div>
 										</div>
@@ -823,7 +860,7 @@
 										<div id="collapse002" class="collapse show" aria-labelledby="heading102" data-parent="#accordionsing-3">
 											<div class="card-body">
 												<p>
-													Easy peasy owt to do with me cras I don't want no agro what a load of rubbish starkers absolutely bladdered, old tinkety tonk old fruit so I said the full monty.
+													"Yardım Formu" cumartesi gunleri tüm gün gerçeklesen online bir destek toplantısıdır. Burada aklınıza gelebelicek tüm soruları sorabilir ve kurs sırasında verilen projeleri yaparken takıldığnız kısımlar icin yardım bulabilirsiniz. 
 												</p>
 											</div>
 										</div>
@@ -839,7 +876,7 @@
 										<div id="collapse102" class="collapse" aria-labelledby="heading202" data-parent="#accordionsing-3">
 											<div class="card-body">
 												<p>
-													Easy peasy owt to do with me cras I don't want no agro what a load of rubbish starkers absolutely bladdered, old tinkety tonk old fruit so I said the full monty.
+													Evet. Basarılı öğrencileremize kariyerlerinin ilk adımında destek olabiliyoruz.
 												</p>
 											</div>
 										</div>
@@ -855,7 +892,7 @@
 										<div id="collapse202" class="collapse" aria-labelledby="heading302" data-parent="#accordionsing-3">
 											<div class="card-body">
 												<p>
-													Easy peasy owt to do with me cras I don't want no agro what a load of rubbish starkers absolutely bladdered, old tinkety tonk old fruit so I said the full monty.
+													Evet. 
 												</p>
 											</div>
 										</div>
@@ -864,14 +901,14 @@
 										<div class="card-header" id="heading402">
 											<h5>
 												<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse302" aria-expanded="false" aria-controls="collapse302">
-													Is there any custome pricing system?
+													Yardım Forumuna katılım zorunlu mu?
 												</button>
 											</h5>
 										</div>
 										<div id="collapse302" class="collapse" aria-labelledby="heading402" data-parent="#accordionsing-3">
 											<div class="card-body">
 												<p>
-													Easy peasy owt to do with me cras I don't want no agro what a load of rubbish starkers absolutely bladdered, old tinkety tonk old fruit so I said the full monty.
+													Hayır. Yardım Forumu tamamen size ekstradan destek saglamak icin gercekleşiyor. Biz herzaman, gerek soru sormak; gerek başkalarının sorularını yanıtlamak adına, yardım forumlara katılmanızı teşfik ediyoruz ama herhangi bir zorunluluk asla yok.
 												</p>
 											</div>
 										</div>
@@ -890,7 +927,7 @@
 						<div class="section-title text-center">
 							<h3 class="sub-title">İletişim formu</h3>
 	
-							<h2 class="title">Bize başka bir sorunuz mu var?</h2>
+							<h2 class="title">Daha fazla bilgi almak mi istiyorsun?<br>Biz seni arayalım!</h2>
 						</div>
 						<!-- /.section-title -->
 						<form action="#" class="faq-form" id="contact" data-pixsaas="contact-froms" >
@@ -932,7 +969,7 @@
 					<div class="row">
 						<div class="col-lg-3 col-md-6">
 							<div class="widget footer-widget">
-								<h3 class="widget-title">Company</h3>
+								<h3 class="widget-title">Kurs</h3>
 
 								<ul class="footer-menu">
 									<li><a href="#">Home</a></li>
@@ -947,7 +984,7 @@
 
 						<div class="col-lg-3 col-md-6">
 							<div class="widget footer-widget">
-								<h3 class="widget-title">Services</h3>
+								<h3 class="widget-title">Eğitim Portalı</h3>
 
 								<ul class="footer-menu">
 									<li><a href="#">Web Design</a></li>
@@ -962,14 +999,11 @@
 
 						<div class="col-lg-3 col-md-6">
 							<div class="widget footer-widget">
-								<h3 class="widget-title">Digital Experience</h3>
+								<h3 class="widget-title">Bize Ulaşın</h3>
 
 								<ul class="footer-menu">
-									<li><a href="#">Web Design</a></li>
-									<li><a href="#">Mobile App Design</a></li>
-									<li><a href="#">UX / UI design</a></li>
-									<li><a href="#">Dashboard & Tool</a></li>
-									<li><a href="#">Logo & Identity</a></li>
+									<li><a class="nav-faq" href="#faq">Sikca Sorulan Sorular</li>
+									<li><a class="nav-contact" href="#contact">İletişim</a></li>							
 								</ul>
 							</div>
 							<!-- /.widget footer-widget -->

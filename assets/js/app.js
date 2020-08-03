@@ -588,7 +588,7 @@ $("a.nav-faq").click(function() {
   });
 
 $("a.nav-contact").click(function() {
-    $('html, body').animate({scrollTop: $("#contact").offset().top}, 1000);
+    $('html, body').animate({scrollTop: $("#contact").offset().top -225}, 1000);
   });
 
 
@@ -631,3 +631,21 @@ $('#submit-form').on('click', function(e) {
 
 
 
+//modal isi deneme
+
+$("a.nav-btn").click(function() {
+    $('.modal').addClass('show').css('display', 'block'),
+    $('#modal-wrapper').addClass('modal-backdrop').css('display', 'block')
+
+  });
+  $("#close-modal").click(function() {
+    $('.modal').removeClass('show').css('display', 'none')
+    $('#modal-wrapper').removeClass('modal-backdrop').css('display', 'none')
+  });
+
+//   $('a.nav-btn').on('click', function(e) {
+//     e.preventDefault();
+
+//     $('html, body').animate({scrollTop: $("#faq").offset().top}, 1000); 
+    
+//     })
