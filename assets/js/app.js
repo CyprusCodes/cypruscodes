@@ -597,7 +597,7 @@ $("a.nav-contact").click(function() {
   var $form = $('#contact'), 
   url = 'https://script.google.com/macros/s/AKfycbwXYukJ1OUGnDJGsG5zw4xv_wOiEJSxmwOPPDBL_azHfS8MBaA/exec'
 
-$('#submit-form').on('click', function(e) {
+$('#submit-Contactform').on('click', function(e) {
      e.preventDefault();
 
         var jqxhr = $.ajax({
@@ -607,31 +607,31 @@ $('#submit-form').on('click', function(e) {
             data: $form.serializeArray(),
             success: function success(data) {
                 $('button[type="submit"]').removeClass('clicked');
-                $('#submit-form').html('Gönder');
-                $('#submit-form').prop('disabled', false);
-                $('.form-result').addClass('alert-warning').removeClass('alert-success alert-danger').css('display', 'block'); 
-                $('.form-result').addClass('alert-success').removeClass('alert-warning alert-danger').css('display', 'block');
-                $('.form-result > .content').html('Mesajınız Gönderildi!');
+                $('#submit-Contactform').html('Gönder');
+                $('#submit-Contactform').prop('disabled', false);
+                $('#form-result2').addClass('alert-warning').removeClass('alert-success alert-danger').css('display', 'block'); 
+                $('#form-result2').addClass('alert-success').removeClass('alert-warning alert-danger').css('display', 'block');
+                $('#form-result2 > .content').html('Mesajınız Gönderildi!');
             },
             error: function error() {
                 $('button[type="submit"]').removeClass('clicked');
-                $('#submit-form').html('Gönder');
-                $('#submit-form').prop('disabled', false);
-                $('.form-result').addClass('alert-danger').removeClass('alert-warning alert-success').css('display', 'block');
-                $('.form-result > .content').html('Malesef mesajınız iletilemedi. Lütfen tekrar deneyin. Alternatif olarak 05338483559 numaralı telefondan bize ulaşabilirsiniz');               
+                $('#submit-Contactform').html('Gönder');
+                $('#submit-Contactform').prop('disabled', false);
+                $('#form-result2').addClass('alert-danger').removeClass('alert-warning alert-success').css('display', 'block');
+                $('#form-result2 > .content').html('Malesef mesajınız iletilemedi. Lütfen tekrar deneyin. Alternatif olarak 05338483559 numaralı telefondan bize ulaşabilirsiniz');               
             }
         })
             .then(
-                $('.form-result').css('display', 'none'),
+                $('#form-result2').css('display', 'none'),
                 $('button[type="submit"]').addClass('clicked'),
-                $('#submit-form').prop('disabled', true),
-                $('#submit-form').html('Gönderiliyor..')  
+                $('#submit-Contactform').prop('disabled', true),
+                $('#submit-Contactform').html('Gönderiliyor..')  
             )                       
 })
 
 
 
-//modal isi deneme
+//Booking Modal 
 
 $("a.nav-btn").click(function() {
     $('.modal').addClass('show').css('display', 'block'),
@@ -643,9 +643,39 @@ $("a.nav-btn").click(function() {
     $('#modal-wrapper').removeClass('modal-backdrop').css('display', 'none')
   });
 
-//   $('a.nav-btn').on('click', function(e) {
-//     e.preventDefault();
+//Booking Form Submission (aka ModalFrom)
 
-//     $('html, body').animate({scrollTop: $("#faq").offset().top}, 1000); 
-    
-//     })
+var $form = $('#booking-form'), 
+url = 'https://script.google.com/macros/s/AKfycbwXYukJ1OUGnDJGsG5zw4xv_wOiEJSxmwOPPDBL_azHfS8MBaA/exec'
+
+$('#submit-Bookingform').on('click', function(e) {
+   e.preventDefault();
+
+      var jqxhr = $.ajax({
+          url: url,
+          method: "GET",
+          dataType: "json",
+          data: $form.serializeArray(),
+          success: function success(data) {
+              $('button[type="submit"]').removeClass('clicked');
+              $('#submit-Bookingform').html('Gönder');
+              $('#submit-Bookingform').prop('disabled', false);
+              $('#form-result1').addClass('alert-warning').removeClass('alert-success alert-danger').css('display', 'block'); 
+              $('#form-result1').addClass('alert-success').removeClass('alert-warning alert-danger').css('display', 'block');
+              $('#form-result1 > .content').html('Super! Yeriniz Ayrıldı - Lütfen 24 saat içinde çağrımızı bekleyin');
+          },
+          error: function error() {
+              $('button[type="submit"]').removeClass('clicked');
+              $('#submit-Bookingform').html('Gönder');
+              $('#submit-Bookingform').prop('disabled', false);
+              $('#form-result1').addClass('alert-danger').removeClass('alert-warning alert-success').css('display', 'block');
+              $('#form-result1 > .content').html('Malesef yeriniz ayrılmadı. Lütfen tekrar deneyin. Alternatif olarak 05338483559 numaralı telefondan bize ulaşabilirsiniz');               
+          }
+      })
+          .then(
+              $('#form-result1').css('display', 'none'),
+              $('button[type="submit"]').addClass('clicked'),
+              $('#submit-Bookingform').prop('disabled', true),
+              $('#submit-Bookingform').html('Gönderiliyor..')  
+          )                       
+})
