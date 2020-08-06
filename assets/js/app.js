@@ -583,6 +583,14 @@ var PIXELSIGNS = PIXELSIGNS || {};
 })(jQuery);
 
 //Scrolldown from banner
+$("a.nav-kurs").click(function() {
+    $('html, body').animate({scrollTop: $("#kurs").offset().top -45}, 1000);
+  });
+
+$("a.nav-egtim").click(function() {
+    $('html, body').animate({scrollTop: $("#egtim").offset().top}, 1000);
+  });
+
 $("a.nav-faq").click(function() {
     $('html, body').animate({scrollTop: $("#faq").offset().top}, 1000);
   });
