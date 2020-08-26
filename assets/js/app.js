@@ -600,44 +600,6 @@ $("a.nav-contact").click(function() {
   });
 
 
-//Contact form Submission
-
-  var $form = $('#contact'), 
-  url = 'https://script.google.com/macros/s/AKfycbwXYukJ1OUGnDJGsG5zw4xv_wOiEJSxmwOPPDBL_azHfS8MBaA/exec'
-
-$('#submit-Contactform').on('click', function(e) {
-     e.preventDefault();
-
-        var jqxhr = $.ajax({
-            url: url,
-            method: "GET",
-            dataType: "json",
-            data: $form.serializeArray(),
-            success: function success(data) {
-                $('button[type="submit"]').removeClass('clicked');
-                $('#submit-Contactform').html('Gönder');
-                $('#submit-Contactform').prop('disabled', false);
-                $('#form-result2').addClass('alert-warning').removeClass('alert-success alert-danger').css('display', 'block'); 
-                $('#form-result2').addClass('alert-success').removeClass('alert-warning alert-danger').css('display', 'block');
-                $('#form-result2 > .content').html('Mesajınız Gönderildi!');
-            },
-            error: function error() {
-                $('button[type="submit"]').removeClass('clicked');
-                $('#submit-Contactform').html('Gönder');
-                $('#submit-Contactform').prop('disabled', false);
-                $('#form-result2').addClass('alert-danger').removeClass('alert-warning alert-success').css('display', 'block');
-                $('#form-result2 > .content').html('Malesef mesajınız iletilemedi. Lütfen tekrar deneyin. Alternatif olarak 05338483559 numaralı telefondan bize ulaşabilirsiniz');               
-            }
-        })
-            .then(
-                $('#form-result2').css('display', 'none'),
-                $('button[type="submit"]').addClass('clicked'),
-                $('#submit-Contactform').prop('disabled', true),
-                $('#submit-Contactform').html('Gönderiliyor..')  
-            )                       
-})
-
-
 
 //Booking Modal 
 
@@ -653,7 +615,7 @@ $("a.nav-btn").click(function() {
 
 //Booking Form Submission (aka ModalFrom)
 
-var $form = $('#booking-form'), 
+var $formBooking = $('#booking-form'), 
 url = 'https://script.google.com/macros/s/AKfycbwXYukJ1OUGnDJGsG5zw4xv_wOiEJSxmwOPPDBL_azHfS8MBaA/exec'
 
 $('#submit-Bookingform').on('click', function(e) {
@@ -663,7 +625,7 @@ $('#submit-Bookingform').on('click', function(e) {
           url: url,
           method: "GET",
           dataType: "json",
-          data: $form.serializeArray(),
+          data: $formBooking.serializeArray(),
           success: function success(data) {
               $('button[type="submit"]').removeClass('clicked');
               $('#submit-Bookingform').html('Gönder');
@@ -687,10 +649,50 @@ $('#submit-Bookingform').on('click', function(e) {
               $('#submit-Bookingform').html('Gönderiliyor..')  
           )                       
 })
-(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
+
+
+//Contact form Submission
+
+var $formContact = $('#contact'), 
+url = 'https://script.google.com/macros/s/AKfycbwXYukJ1OUGnDJGsG5zw4xv_wOiEJSxmwOPPDBL_azHfS8MBaA/exec'
+
+
+$('#submit-Contactform').on('click', function(e) {
+   e.preventDefault();
+
+      var jqxhr = $.ajax({
+          url: url,
+          method: "GET",
+          dataType: "json",
+          data: $formContact.serializeArray(),
+          success: function success(data) {
+              $('button[type="submit"]').removeClass('clicked');
+              $('#submit-Contactform').html('Gönder');
+              $('#submit-Contactform').prop('disabled', false);
+              $('#form-result2').addClass('alert-warning').removeClass('alert-success alert-danger').css('display', 'block'); 
+              $('#form-result2').addClass('alert-success').removeClass('alert-warning alert-danger').css('display', 'block');
+              $('#form-result2 > .content').html('Mesajınız Gönderildi!');
+          },
+          error: function error() {
+              $('button[type="submit"]').removeClass('clicked');
+              $('#submit-Contactform').html('Gönder');
+              $('#submit-Contactform').prop('disabled', false);
+              $('#form-result2').addClass('alert-danger').removeClass('alert-warning alert-success').css('display', 'block');
+              $('#form-result2 > .content').html('Malesef mesajınız iletilemedi. Lütfen tekrar deneyin. Alternatif olarak 05338483559 numaralı telefondan bize ulaşabilirsiniz');               
+          }
+      })
+          .then(
+              $('#form-result2').css('display', 'none'),
+              $('button[type="submit"]').addClass('clicked'),
+              $('#submit-Contactform').prop('disabled', true),
+              $('#submit-Contactform').html('Gönderiliyor..')  
+          )                       
+})
+
+// (function(d, s, id) {
+//     var js, fjs = d.getElementsByTagName(s)[0];
+//     if (d.getElementById(id)) return;
+//     js = d.createElement(s); js.id = id;
+//     js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+//     fjs.parentNode.insertBefore(js, fjs);
+//   }(document, 'script', 'facebook-jssdk'));
