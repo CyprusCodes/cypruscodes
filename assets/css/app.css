@@ -9754,9 +9754,10 @@ Logo List
   background-size: cover;
   background-position: center center;
   position: relative;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#4f29dd), to(#7052fb));
-  background-image: -o-linear-gradient(bottom, #4f29dd 0%, #7052fb 100%);
-  background-image: linear-gradient(0deg, #4f29dd 0%, #7052fb 100%);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#fa7070ce), to(#1b60a0));
+  background-image: -o-linear-gradient(bottom, #fa7070ce 0%, #1b60a0 100%);
+  background-image: linear-gradient(0deg, #fa7070ce 0%, #1b60a0 100%);
+  background: linear-gradient(-6deg, #fa7070ce -100%, #1b60a0 100%);
   overflow: hidden;
 }
 
