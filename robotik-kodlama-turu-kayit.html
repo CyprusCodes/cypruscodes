@@ -535,12 +535,14 @@
           left += element.offsetLeft || 0;
           element = element.offsetParent;
         } while (element);
-        pageCount = pageCount + 1;
-        console.log(pageCount);
-        window.scrollTo({
+        
+        if (pageCount > 1) {
+          window.scrollTo({
           top: top,
           behavior: "smooth",
-        });
+          });
+          pageCount = pageCount + 1;
+        }
       }
     </script>
 
