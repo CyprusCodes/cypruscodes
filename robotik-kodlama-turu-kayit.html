@@ -358,10 +358,7 @@
         style="margin-top: -40px; margin-bottom: -120px"
       >
         <div class="container">
-          <ul
-            class="logo-list"
-            style="display: flex; justify-content: space-evenly"
-          >
+          <ul class="logo-list">
             <li class="wow fadeInUp" style="z-index: 999" data-wow-delay="0.3s">
               <a href="#"
                 ><img src="media/brand/Telsim_Logo.jpg" alt="saaspik client"
@@ -553,12 +550,11 @@
             <iframe
               id="registration-iframe"
               src="https://docs.google.com/forms/d/e/1FAIpQLScMJFNRgklL01h1wA5vF5kUGLh9ymjPaEBpQJ0B2CDYpzZ6eg/viewform?embedded=true"
-              width="640"
-              height="800"
+              width="100%"
               frameborder="0"
               marginheight="0"
               marginwidth="0"
-              scrolling="no"
+              scrolling="yes"
               onload="cumulativeOffset()"
               >Loading…</iframe
             >
@@ -680,7 +676,7 @@
     <!-- /#site -->
     <script>
       var pageCount = 0;
-      var iframeHeights = [750, 1000, 1050, 300];
+      var iframeHeights = [1050, 1200, 1050, 1050];
       function cumulativeOffset() {
         var top = 0;
         var left = 0;
@@ -698,8 +694,9 @@
           });
         }
 
-        var regIframe = document.getElementById("registration-iframe");
-        regIframe.height = iframeHeights[pageCount];
+        // var regIframe = document.getElementById("registration-iframe");
+        // regIframe.height = iframeHeights[pageCount];
+
         pageCount = pageCount + 1;
       }
     </script>
