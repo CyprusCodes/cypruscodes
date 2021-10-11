@@ -551,9 +551,10 @@
             "
           >
             <iframe
+              id="registration-iframe"
               src="https://docs.google.com/forms/d/e/1FAIpQLScMJFNRgklL01h1wA5vF5kUGLh9ymjPaEBpQJ0B2CDYpzZ6eg/viewform?embedded=true"
               width="640"
-              height="995"
+              height="800"
               frameborder="0"
               marginheight="0"
               marginwidth="0"
@@ -678,11 +679,12 @@
     </div>
     <!-- /#site -->
     <script>
-      let pageCount = 0;
+      var pageCount = 0;
+      var iframeHeights = [750, 1000, 1050, 300];
       function cumulativeOffset() {
-        let top = 0;
-        let left = 0;
-        let element = document.getElementById("kayit");
+        var top = 0;
+        var left = 0;
+        var element = document.getElementById("kayit");
         do {
           top += element.offsetTop || 0;
           left += element.offsetLeft || 0;
@@ -696,6 +698,8 @@
           });
         }
 
+        var regIframe = document.getElementById("registration-iframe");
+        regIframe.height = iframeHeights[pageCount];
         pageCount = pageCount + 1;
       }
     </script>
