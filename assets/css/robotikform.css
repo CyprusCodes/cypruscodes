@@ -1,0 +1,41 @@
+.robot-banner {
+  margin-top: -10px;
+}
+
+.cocuk {
+  width: 380px;
+}
+#cocuk-li {
+  position: relative;
+  text-align: left;
+  top: 50%;
+  left: -30px;
+}
+
+#banner-ul {
+  position: absolute;
+}
+
+@media (min-width: 1200px) {
+  .robot-banner {
+    margin-top: -55px;
+  }
+}
+
+@media (min-width: 991px) {
+  .robot-banner {
+    margin-top: -60px;
+  }
+}
+
+@media (min-width: 800px) {
+  .cocuk {
+    top: -60px;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .cocuk {
+    top: -60px;
+  }
+}
