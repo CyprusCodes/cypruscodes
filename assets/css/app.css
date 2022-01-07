@@ -7605,7 +7605,7 @@ select {
 }
 
 #testimonial .testimonial .single-bio-thumb {
-  max-width: 80px;
+  max-width: 100px;
   margin: 0 auto 41px;
   -webkit-box-shadow: 0px 20px 30px 0px rgba(79, 35, 35, 0.2);
           box-shadow: 0px 20px 30px 0px rgba(79, 35, 35, 0.2);
@@ -9577,13 +9577,16 @@ select {
 
 .brand-logo {
   text-align: center;
+  
 }
 
 .brand-logo img {
-  opacity: 0.5;
+  opacity: 0.7;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  width: 70%;
+  margin-bottom: 25px;
 }
 
 .brand-logo img:hover {
@@ -12963,6 +12966,7 @@ Download Two
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   margin-bottom: 30px;
+  min-height: 422px;
 }
 
 .job-board-tabs-content .job__logo {
@@ -13080,9 +13084,21 @@ Download Two
           box-shadow: 0px 40px 50px 0px rgba(10, 1, 47, 0.14), 0px -4px 0px 0px rgba(253, 77, 92, 0.004);
 }
 
+.job-board-tabs-content .data_science {
+  padding-bottom: 95px;
+}
+
+.job-board-tabs-content .coding_fund {
+  padding-bottom: 70px;
+}
+
+.job-board-tabs-content .training_package {
+  padding-bottom: 70px;
+}
 .job-board-tabs-content .job__color--one {
   border-top-color: #692efe;
 }
+
 
 .job-board-tabs-content .job__color--one .job__title a:hover {
   color: #692efe;
@@ -13094,7 +13110,10 @@ Download Two
 
 .job-board-tabs-content .job__color--two {
   border-top-color: #16b9ac;
+
 }
+
+
 
 .job-board-tabs-content .job__color--two .job__title a:hover {
   color: #16b9ac;
