@@ -3432,7 +3432,7 @@ select {
   font-size: 50px;
   line-height: 60px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: -80px;
 }
 
 .banner.banner-six .banne-content-wrapper-six p {
@@ -12474,9 +12474,11 @@ Download Two
 }
 
 .call-back-content {
-  padding: 190px 0 190px;
+  padding: 70px 0 190px;
 }
-
+.call-back-content .section-title .title{
+font-size: 30px;
+}
 .call-back-content p {
   margin-bottom: 40px;
 }
