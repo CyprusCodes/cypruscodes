@@ -64,19 +64,67 @@
 }
 
 
-.stacked-cards li:nth-child(n) {
+.stacked-cards.ahmet li:nth-child(n) {
         background-image: url(../img/users/ahmet-1.jpeg);
         background-size: cover;
 }
 
-.stacked-cards li:nth-child(2n) {
+.stacked-cards.ahmet li:nth-child(2n) {
     background-color: #e0e5eb;
         background-image: url(../img/users/ahmet-2.jpeg);
 }
 
-.stacked-cards li:nth-child(3n) {
+.stacked-cards.ahmet li:nth-child(3n) {
     background-color: #ecf0f5;
         background-image: url(../img/users/ahmet-3.jpeg);
+
+}
+
+.stacked-cards.buse li:nth-child(n) {
+    background-image: url(../img/users/buse-1.png);
+    background-size: cover;
+}
+
+.stacked-cards.buse li:nth-child(2n) {
+    background-color: #e0e5eb;
+    background-image: url(../img/users/buse-2.jpg);
+}
+
+.stacked-cards.buse li:nth-child(3n) {
+    background-color: #ecf0f5;
+    background-image: url(../img/users/buse-3.png);
+
+}
+
+.stacked-cards.ezgi li:nth-child(n) {
+    background-image: url(../img/users/ez-3.png);
+    background-size: cover;
+}
+
+.stacked-cards.ezgi li:nth-child(2n) {
+    background-color: #e0e5eb;
+    background-image: url(../img/users/ez-2.jpg);
+}
+
+.stacked-cards.ezgi li:nth-child(3n) {
+    background-color: #ecf0f5;
+    background-image: url(../img/users/ez-1.png);
+
+}
+
+.stacked-cards.berke li:nth-child(n) {
+   /* background-image: url(../img/users/ez-3.png);*/
+    background-size: cover;
+}
+
+.stacked-cards.berke li:nth-child(2n) {
+    background-color: #e0e5eb;
+    /* background-image: url(../img/users/ez-2.jpg); */
+}
+
+.stacked-cards.berke li:nth-child(3n) {
+    background-color: #ecf0f5;
+    /* background-image: url(../img/users/ez-1.png); */
 
 }
 
