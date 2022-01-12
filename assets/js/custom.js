@@ -56,18 +56,32 @@ $.i18n = function (options) {
 
 
 $.i18n.en = {
+    menu_1: 'Course',
+    menu_2: 'Education',
+    menu_3: 'Frequently Asked Questions',
+    menu_4: 'Contact',
+    menu_5: 'Apply',
     intro: 'WELCOME TO CYPRUSCODES',
-    lastname: 'Last Name',
-    message: 'Message',
+    title: 'Shape Your Future!',
+    description: 'Do you wish to improve yourself in the field of software and create new business areas for yourself?',
+    description_2: '<b>Keep up with the developing world </b> with Cyprus<br/> one and only <b>part- time</b>  programming school!',
+    info_btn: 'Request Information',
     foo: {
         bar: 'bar'
     }
 };
 
 $.i18n.tr = {
+    menu_1: 'Eğitim',
+    menu_2: 'Kurslar',
+    menu_3: 'Kariyer Yolu',
+    menu_4: 'Sıkça Sorulan Sorular',
+    menu_5: 'İletişim',
     intro: 'CYPRUSCODES’A HOŞ GELDİNİZ',
-    lastname: 'Nachname',
-    message: 'Nachricht',
+    title: 'Geleceğini Şekillendir!',
+    description: 'Yazılım alanında kendinizi geliştirmek <br/> ve kendinize yeni iş alanları yaratmak ister misiniz?',
+    description_2: 'Kıbrıs’ın ilk ve tek <b>yarı-zamanlı</b> programlama okuluyla<br /> <b>gelişen dünyaya ayak uydur!</b>',
+    info_btn: 'Bilgi İste',
     foo: {
         bar: 'foo'
     }
@@ -76,9 +90,9 @@ $.i18n.tr = {
 var i18n = $.i18n();
 
 var changeLabels = function () {
-    $('body').each(function () {
-        var forLabel = $(this).attr('for');
-        this.innerText = i18n.getItem(forLabel);
+    $('[data-translate]').each(function () {
+        var forLabel = $(this).attr('data-translate');
+        this.innerHTML = i18n.getItem(forLabel);
     });
 };
 changeLabels();
