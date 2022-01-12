@@ -175,3 +175,18 @@
     transition: 0.5s ease transform;
 }
 
+
+@media (max-width: 767px) {
+    .stacked-cards li {
+       border-radius: 27px;
+       list-style: none;
+       width: 325px;
+       height: 306px;
+       position: absolute;
+       left: 264px;
+       bottom: 0px;
+    }
+}
+
+
+   
