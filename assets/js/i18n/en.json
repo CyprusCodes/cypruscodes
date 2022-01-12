@@ -1,0 +1,13 @@
+{
+    "@metadata": {
+        "authors": [
+            "Wai Foong"
+        ],
+        "last-updated": "2019-10-10",
+        "locale": "en",
+        "other-metadata": "sample json format"
+    },
+    "cypruscodes-title": "Javascript Localization via jQuery.i18n",
+    "cypruscodes-sub-title": "A jQuery based Javascript internationalization library.",
+    "cypruscodes-introduction": "Introduction"
+}

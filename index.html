@@ -8,6 +8,8 @@
       name="viewport"
       content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
     />
+
+
     <title>
       CyprusCodes - Kuzey Kıbrıs’ın ilk ve tek yari zamanli teknoloji akademisi
     </title>
@@ -215,6 +217,10 @@
                     >Giriş Yap</a
                   >
                 </div>
+                <ul id="lang">
+                  <li><a href="?lang=en">en</a></li>
+                  <li><a href="/?lang=tr">tr</a></li>
+                </ul>
               </div>
               <!-- /.menu-wrapper -->
             </nav>
@@ -384,11 +390,11 @@
                       </div>                    
                     </div>
                   </div> -->
-                  <h5 class="sub-title">CyprusCodes’a HOŞ GELDİNİZ</h5>
+                  <h5 class="sub-title" for="intro" id="intro">CyprusCodes’a HOŞ GELDİNİZ</h5>
                   <h1 class="banner-title wow pixFadeUp" data-wow-delay="0.3s">
                     Geleceğini Şekillendir!
                   </h1>
-                  <p class="description wow pixFadeUp" data-wow-delay="0.5s">
+                  <p class="description wow pixFadeUp"  data-i18n="message-hello" data-wow-delay="0.5s">
                     Yazılım alanında kendinizi geliştirmek ve <br />kendinize
                     yeni iş alanları yaratmak ister misiniz?
                   </p>
@@ -1986,7 +1992,6 @@
                   aren’t ﬂexible. Neither is a violin, or a typewriter, until
                   you learn how to use it.” <br />- Marvin Minsky
                 </p>
-
                 <!-- /.widget footer-widget -->
               </div>
               <!-- /.col-lg-3 col-md-6 -->
@@ -2081,6 +2086,29 @@
     <script src="dependencies/jquery.parallax-scroll/js/jquery.parallax-scroll.js"></script>
     <script src="dependencies/magnific-popup/js/jquery.magnific-popup.min.js"></script>
     <script src="dependencies/gmap3/js/gmap3.min.js"></script>
+        <script src="assets/js/jquery.i18n.js"></script>
+        <script src="assets/js/jquery.i18n.messagestore.js"></script>
+        <script src="assets/js/jquery.i18n.fallbacks.js"></script>
+        <script src="assets/js/jquery.i18n.parser.js"></script>
+        <script src="assets/js/jquery.i18n.emitter.js"></script>
+        <script src="assets/js/jquery.i18n.language.js"></script>
+        <script src="assets/js/custom.js"></script>
+   
+<!-- 
+        <script>
+          var xhr = new XMLHttpRequest();
+          xhr.open("GET", "assets/js/i18n/en.json");
+          xhr.addEventListener('load', processJSON);
+          xhr.send();
+
+          function processJSON(event) {
+            var json = this.responseText;
+            var obj = JSON.parse(json);
+            console.log(obj);
+          }
+        </script> -->
+
+
     <script
       type="text/javascript"
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk2HrmqE4sWSei0XdKGbOMOHN3Mm2Bf-M&#038;ver=2.1.6"
