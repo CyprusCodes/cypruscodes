@@ -113,20 +113,26 @@
 }
 
 .stacked-cards.berke li:nth-child(n) {
-   /* background-image: url(../img/users/ez-3.png);*/
+   background-image: url(../img/users/berke-crop.jpeg);
     background-size: cover;
 }
 
 .stacked-cards.berke li:nth-child(2n) {
-    background-color: #e0e5eb;
-    /* background-image: url(../img/users/ez-2.jpg); */
+    /* background-color: #e0e5eb;
+    background-image: url(../img/users/berke-crop.jpeg); */
 }
 
 .stacked-cards.berke li:nth-child(3n) {
-    background-color: #ecf0f5;
-    /* background-image: url(../img/users/ez-1.png); */
+    /* background-color: #ecf0f5;
+    background-image: url(../img/users/berke-crop.jpeg); */
 
 }
+
+.stacked-cards.chinar li:nth-child(n) {
+    background-image: url(../img/users/chinar-crop.jpeg);
+    background-size: cover;
+}
+
 
 .stacked-cards ul {
     position: relative;
