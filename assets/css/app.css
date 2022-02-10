@@ -5928,6 +5928,11 @@ select {
   .saaspik-icon-box-wrapper.style-three .saaspik-icon-box-icon {
     margin: 0 auto 30px;
   }
+  .droplang{
+    position: absolute;
+    left: 30px;
+    bottom: 0;
+  }
 }
 
 
