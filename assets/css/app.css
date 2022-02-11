@@ -3342,7 +3342,9 @@ select {
 
 
 }
-
+.banner-title-desc{
+  margin-top: 80px;
+}
 .banner.banner-five .banner-right-shape {
   position: absolute;
   top: 0;
@@ -3417,6 +3419,7 @@ select {
 .banner.banner-six .banne-content-wrapper-six {
   position: relative;
   z-index: 2;
+  margin-top: 140px;
 }
 
 .banner.banner-six .banne-content-wrapper-six .subtitle {
@@ -4780,6 +4783,7 @@ select {
   }
   .banner.banner-six .banne-content-wrapper-six {
     margin-bottom: 30px;
+      margin-top: 0px;
   }
 }
 
@@ -5923,6 +5927,11 @@ select {
   }
   .saaspik-icon-box-wrapper.style-three .saaspik-icon-box-icon {
     margin: 0 auto 30px;
+  }
+  .droplang{
+    position: absolute;
+    left: 30px;
+    bottom: 0;
   }
 }
 
