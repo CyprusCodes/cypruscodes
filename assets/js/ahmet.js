@@ -61,6 +61,8 @@ $.i18n.en = {
   answer9:
     "Since the course curriculum includes many topics, I recommend you to work tirelessly throughout the course, be open to libraries with new technologies and not to give up :)",
   next: "Next",
+  address_title: "Our address",
+  address_desc: "29 Şehit Idris Doğan Avenue, Gelibolu, Nicosia, North Cyprus",
 };
 
 $.i18n.tr = {
@@ -103,6 +105,8 @@ $.i18n.tr = {
   answer9:
     "Kurs müfredatı birçok konu barındırdığından kurs süresi boyunca yılmadan çalışmanızı, yeni teknolojilerle kütüphanelere açık olmanızı ve vazgeçmemenizi öneririm :)",
   next: "Sonraki",
+  address_title: "Adresimiz",
+  address_desc: "29 Şehit Idris Doğan Sokak, Gelibolu, Lefkoşa, Kuzey Kıbrıs",
 };
 
 var i18n = $.i18n();

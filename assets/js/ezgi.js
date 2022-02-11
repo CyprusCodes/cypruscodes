@@ -61,6 +61,8 @@ $.i18n.en = {
   answer9:
     "They should make sure not to miss any lesson. In such cases, they should definitely watch the recorded lesson. If they complete the given tasks on time, then they wouldn't have any problems. One of the mistakes that I and many of my coursemates made was to be embarrassed and not ask questions. Don't be afraid to ask questions. Remember that no one buys such a course as a hobby. Everyone is there to learn something. The course curriculum has been prepared for individuals who have no experience and want to change their career goals from scratch. I can say that you will not leave this curriculum empty-handed with a little English and effort.",
   next: "Next",
+  address_title: "Our address",
+  address_desc: "29 Şehit Idris Doğan Avenue, Gelibolu, Nicosia, North Cyprus",
 };
 
 $.i18n.tr = {
@@ -103,6 +105,8 @@ $.i18n.tr = {
   answer9:
     "Ders kaçırmamaya özen göstersinler. Aksi bir durum olurda kaçırırlarsa mutlaka kayıtlı dersi izlesinler. Verilen görevleri zamanında tamamlasinlar sonra başa bela oluyor. Benim ve bir çok kurs arkadaşımın yaptığı yanlislardan biri utanmak çekinmek ve soru sormamakti. Bilgisiz gibi görünmekten korkmayin. Unutmayın ki kimse hobi olsun diye böyle bir kursu satın almıyor. Herkes birşeyler öğrenmeye geldi. Kurs müfredati hiç bir deneyimi olmayıp sıfırdan kariyer hedeflerini değiştirmek isteyen bireyler için hazırlanmış biraz ingilizce ve vereceğiniz emek ile bu müfredattan eliniz boş ayrilmayacaginizi söyleyebilirim.",
   next: "Sonraki",
+  address_title: "Adresimiz",
+  address_desc: "29 Şehit Idris Doğan Sokak, Gelibolu, Lefkoşa, Kuzey Kıbrıs",
 };
 
 var i18n = $.i18n();

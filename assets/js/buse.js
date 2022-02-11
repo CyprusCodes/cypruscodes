@@ -61,6 +61,8 @@ $.i18n.en = {
   answer9:
     "Don't say you can't, just study and focus on learning, not memorization. If you are curious like me, if you want a job with options such as working from home, start without wasting much time. If we don't start and delay, we won't succeed, but once we start, we can",
   next: "Next",
+  address_title: "Our address",
+  address_desc: "29 Şehit Idris Doğan Avenue, Gelibolu, Nicosia, North Cyprus",
 };
 
 $.i18n.tr = {
@@ -103,6 +105,8 @@ $.i18n.tr = {
   answer9:
     "Yapamam demeyin, sadece çalışın ve öğrenmeye odaklanın ezberlemeye değil. Sizde benim gibi meraklıysanız, evden çalışma gibi opsiyonları olan bir meslek istiyorsanız fazla vakit kaybetmeden başlayın. Başlamadıkça, erteledikçe başaramayız, ancak başladığımızda başarırız",
   next: "Sonraki",
+  address_title: "Adresimiz",
+  address_desc: "29 Şehit Idris Doğan Sokak, Gelibolu, Lefkoşa, Kuzey Kıbrıs",
 };
 
 var i18n = $.i18n();
