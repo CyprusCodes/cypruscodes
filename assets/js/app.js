@@ -150,9 +150,9 @@ var PIXELSIGNS = PIXELSIGNS || {};
       }
 
       // Show first content by default
-      $("#pix-tabs-nav li:nth-child(2)").addClass("active");
+      $("#pix-tabs-nav li:nth-child(1)").addClass("active");
       $("#pix-tabs-content .content").hide();
-      $("#pix-tabs-content .content:nth-child(2)").show();
+      $("#pix-tabs-content .content:nth-child(1)").show();
 
       // click function
       $("#pix-tabs-nav li").on("click", function () {
@@ -647,14 +647,15 @@ $("a.nav-contact").click(function () {
 
 //Booking Modal
 
-$("a.nav-btn").click(function () {
-  $(".modal").addClass("show").css("display", "block"),
-    $("#modal-wrapper").addClass("modal-backdrop").css("display", "block");
-});
-$("#close-modal").click(function () {
-  $(".modal").removeClass("show").css("display", "none");
-  $("#modal-wrapper").removeClass("modal-backdrop").css("display", "none");
-});
+// $("a.nav-btn").click(function() {
+//     $('.modal').addClass('show').css('display', 'block'),
+//     $('#modal-wrapper').addClass('modal-backdrop').css('display', 'block')
+
+//   });
+//   $("#close-modal").click(function() {
+//     $('.modal').removeClass('show').css('display', 'none')
+//     $('#modal-wrapper').removeClass('modal-backdrop').css('display', 'none')
+//   });
 
 //Booking Form Submission (aka ModalFrom)
 
@@ -743,7 +744,7 @@ $("#submit-Contactform").on("click", function (e) {
         .removeClass("alert-warning alert-success")
         .css("display", "block");
       $("#form-result2 > .content").html(
-        "Malesef mesajınız iletilemedi. Lütfen tekrar deneyin. Alternatif olarak 05338483559 numaralı telefondan bize ulaşabilirsiniz"
+        "Malesef mesajınız iletilemedi. Lütfen tekrar deneyin. Alternatif olarak 05488250443 numaralı telefondan bize ulaşabilirsiniz"
       );
     },
   }).then(

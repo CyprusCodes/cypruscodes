@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ezgi Esra</title>
+
+    <link rel=" apple-touch-icon" sizes="180x180" href="assets/img/fav/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/fav/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/fav/favicon-16x16.png" />
+    <link rel="mask-icon" href="assets/img/fav/safari-pinned-tab.svg" color="#fa7070" />
+
+    <meta name="msapplication-TileColor" content="#fa7070" />
+    <meta name="theme-color" content="#fa7070" />
+
+    <!-- Dependency Styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="dependencies/fontawesome/css/all.min.css" type="text/css" />
+    <link rel="stylesheet" href="dependencies/swiper/css/swiper.min.css" type="text/css" />
+    <link rel="stylesheet" href="dependencies/wow/css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="dependencies/magnific-popup/css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="dependencies/components-elegant-icons/css/elegant-icons.min.css" type="text/css" />
+    <link rel="stylesheet" href="dependencies/simple-line-icons/css/simple-line-icons.css" type="text/css" />
+
+    <!-- Site Stylesheet -->
+    <link rel="stylesheet" href="assets/css/app.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/stackedCards.css" type="text/css" />
+
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet"
+        crossorigin="anonymous" />
+</head>
+
+<body id="home-version-1" class="home-version-1" data-style="default">
+    <a href="#main_content" data-type="section-switch" class="return-to-top">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+
+    <div class="page-loader">
+        <div class="loader">
+            <!-- Loader -->
+            <div class="blobs">
+                <div class="blob-center"></div>
+                <div class="blob"></div>
+                <div class="blob"></div>
+                <div class="blob"></div>
+                <div class="blob"></div>
+                <div class="blob"></div>
+                <div class="blob"></div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <defs>
+                    <filter id="goo">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                        <feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+                        <feBlend in="SourceGraphic" in2="goo" />
+                    </filter>
+                </defs>
+            </svg>
+        </div>
+    </div>
+    <!-- /.page-loader -->
+
+    <div id="main_content">
+        <!--=========================-->
+        <!--=        Navbar         =-->
+        <!--=========================-->
+        <header class="site-header header-five header_trans-fixed" data-top="992">
+            <div class="container">
+                <div class="header-inner">
+                    <div class="toggle-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <!-- /.toggle-menu -->
+
+                    <div class="site-mobile-logo">
+                        <a href="index.html" class="logo">
+                            <img src="assets/img/cc_logo.png" alt="site logo" class="main-logo" />
+                            <img src="assets/img/cc_logo.png" alt="site logo" class="sticky-logo" />
+                            <!-- <h3>Cyprus<b>Codes.</b></h3> -->
+                        </a>
+                    </div>
+
+                    <nav class="site-nav">
+                        <div class="close-menu">
+                            <span>Close</span>
+                            <i class="ei ei-icon_close"></i>
+                        </div>
+
+                        <div class="site-logo">
+                            <a href="index.html" class="logo">
+                                <img src="assets/img/cc_logo.png" alt="site logo" class="main-logo" />
+                                <img src="assets/img/cc_logo.png" alt="site logo" class="sticky-logo" />
+
+                                <!-- <h3>Cyprus<b>Codes.</b></h3> -->
+                            </a>
+                        </div>
+                        <!-- /.site-logo -->
+
+                        <div class="menu-wrapper" data-top="992">
+                            <ul class="site-main-menu pix-tabs-nav">
+                                <li><a class="nav-kurs" href="index.html#kurs" data-translate='menu_1'>Eğitim</a></li>
+                                <li><a href="index.html#kurs" data-translate='menu_2' class="">Kurslar</a></li>
+                                <li><a class="nav-kurs" href="basarimlar.html" data-translate='menu_3'>Kariyer Yolu</a>
+                                </li>
+                                <li>
+                                    <a class="nav-faq" href="index.html#faq" data-translate='menu_4'>Sıkça Sorulan
+                                        Sorular</a>
+                                </li>
+
+                                <li><a class="nav-contact" href="index.html#contact"
+                                        data-translate='menu_5'>İletişim</a></li>
+                            </ul>
+
+                            <div class="nav-right">
+                                <a id="tek" href="https://platform.cypruscodes.com/" target="_blank" class="nav-btn"
+                                    data-translate='menu_6'>Giriş Yap</a>
+                            </div>
+                            <!-- <ul id="lang">
+                                        		                  <li><a href="?lang=en">en</a></li>
+                                        		                  <li><a href="/?lang=tr">tr</a></li>
+                                        		                </ul> -->
+
+
+                            <div class="dropdown droplang">
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    EN
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="lang">
+                                    <a class="dropdown-item" href="?lang=tr">TR <img src="assets/img/tr.png" alt="tr"
+                                            width="20%" /></a>
+                                    <a class="dropdown-item" href="?lang=en">EN <img src="assets/img/en.png" alt="en"
+                                            width="20%" /></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.menu-wrapper -->
+                    </nav>
+                    <!-- /.site-nav -->
+                </div>
+                <!-- /.header-inner -->
+            </div>
+            <!-- /.container -->
+        </header>
+        <!-- /.site-header -->
+
+        <!--==========================-->
+        <!--=         Banner         =-->
+        <!--==========================-->
+        <section class="banner banner-six">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="banne-content-wrapper-six">
+
+                            <h1 class="banner-title wow fadeInUp" data-wow-delay="0.3s">
+                                Ezgi Esra Akdağ
+                            </h1>
+                        </div>
+                        <p class="wow fadeInUp banner-title-desc" data-wow-delay="0.3s" data-translate="about_me">about
+                            me</p>
+                        <!-- /.banne-content-wrapper-six -->
+                    </div>
+                    <!-- /.col-md-6 -->
+
+                    <div class="col-md-6">
+
+                        <div class="promo-mockup popup-videos wow pixFadeUp text-center">
+                            <div class="video-thumbnail">
+                                <div class="container-fixed stacked-cards ezgi ">
+                                    <ul>
+                                        <li>
+                                            <div class="numbers-slides">
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="numbers-slides">
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="numbers-slides">
+
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="mobile-slide">
+                                <div class="shape-shadow shadow-top"></div>
+                            </div>
+                        </div>
+                        <!-- /.banner-six-promo-image -->
+                    </div>
+                    <!-- /.col-md-6 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+
+            <ul class="bottom-shape-coin">
+                <li>
+                    <img src="media/banner/tax/bottom-shape.png" class="wow fadeInUp" alt="saaspik" />
+                </li>
+                <li>
+
+                </li>
+                <li>
+                    <img src="media/banner/undraw_working_from_anywhere_re_9obt.svg" class="wow fadeInDown img-added"
+                        alt="saaspik" width="200" height="300" />
+                </li>
+
+                <li>
+                    <img src="media/banner/undraw_compose_music_ovo2.svg" class="wow fadeInRight img-added"
+                        alt="saaspik" width="200" height="300" />
+                </li>
+
+                <li>
+                    <img src="media/banner/undraw_programming_re_kg9v.svg" class="wow fadeInLeft img-added"
+                        alt="saaspik" width="200" height="300" />
+                </li>
+            </ul>
+            <!-- /.bottom-shape-container -->
+
+            <div class="particles-six">
+                <span class="angle"><img src="media/banner/tax/angle.png" alt="saaspik" /></span>
+                <span class="dotsm"></span>
+                <span class="dotmd"></span>
+            </div>
+            <!-- /.particles-six -->
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+
+                        <div class="call-back-content">
+                            <div class="section-title">
+                                <h2 class="title wow fadeInUp" data-translate="question1">Merhaba isminiz nedir?</h2>
+                                <p class="wow fadeInUp" data-wow-delay="0.3s">
+                                    Ezgi Esra Akdağ
+                                </p>
+
+                                <h2 class="title wow fadeInUp" data-translate="question2">Bize biraz kendinden bahseder
+                                    misin?</h2>
+                                <p class="wow fadeInUp" data-wow-delay="0.3s" data-translate="answer2">
+                                    Uluslararası Kıbrıs Üniversitesi Endüstri Mühendisliği 2019 mezunuyum. Öğrencilik
+                                    hayatım boyunca geçimi mi
+                                    sağlayabilmek için barlarda bartender olarak çalıştım. Çok uzun zamandır da
+                                    dereboyunda bir restorantta bartender olarak
+                                    çalışmaktayım. Açıkcası bar işine hep geçici bir iş olarak baktım günün sonunda
+                                    endüstri mühendisliğine dönüş yapacağımı
+                                    düşünüyordum. Pandemi işin içine girince herkes gibi benimde düşünecek ve
+                                    araştıracak çok vaktim oldu. Endüstri
+                                    mühendisi olarak bulduğum işlerin beni tatmin etmeyeceğini farkettim. Barda
+                                    çalışmayı ne kadar çok sevsemde hayatımı
+                                    olumlu bir şekilde değiştirmek istedim. Yaşam kalitemi yükseltmek istedim. ‘Barın
+                                    içinde kokteyl yapan kişi değil
+                                    dışındaki muhteşem kokteylleri yudumlayan kişi olmak istiyorum.’ tüm motivasyonum ve
+                                    araştırma geçişim bu cümleyi
+                                    kendime kurunca başladı diyebilirim.
+
+                                </p>
+
+                                <h2 class="title wow fadeInUp" data-translate="question3">Kurs sonrası planlarınız
+                                    neler? Şimdiye kadar gerçekleşen
+                                    oldu mu?</h2>
+                                <p class="wow fadeInUp" data-wow-delay="0.3s" data-translate="answer3">
+                                    Kurs sonrası aldığım eğitimi pekiştirmek, yazılım alanında tecrübe kazanmak ve
+                                    frontend alanında kendimi geliştirmek
+                                    için staja başladım. Cyprus Codes ekibinin ve yanında stajda olduğum developer'ın
+                                    desteği ile planlarımı
+                                    gerçekleştireceğime eminim. Uzun vadeli planlar yapmakdan kaçındım açıkcası bununda
+                                    sebebi şuan kesinlikle kendime
+                                    yönelmiş olmam , eksik ve yetersiz gördüğüm alanları güçlendirmek. Cyprus Codes
+                                    bünyesinde aldığımız eğitim bizleri
+                                    sıfırdan junior developer seviyesine getirmek için koca bir adımdı diye düşünüyorum.
+                                    Ama öğrenmeye/gelişmeye devam
+                                    etmezsek koca bir ekibin emeği boşa gitmiş olur.
+
+                                </p>
+
+                                <h2 class="title wow fadeInUp" data-translate="question4">Piyasadaki diğer kurslar
+                                    yerine (veya online kurslar
+                                    yerine) Cyprus Codes'u seçme
+                                    sebebiniz neydi?</h2>
+                                <p class="wow fadeInUp" data-wow-delay="0.3s" data-translate="answer4">
+                                    Pandemiden dolayı dışarı çıkma yasağının olduğu dönem bir çok online kurs / youtube/
+                                    udemy gibi platformlardan
+                                    yararlanarak yol bulmaya çalıştım. Ama 101 seviyesini geçemedim. Müfredatın önemini
+                                    de bu dönemde farkettim. Çünkü
+                                    nerden başlayıp nereye gideceğimi kestiremiyordum. Cyprus Codes i seçme
+                                    sebeplerimden birincisi Manchester Codes
+                                    bünyesinde müfredatın denenip kanıtlanmış olması ve söz konusu müfredat ile gerçek
+                                    hayatta başarı yakalamış olmaları
+                                    tabi ki. Bir diğeri de ekip işi olması. Kendi kendime öğrenmeye çalıştığım zamanlar
+                                    bazen sebepsiz yere çalışmayı
+                                    bırakırdım ve tekrar bilgisayar başına geçmem uzun zaman alırdı. Kurs içinde bazen
+                                    bahane bulup çalışmak istemezsen bile
+                                    pek mümkün olmuyor gerek eğitimciler olsun gerek kurstan arkadaşlar hemen sizi
+                                    kendinize getirip tam destek olarak devam
+                                    ettiriyorlar ve bu benim çok hoşuma gitti. İnsan çok istesede bazen kendine
+                                    motivasyon sağlayamıyor o yüzden ekip işi
+                                    olması çok işe yarıyor.
+
+                                </p>
+
+                                <h2 class="title wow fadeInUp" data-translate="question5">Cyprus Codes Fastrack Full
+                                    Stack Developer kursunda sizi
+                                    en çok mutlu eden şey neydi?</h2>
+                                <p class="wow fadeInUp" data-wow-delay="0.3s" data-translate="answer5">
+                                    Doğru yönlendirme ile bu işi yapabileceğimi anladığım andı sanırım. Bu aynı zamanda
+                                    kursa ayırdığım zamanımı ve paramı
+                                    boşa harcamadığımı anladığım andı yani benim gibi asgari ücret kazanan biri için en
+                                    önemli şey.
+                                </p>
+
+
+                                <h2 class="title wow fadeInUp" data-translate="question6">Kurs boyunca en zorlandığınız
+                                    şey ne oldu?</h2>
+                                <p class="wow fadeInUp" data-wow-delay="0.3s" data-translate="answer6">
+                                    Kurs boyunca beni zorlayan şey dökümanların ingilizce olmasıydı. Orta derece
+                                    ingilizcem var sanıyordum meğerse yokmuş.
+                                    Ama bu beni yıldırmadı kod yazmayı öğrenirken ingilizcemi de geliştirmiş oldum.
+                                </p>
+
+                                <h2 class="title wow fadeInUp" data-translate="question7">Kurs ile sosyal yaşantınızdaki
+                                    sorumluluklarınızın
+                                    dengesini nasıl kurdunuz?</h2>
+                                <p class="wow fadeInUp" data-wow-delay="0.3s" data-translate="answer7">
+                                    Kurs saatleri çalışan bireylere uygun olarak ayarlanılmış fakat ben barda çalıştığım
+                                    için iş saatlerim uymuyordu. Bunun
+                                    için biraz fedakarlık yapmak zorunda kaldım. İşverenimle konuşup ona göre ayarladık
+                                    saatlerimi kendisi her konuda bana
+                                    destek oldu.
+                                </p>
+
+                                <h2 class="title wow fadeInUp" data-translate="question8">Kurstaki deneyiminiz hakkında
+                                    eklemek istediğiniz başka
+                                    bir şey var mı?</h2>
+                                <p class="wow fadeInUp" data-wow-delay="0.3s" data-translate="answer8">
+                                    Kursun müfredatı gerçekten iş hayatında en çok istenilen dilleri ve teknolojileri
+                                    içerecek şekilde hazırlanmış bundan
+                                    dolayı staj arayışımda hiç zorlanmadım benden bilmemi istedikleri herşeyi kursta
+                                    zaten öğrenmiştim. İletişim
+                                    platformumuz olan Slack üzerinden tüm kursiyerler ve eğitmenler ile iletişim
+                                    içindeyiz. Kurs bitti herkes kendi yoluna
+                                    gibi bir durum olmadı. Bütün ekip kurs bitmesine rağmen fikir alışverişine ve
+                                    gelişmemize yardımcı olmaya devam
+                                    ediyorlar.
+                                </p>
+
+                                <h2 class="title wow fadeInUp" data-translate="question9">Şu anda kursa katılacak olan
+                                    kişilere ne gibi
+                                    tavsiyelerde bulunursunuz?</h2>
+                                <p class="wow fadeInUp" data-wow-delay="0.3s" data-translate="answer9">
+                                    Ders kaçırmamaya özen göstersinler. Aksi bir durum olurda kaçırırlarsa mutlaka
+                                    kayıtlı dersi izlesinler. Verilen
+                                    görevleri zamanında tamamlasinlar sonra başa bela oluyor.
+                                    Benim ve bir çok kurs arkadaşımın yaptığı yanlislardan biri utanmak çekinmek ve soru
+                                    sormamakti. Bilgisiz gibi
+                                    görünmekten korkmayin. Unutmayın ki kimse hobi olsun diye böyle bir kursu satın
+                                    almıyor. Herkes birşeyler öğrenmeye
+                                    geldi.
+                                    Kurs müfredati hiç bir deneyimi olmayıp sıfırdan kariyer hedeflerini değiştirmek
+                                    isteyen bireyler için hazırlanmış biraz
+                                    ingilizce ve vereceğiniz emek ile bu müfredattan eliniz boş ayrilmayacaginizi
+                                    söyleyebilirim.
+
+                                </p>
+                                <a href="berke_batman.html" class="pix-btn btn-outline btn-two wow fadeInUp"
+                                    data-wow-delay="0.3s"><span data-translate="next">Next</span> - Berke Batman</a>
+                            </div>
+                        </div>
+
+                        <!-- /.content-inner -->
+                    </div>
+                    <!-- /.col-md-8 -->
+
+
+                </div>
+            </div>
+        </section>
+        <!-- /.banner banner-six -->
+        <!--=========================-->
+        <!--=        Footer         =-->
+        <!--=========================-->
+        <footer id="footer" class="footer-five">
+            <div class="container">
+                <div class="footer-inner wow pixFadeUp">
+                    <div class="footer-five">
+                        <div class="col-lg-6 col-md-6">
+                            <p style="color: rgba(236, 225, 225, 0.966); font-style: italic">
+                                “A computer is like a violin.<br />You can imagine a novice
+                                trying ﬁrst a phonograph and then a violin. The latter, he
+                                says, sounds terrible. That is the argument we have heard from
+                                our humanists and most of our computer scientists. Computer
+                                programs are good, they say, for particular purposes, but they
+                                aren’t ﬂexible. Neither is a violin, or a typewriter, until
+                                you learn how to use it.” <br />- Marvin Minsky
+                            </p>
+
+                            <!-- /.widget footer-widget -->
+                        </div>
+                        <!-- /.col-lg-3 col-md-6 -->
+
+                        <div class="col-lg-3 col-md-6">
+                            <!-- <div class="widget footer-widget">
+									<h3 class="widget-title">Bize Ulaşın</h3>
+	
+									<ul class="footer-menu">
+										<li><a class="nav-faq" href="#faq">Kurs</li>
+										<li><a class="nav-faq" href="#faq">Eğitim Portalı</li>
+										<li><a class="nav-faq" href="#faq">Sıkca Sorulan Sorular</li>
+										<li><a class="nav-contact" href="#contact">İletişim</a></li>							
+									</ul>
+								</div> -->
+                            <!-- /.widget footer-widget -->
+                        </div>
+                        <!-- /.col-lg-3 col-md-6 -->
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="widget footer-widget">
+                                <h3 class="widget-title">Adresimiz</h3>
+
+                                <p>
+                                    29 Şehit Idris Doğan Sokak, Gelibolu, Lefkoşa, Kuzey Kıbrıs
+                                </p>
+
+                                <ul class="footer-social-link">
+                                    <li>
+                                        <a href="https://www.facebook.com/Cyprus-Codes-100363815111116/"
+                                            target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/cypruscodes"><i class="fab fa-twitter"
+                                                target="_blank"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/cypruscodes/" target="_blank"><i
+                                                class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/company/cypruscodes/" target="_blank"><i
+                                                class="fab fa-linkedin-in" target="_blank"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /.widget footer-widget -->
+                        </div>
+                        <!-- /.col-lg-3 col-md-6 -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.footer-inner -->
+
+                <div class="site-info">
+                    <div class="copyright">
+                        <p>
+                            © 2021 All Rights Reserved Design by
+                            <a href="https://cypruscodes.com/" target="_blank">Cyprus<b>Codes.</b></a>
+                        </p>
+                    </div>
+                </div>
+                <!-- /.site-info -->
+            </div>
+            <!-- /.container -->
+        </footer>
+        <!-- /#footer -->
+    </div>
+    <!-- /#site -->
+
+    <!-- Dependency Scripts -->
+    <script src="dependencies/jquery/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="dependencies/swiper/js/swiper.min.js"></script>
+    <script src="dependencies/jquery.appear/jquery.appear.js"></script>
+    <script src="dependencies/wow/js/wow.min.js"></script>
+    <script src="dependencies/countUp.js/countUp.min.js"></script>
+    <script src="dependencies/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="dependencies/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="dependencies/jquery.parallax-scroll/js/jquery.parallax-scroll.js"></script>
+    <script src="dependencies/magnific-popup/js/jquery.magnific-popup.min.js"></script>
+    <script src="dependencies/gmap3/js/gmap3.min.js"></script>
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk2HrmqE4sWSei0XdKGbOMOHN3Mm2Bf-M&#038;ver=2.1.6"></script>
+
+    <!-- Site Scripts -->
+    <script src="assets/js/header.js"></script>
+    <script src="assets/js/retina.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/stackedCards.min.js"></script>
+    <script src="assets/js/ezgi.js"></script>
+    <script>
+        var stackedCard = new stackedCards({
+            selector: '.stacked-cards',
+            layout: "slide",
+            transformOrigin: "center",
+            interval: 5000,
+            autoplay: false
+        });
+        stackedCard.init();
+    </script>
+</body>
+
+</html>
