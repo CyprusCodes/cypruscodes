@@ -163,6 +163,8 @@ $.i18n.en = {
   contact_desc:
     "Want to get more information ? <br/> We will get in touch with you!",
   contact_btn: "Send",
+  address_title: "Our address",
+  address_desc: "29 Şehit Idris Doğan Avenue, Gelibolu, Nicosia, North Cyprus",
 
   // basarimlar
 
@@ -205,7 +207,7 @@ $.i18n.tr = {
   night_mode: "Eğitim Portalı - Gece Modu ",
   membership_title: "CyprusCodes Eğitim Portalına<br/>Hemen Üye Ol",
   membership_desc: "*Ücretsiz başlangıç modülümüze anında erişebilirsin!",
-  membership_btn: "Sign UpKayıt Ol",
+  membership_btn: "Kayıt Ol",
   main_courses_title: "Revaçta Olan Kurslarımız",
   main_courses_desc: "En Popüler Kurslarımızı Keşfet",
   programming: "Yazılım",
@@ -309,6 +311,8 @@ $.i18n.tr = {
   contact_title: "İletişim formu",
   contact_desc: " Daha fazla bilgi almak mı istiyorsun?<br/>Biz seni arayalım!",
   contact_btn: "Gönder",
+  address_title: "Adresimiz",
+  address_desc: "29 Şehit Idris Doğan Sokak, Gelibolu, Lefkoşa, Kuzey Kıbrıs",
 
   // basarimlar
   students: "Bazı Mezunlarımız :",

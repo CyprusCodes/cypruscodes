@@ -60,6 +60,8 @@ $.i18n.en = {
   answer9:
     "My advice to them is to give the same importance to each part of the course, practice regularly and get support from the instructors immediately in the parts they struggle with.",
   next: "Next",
+  address_title: "Our address",
+  address_desc: "29 Şehit Idris Doğan Avenue, Gelibolu, Nicosia, North Cyprus",
 };
 
 $.i18n.tr = {
@@ -102,6 +104,8 @@ $.i18n.tr = {
   answer9:
     "Kursun her bolumune ayni onemi vererek duzenli sekilde pratik yaparak calismalari ve takildiklari yerlerde cok zaman kaybetmeden egitmenlerden destek almalari.",
   next: "Sonraki",
+  address_title: "Adresimiz",
+  address_desc: "29 Şehit Idris Doğan Sokak, Gelibolu, Lefkoşa, Kuzey Kıbrıs",
 };
 
 var i18n = $.i18n();

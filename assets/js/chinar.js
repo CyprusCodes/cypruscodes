@@ -60,6 +60,8 @@ $.i18n.en = {
   answer9:
     "English dictionary, lots of snacks, a comfortable chair, and lots of repetition of lessons.",
   next: "Next",
+  address_title: "Our address",
+  address_desc: "29 Şehit Idris Doğan Avenue, Gelibolu, Nicosia, North Cyprus",
 };
 
 $.i18n.tr = {
@@ -101,6 +103,8 @@ $.i18n.tr = {
   answer9:
     "İngilizce sözlük, birçok atıştırmalık, rahat bir koltuk ve dersleri bol bol tekrar etmek.",
   next: "Sonraki",
+  address_title: "Adresimiz",
+  address_desc: "29 Şehit Idris Doğan Sokak, Gelibolu, Lefkoşa, Kuzey Kıbrıs",
 };
 
 var i18n = $.i18n();
