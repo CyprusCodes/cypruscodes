@@ -1,0 +1,46 @@
+.robot-banner {
+  margin-top: -10px;
+}
+
+.cocuk {
+  width: 380px;
+}
+#cocuk-li {
+  position: relative;
+  text-align: left;
+  top: 52%;
+  left: -29px;
+}
+
+#banner-ul {
+  position: absolute;
+}
+
+@media (max-width: 990px) {
+  #cocuk-li {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .robot-banner {
+    margin-top: -57px;
+  }
+}
+
+@media (min-width: 991px) {
+  .robot-banner {
+    margin-top: -65px;
+  }
+}
+
+@media (min-width: 800px) {
+  .cocuk {
+    top: -60px;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .cocuk {
+    top: -60px;
+  }
+}
