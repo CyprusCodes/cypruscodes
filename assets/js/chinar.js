@@ -105,6 +105,15 @@ $.i18n.tr = {
 
 var i18n = $.i18n();
 
+function getParameterByName(name, url = window.location.href) {
+  name = name.replace(/[\[\]]/g, "\\$&");
+  var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+    results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return "";
+  return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
 var changeLabels = function () {
   $("[data-translate]").each(function () {
     var forLabel = $(this).attr("data-translate");
@@ -113,6 +122,12 @@ var changeLabels = function () {
 };
 
 $(document).ready(function () {
+  const lang = getParameterByName("lang");
+  if (lang) {
+    window.localStorage.setItem("language", lang);
+    i18n.setLang(lang);
+  }
+
   changeLabels();
   $("#dropdownMenuButton").text(
     (window.localStorage.getItem("language") || "tr").toUpperCase()
@@ -128,6 +143,15 @@ $("#lang")
       (window.localStorage.getItem("language") || "tr").toUpperCase()
     );
 
+    const langQueryParam = getParameterByName("lang");
+    if (langQueryParam) {
+      var url = new URL(window.location.href);
+      var search_params = url.searchParams;
+      search_params.set("lang", lang);
+      url.search = search_params.toString();
+      var new_url = url.pathname + url.search;
+      window.history.replaceState({}, "", new_url);
+    }
     changeLabels();
     e.preventDefault();
   });
