@@ -71,7 +71,7 @@ $.i18n.tr = {
   menu_4: "Sıkça Sorulan Sorular",
   menu_5: "İletişim",
   menu_6: "Giriş Yap",
-  about_me: "Film Yapımcısından Tam Yığın Geliştiriciye",
+  about_me: "Film Yapımcısından Full Stack Developer'a",
   question1: "Merhaba isminiz nedir?",
   question2: "Bize biraz kendinden bahseder misin?",
   question3:

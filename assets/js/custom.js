@@ -35,7 +35,8 @@ $.i18n.en = {
   description_2:
     "<b>Keep up with the developing world </b> with Cyprus<br/> one and only <b>part - time</b>  programming school!",
   info_btn: "Request Information",
-  goal: "Your dream of a new career is just one step away if you have goals such as",
+  goal:
+    "Your dream of a new career is just one step away if you have goals such as",
   goals:
     "<li>Starting a new career</li> <li> Improving your business</li> <li>Being a digital entrepreneur</li>",
   goal_desc:
@@ -169,7 +170,7 @@ $.i18n.en = {
   // basarimlar
 
   students: "Some of Our Graduates: ",
-  testimonial_country_magusa: "Mağusa , Turkish Republic of Northern Cyprus",
+  testimonial_country_magusa: "Famagusta , Turkish Republic of Northern Cyprus",
 };
 
 $.i18n.tr = {
@@ -316,7 +317,7 @@ $.i18n.tr = {
 
   // basarimlar
   students: "Bazı Mezunlarımız :",
-  testimonial_country_magusa: "Famağusa, Kuzey Kıbrıs Türk Cumhuriyeti",
+  testimonial_country_magusa: "Mağusa, Kuzey Kıbrıs Türk Cumhuriyeti",
 };
 
 var i18n = $.i18n();
