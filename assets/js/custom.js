@@ -97,12 +97,12 @@ $.i18n.en = {
   partner_title: "Our Business Partners  ",
   partner_desc: "PLEASE CONTACT FOR PARTNER DEVELOPMENT PROGRAMS",
   testimonial: "Testimonial ",
-  testimonial_desc: "What does our clients say about us? ",
+  testimonial_desc: "What does our clients say about us?",
   testimonial_country: "Nicosia, Northern Cyprus",
   testimonial_erhan:
     "First of all, I was very satisfied with the Cyprus Codes software engineering course. In addition to the content and expression, the biggest feature that distinguishes Cyprus Codes from other trainings is to be able to find answers to our questions at the points where the students are stuck, on the platform where you can find the instructors and other students. Also another contribution of the course was learning the right research techniques in the field of software engineering. In this way, I am still able to improve my software knowledge. Thank you Cyprus Codes family.",
   testimonial_erto:
-    "Am very pleased with the education I received within the framework of this course which was offered by CyprusCodes team. We have gained a different point of view and became a Junior Developer from scratch only in 6 months with the help of our instructors. Now, I am able to pursue a career in the field of Software Engineering. <br/>The courses offered were really fun which made it easier to understand the given topics. With the attention and effort shown by the instructors, people from all aspects of live can find an answer to the question “What is Coding?”.  ",
+    "Am very pleased with the education I received within the framework of this course which was offered by CyprusCodes team. We have gained a different point of view and became a Junior Developer from scratch only in 6 months with the help of our instructors. Now, I am able to pursue a career in the field of Software Engineering. <br/>The courses offered were really fun which made it easier to understand the given topics. With the attention and effort shown by the instructors, people from all aspects of live can find an answer to the question “What is Coding?",
   testimonial_rahmi:
     "Kursa başlarken her ne kadar eğitim kadrosnunun yurt dışı tecrübesi olsa da, bir takım şüphelerim vardı. Kurs başladıktan kısa bir süre sonra, hem eğitim kadrosunun ilgi ve alakası hem de kullanılan iletişim platformundaki (Slack) ekip arkadaşlarımın yardımlaşması ile bu şüphelerimin yersiz olduğunu anladım.<br/> Bu süreçte hem kendi başıma doğru kaynaklarla kod yazmayı hem de projelerle problem çözme becerilerimi geliştirmemde yardımcı olan CyprusÇodes eğitmenlerine ve grup arkadaşlarıma çok teşekkür eder, kursu dijital yetkinliklerini artırmak isteyen her yaştan insana memnuniyetle tavsiye ederim.",
   faq: "FAQ",
@@ -252,7 +252,7 @@ $.i18n.tr = {
   testimonial_desc: "Müşterimiz bizim hakkımızda ne diyor",
   testimonial_country: "Lefkoşa, Kuzey Kıbrıs Türk Cumhuriyeti",
   testimonial_erhan:
-    " Öncelikle Cyprus Codes yazılım mühendisliği kursundan çok memnun kaldım. İçerik ve anlatıma ek olarak Cyprus Codes'u diğer eğitimlerden ayıran en büyük özellik, öğrencilerin takıldığı noktalarda, eğitmen ve diğer öğrencilerin bulunduğu platformda sorularımıza yanıt bulabilmek olmuştur.<br/> Ayrıca kursun diğer bir katkısı, yazılım için doğru araştırma tekniklerini öğrenmek olmuştur. Bu sayede yazılım bilgimi geliştirmeye devam ediyorum. Cyprus Codes ailesine teşekkür ederim.",
+    "Öncelikle Cyprus Codes yazılım mühendisliği kursundan çok memnun kaldım. İçerik ve anlatıma ek olarak Cyprus Codes'u diğer eğitimlerden ayıran en büyük özellik, öğrencilerin takıldığı noktalarda, eğitmen ve diğer öğrencilerin bulunduğu platformda sorularımıza yanıt bulabilmek olmuştur.<br/> Ayrıca kursun diğer bir katkısı, yazılım için doğru araştırma tekniklerini öğrenmek olmuştur. Bu sayede yazılım bilgimi geliştirmeye devam ediyorum. Cyprus Codes ailesine teşekkür ederim.",
   testimonial_erto:
     "Cyprus codes team olarak yapılan bu kursda verilen eğitimden çok memnunum 6 aylık kısa bir sürecin içinde 0 dan junior developer olmamızı sağlayan hocalarımız sayesinde hayata bakış açımız değişti ve şu andaki meslek yönelimimi yazılım mühendisliğine çevrildi. <br /> Verilen dersleri anlatımı ve yapım eğlencesi açısından konuya hakim olabilmemizi çok güçlü olmuştur, hocaların öğrencilere verdiği ilgi ve efor sayesinde 'yazılım nedir' sorusunu soran 7 den 70 e herkesin bu kursu aldıktan sonra yazılım bilgisini çok güçlü bir şekilde arttıran eğlenceli bir kursdur.",
   testimonial_rahmi:
