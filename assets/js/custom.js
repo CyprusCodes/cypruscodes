@@ -35,8 +35,7 @@ $.i18n.en = {
   description_2:
     "<b>Keep up with the developing world </b> with Cyprus<br/> one and only <b>part - time</b>  programming school!",
   info_btn: "Request Information",
-  goal:
-    "Your dream of a new career is just one step away if you have goals such as",
+  goal: "Your dream of a new career is just one step away if you have goals such as",
   goals:
     "<li>Starting a new career</li> <li> Improving your business</li> <li>Being a digital entrepreneur</li>",
   goal_desc:
@@ -104,6 +103,8 @@ $.i18n.en = {
     "First of all, I was very satisfied with the Cyprus Codes software engineering course. In addition to the content and expression, the biggest feature that distinguishes Cyprus Codes from other trainings is to be able to find answers to our questions at the points where the students are stuck, on the platform where you can find the instructors and other students. Also another contribution of the course was learning the right research techniques in the field of software engineering. In this way, I am still able to improve my software knowledge. Thank you Cyprus Codes family.",
   testimonial_erto:
     "Am very pleased with the education I received within the framework of this course which was offered by CyprusCodes team. We have gained a different point of view and became a Junior Developer from scratch only in 6 months with the help of our instructors. Now, I am able to pursue a career in the field of Software Engineering. <br/>The courses offered were really fun which made it easier to understand the given topics. With the attention and effort shown by the instructors, people from all aspects of live can find an answer to the question “What is Coding?”.  ",
+  testimonial_rahmi:
+    "Kursa başlarken her ne kadar eğitim kadrosnunun yurt dışı tecrübesi olsa da, bir takım şüphelerim vardı. Kurs başladıktan kısa bir süre sonra, hem eğitim kadrosunun ilgi ve alakası hem de kullanılan iletişim platformundaki (Slack) ekip arkadaşlarımın yardımlaşması ile bu şüphelerimin yersiz olduğunu anladım.<br/> Bu süreçte hem kendi başıma doğru kaynaklarla kod yazmayı hem de projelerle problem çözme becerilerimi geliştirmemde yardımcı olan CyprusÇodes eğitmenlerine ve grup arkadaşlarıma çok teşekkür eder, kursu dijital yetkinliklerini artırmak isteyen her yaştan insana memnuniyetle tavsiye ederim.",
   faq: "FAQ",
   faq_title: "Frequently Asked Questions and Answers",
   faq_category_1: "General",
