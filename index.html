@@ -124,8 +124,8 @@
                   data-translate='menu_6'>Giriş Yap</a>
               </div>
               <div class="dropdown droplang">
-                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
+                <button class="btn dropdown-toggle dropdownMenuButton" type="button" id="dropdownMenuButton"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   EN
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="lang">
@@ -1414,8 +1414,20 @@
               <div class="col-md-6">
                 <input type="text" name="telefon" placeholder="Telefon No" aria-required="" required="" />
               </div>
+
+              <div class="col-md-6">
+                <select name="courses">
+                  <option data-translate="select_course">Select your course</option>
+                  <option data-translate="fullstack">Fullstack Engineer Fastrack</option>
+                  <option data-translate="robotik">Robotic Coding for ages 8-12</option>
+                  <option data-translate="other">Others</option>
+                </select>
+
+              </div>
+              <div class="col-md-6">
+                <input type="email" name="email" placeholder="Email" required />
+              </div>
             </div>
-            <input type="email" name="email" placeholder="Email" required />
             <textarea name="mesaj" cols="30" rows="10" placeholder="Mesaj"></textarea>
 
             <button type="submit" id="submit-Contactform" class="pix-btn submit-btn" data-translate="contact_btn">

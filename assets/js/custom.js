@@ -35,8 +35,7 @@ $.i18n.en = {
   description_2:
     "<b>Keep up with the developing world </b> with Cyprus<br/> one and only <b>part - time</b>  programming school!",
   info_btn: "Request Information",
-  goal:
-    "Your dream of a new career is just one step away if you have goals such as",
+  goal: "Your dream of a new career is just one step away if you have goals such as",
   goals:
     "<li>Starting a new career</li> <li> Improving your business</li> <li>Being a digital entrepreneur</li>",
   goal_desc:
@@ -168,11 +167,13 @@ $.i18n.en = {
   contact_btn: "Send",
   address_title: "Our address",
   address_desc: "29 Şehit Idris Doğan Avenue, Gelibolu, Nicosia, North Cyprus",
+  other: "Other",
 
   // basarimlar
 
   students: "Some of Our Graduates: ",
   testimonial_country_magusa: "Famagusta , Northern Cyprus",
+  select_course: "Select your course",
 };
 
 $.i18n.tr = {
@@ -318,10 +319,11 @@ $.i18n.tr = {
   contact_btn: "Gönder",
   address_title: "Adresimiz",
   address_desc: "29 Şehit Idris Doğan Sokak, Gelibolu, Lefkoşa, Kuzey Kıbrıs",
-
+  other: "Diğer",
   // basarimlar
   students: "Bazı Mezunlarımız :",
   testimonial_country_magusa: "Mağusa, Kuzey Kıbrıs Türk Cumhuriyeti",
+  select_course: "Kursunuzu seçin",
 };
 
 var i18n = $.i18n();
@@ -376,7 +378,7 @@ $("#lang")
     var lang = this.href.slice(-2);
     i18n.setLang(lang);
     setContactFormPlaceholders(lang);
-    $("#dropdownMenuButton").text(
+    $(".dropdownMenuButton").text(
       (window.localStorage.getItem("language") || "tr").toUpperCase()
     );
 
