@@ -707,58 +707,95 @@ $("#submit-Bookingform").on("click", function (e) {
   );
 });
 
-//Contact form Submission
+$("#submit-Contactform").click(function () {
+  let name = document.forms["myForm"]["name"].value;
+  let courseType = document.forms["myForm"]["courseType"].value;
+  let email = document.forms["myForm"]["email"].value;
+  let hasIssue = false;
 
-var $formContact = $("#contact"),
-  url =
-    "https://script.google.com/macros/s/AKfycbwXYukJ1OUGnDJGsG5zw4xv_wOiEJSxmwOPPDBL_azHfS8MBaA/exec";
+  if (name == "") {
+    document.getElementById("un").style.display = "block";
+    hasIssue = true;
+  } else {
+    document.getElementById("un").style.display = "none";
+  }
+  if (email == "") {
+    document.getElementById("trois").style.display = "block";
+    hasIssue = true;
+  } else {
+    document.getElementById("trois").style.display = "none";
+  }
+  if (courseType == "Select your course" || courseType == "Kursunuzu seçin") {
+    document.getElementById("deux").style.display = "block";
+    hasIssue = true;
+  } else {
+    document.getElementById("deux").style.display = "none";
+  }
 
-$("#submit-Contactform").on("click", function (e) {
-  e.preventDefault();
+  if (!hasIssue) {
+    var $formContact = $("#contact");
 
-  var jqxhr = $.ajax({
-    url: url,
-    method: "GET",
-    dataType: "json",
-    data: $formContact.serializeArray(),
-    success: function success(data) {
-      $('button[type="submit"]').removeClass("clicked");
-      $("#submit-Contactform").html("Gönder");
-      $("#submit-Contactform").prop("disabled", false);
-      $("#form-result2")
-        .addClass("alert-warning")
-        .removeClass("alert-success alert-danger")
-        .css("display", "block");
-      $("#form-result2")
-        .addClass("alert-success")
-        .removeClass("alert-warning alert-danger")
-        .css("display", "block");
-      $("#form-result2 > .content").html("Mesajınız Gönderildi!");
-    },
-    error: function error() {
-      $('button[type="submit"]').removeClass("clicked");
-      $("#submit-Contactform").html("Gönder");
-      $("#submit-Contactform").prop("disabled", false);
-      $("#form-result2")
-        .addClass("alert-danger")
-        .removeClass("alert-warning alert-success")
-        .css("display", "block");
-      $("#form-result2 > .content").html(
-        "Malesef mesajınız iletilemedi. Lütfen tekrar deneyin. Alternatif olarak 05488250443 numaralı telefondan bize ulaşabilirsiniz"
-      );
-    },
-  }).then(
-    $("#form-result2").css("display", "none"),
-    $('button[type="submit"]').addClass("clicked"),
-    $("#submit-Contactform").prop("disabled", true),
-    $("#submit-Contactform").html("Gönderiliyor..")
-  );
+    var jqxhr = $.ajax({
+      url: "https://api.cypruscodes.com/course-info",
+      method: "POST",
+      dataType: "json",
+      data: [
+        {
+          name: "name",
+          value: name,
+        },
+        {
+          name: "email",
+          value: email,
+        },
+        {
+          name: "language",
+          value: (
+            window.localStorage.getItem("language") || "tr"
+          ).toUpperCase(),
+        },
+        {
+          name: "courseType",
+          value: courseType,
+        },
+      ],
+    });
+    var jqxhr = $.ajax({
+      url: "https://script.google.com/macros/s/AKfycbwXYukJ1OUGnDJGsG5zw4xv_wOiEJSxmwOPPDBL_azHfS8MBaA/exec",
+      method: "GET",
+      dataType: "json",
+      data: $formContact.serializeArray(),
+      success: function success(data) {
+        $('button[type="submit"]').removeClass("clicked");
+        $("#submit-Contactform").html("Gönder");
+        $("#submit-Contactform").prop("disabled", false);
+        $("#form-result2")
+          .addClass("alert-warning")
+          .removeClass("alert-success alert-danger")
+          .css("display", "block");
+        $("#form-result2")
+          .addClass("alert-success")
+          .removeClass("alert-warning alert-danger")
+          .css("display", "block");
+        $("#form-result2 > .content").html("Mesajınız Gönderildi!");
+      },
+      error: function error() {
+        $('button[type="submit"]').removeClass("clicked");
+        $("#submit-Contactform").html("Gönder");
+        $("#submit-Contactform").prop("disabled", false);
+        $("#form-result2")
+          .addClass("alert-danger")
+          .removeClass("alert-warning alert-success")
+          .css("display", "block");
+        $("#form-result2 > .content").html(
+          "Malesef mesajınız iletilemedi. Lütfen tekrar deneyin. Alternatif olarak 05488250443 numaralı telefondan bize ulaşabilirsiniz"
+        );
+      },
+    }).then(
+      $("#form-result2").css("display", "none"),
+      $('button[type="submit"]').addClass("clicked"),
+      $("#submit-Contactform").prop("disabled", true),
+      $("#submit-Contactform").html("Gönderiliyor..")
+    );
+  }
 });
-
-// (function(d, s, id) {
-//     var js, fjs = d.getElementsByTagName(s)[0];
-//     if (d.getElementById(id)) return;
-//     js = d.createElement(s); js.id = id;
-//     js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
-//     fjs.parentNode.insertBefore(js, fjs);
-//   }(document, 'script', 'facebook-jssdk'));

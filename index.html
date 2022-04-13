@@ -1405,32 +1405,35 @@
             </h2>
           </div>
           <!-- /.section-title -->
-          <form action="#" class="faq-form" id="contact" data-pixsaas="contact-forms">
-            <div class="row">
+          <form action="#" class="faq-form" id="contact" data-pixsaas="contact-forms" name="myForm">
+            <div class=" row">
               <div class="col-md-6">
-                <input type="text" name="isim" placeholder="Ad Soyad" />
+                <input type="text" name="name" placeholder="Ad Soyad" id="names" />
+                <label class="alert-danger p-1" id="un" data-translate="name_must">Name must be filled out</label>
+
               </div>
 
               <div class="col-md-6">
-                <input type="text" name="telefon" placeholder="Telefon No" aria-required="" required="" />
+                <input type="text" name="telefon" placeholder="Telefon No" aria-required="" required />
               </div>
 
               <div class="col-md-6">
-                <select name="courses">
-                  <option data-translate="select_course">Select your course</option>
-                  <option data-translate="fullstack">Fullstack Engineer Fastrack</option>
-                  <option data-translate="robotik">Robotic Coding for ages 8-12</option>
-                  <option data-translate="other">Others</option>
+                <select name="courseType" id="courseType">
+                  <option data-translate="select_course" disabled selected="selected">Select your course</option>
+                  <option data-translate="fullstack" value="fast-track">Fullstack Engineer Fastrack</option>
+                  <option data-translate="robotik" value="robotic">Robotic Coding for ages 8-12</option>
+                  <option data-translate="other" value="other">Others</option>
                 </select>
-
+                <label class="alert-danger p-1" id="deux" data-translate="course_must">Course must be selected</label>
               </div>
               <div class="col-md-6">
-                <input type="email" name="email" placeholder="Email" required />
+                <input type="email" name="email" placeholder="Email" id="email" />
+                <label class="alert-danger p-1" id="trois" data-translate="email_must">Email must be filled out</label>
               </div>
             </div>
             <textarea name="mesaj" cols="30" rows="10" placeholder="Mesaj"></textarea>
 
-            <button type="submit" id="submit-Contactform" class="pix-btn submit-btn" data-translate="contact_btn">
+            <button type="button" id="submit-Contactform" class="pix-btn submit-btn" data-translate="contact_btn">
               Gönder
             </button>
 
@@ -1561,6 +1564,7 @@
   <script src="assets/js/header.js"></script>
   <script src="assets/js/retina.min.js"></script>
   <script src="assets/js/app.js"></script>
+
 </body>
 
 </html>

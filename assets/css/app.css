@@ -15872,7 +15872,17 @@ font-size: 25px;
   font-size: 14px;
   border: 1px solid #e5dada;
 }
+#un {
+      display: none;
+    }
 
+    #deux {
+      display: none;
+    }
+
+    #trois {
+      display: none;
+    }
 .indent {
   margin-left: 40px
 }

@@ -168,6 +168,9 @@ $.i18n.en = {
   address_title: "Our address",
   address_desc: "29 Şehit Idris Doğan Avenue, Gelibolu, Nicosia, North Cyprus",
   other: "Other",
+  email_must: "Email must be filled out",
+  name_must: "Name must be filled out",
+  course_must: "Course must be selected",
 
   // basarimlar
 
@@ -320,6 +323,10 @@ $.i18n.tr = {
   address_title: "Adresimiz",
   address_desc: "29 Şehit Idris Doğan Sokak, Gelibolu, Lefkoşa, Kuzey Kıbrıs",
   other: "Diğer",
+  email_must: "E-posta doldurulmalıdır",
+  name_must: "İsim doldurulmalıdır",
+  course_must: "Ders seçilmelidir",
+
   // basarimlar
   students: "Bazı Mezunlarımız :",
   testimonial_country_magusa: "Mağusa, Kuzey Kıbrıs Türk Cumhuriyeti",
