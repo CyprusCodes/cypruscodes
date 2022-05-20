@@ -1,5 +1,5 @@
 .page-banner {
-    background: $background__bg;
+   background: rgba(26, 92, 153, 0.2);
     text-align: center;
     height: 550px;
     display: flex;
@@ -380,7 +380,7 @@
     left: 0;
 
     .ball {
-        background: #fdf1f1;
+        // background: #fdf1f1;
         border-radius: 50%;
         position: absolute;
 

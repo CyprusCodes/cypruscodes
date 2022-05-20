@@ -25,11 +25,12 @@ $.i18n.en = {
   menu_1: "Education",
   menu_2: "Course",
   menu_3: "Career Path",
-  menu_4: "Frequently Asked Questions",
+  menu_4: "FAQ",
   menu_5: "Contact",
   menu_6: "Sign In",
   intro: "WELCOME TO CYPRUSCODES",
   title: "Shape Your Future!",
+  home_page: "Home",
   description:
     "Do you wish to improve yourself in the field of software and create new business areas for yourself?",
   description_2:
@@ -106,7 +107,7 @@ $.i18n.en = {
   testimonial_rahmi:
     "When I started the course, I had some doubts, even though the teaching staff had experience abroad. Shortly after the course has started, I had realized that these doubts were unfounded, with the support and help of the teaching staff as well as the help of my teammates in the communication platform (Slack).<br/> I would like to thank the CyprusCodes teachers and my teammates who both helped me and supported me to improve myself with this course, and I would gladly recommend the course to people of all ages who want to increase their digital competencies.",
   faq: "FAQ",
-  faq_title: "Frequently Asked Questions and Answers",
+  faq_title: "FAQ and Answers",
   faq_category_1: "General",
   faq_category_2: "Course/Platform",
   faq_category_3: "Application Form for Assistance",
@@ -174,7 +175,7 @@ $.i18n.en = {
 
   // basarimlar
 
-  students: "Some of Our Graduates: ",
+  students: "Some of Our Graduates",
   testimonial_country_magusa: "Famagusta , Northern Cyprus",
   select_course: "Select your course",
 };
@@ -188,6 +189,7 @@ $.i18n.tr = {
   menu_6: "Giriş Yap",
   intro: "CYPRUSCODES’A HOŞ GELDİNİZ",
   title: "Geleceğini Şekillendir!",
+  home_page: "ana sayfa",
   description:
     "Yazılım alanında kendinizi geliştirmek <br/> ve kendinize yeni iş alanları yaratmak ister misiniz?",
   description_2:
@@ -328,7 +330,7 @@ $.i18n.tr = {
   course_must: "Ders seçilmelidir",
 
   // basarimlar
-  students: "Bazı Mezunlarımız :",
+  students: "Bazı Mezunlarımız",
   testimonial_country_magusa: "Mağusa, Kuzey Kıbrıs Türk Cumhuriyeti",
   select_course: "Kursunuzu seçin",
 };
