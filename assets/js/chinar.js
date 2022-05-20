@@ -25,7 +25,7 @@ $.i18n.en = {
   menu_1: "Education",
   menu_2: "Course",
   menu_3: "Career Path",
-  menu_4: "Frequently Asked Questions",
+  menu_4: "FAQ",
   menu_5: "Contact",
   menu_6: "Sign In",
   about_me: "From Filmmaker to Full Stack Developer",
