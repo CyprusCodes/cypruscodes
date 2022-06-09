@@ -518,7 +518,14 @@ function setContactFormPlaceholders(lang) {
     $('input[name="telefon"]').attr("placeholder", "Phone");
     $('input[name="email"]').attr("placeholder", "Email");
     $('textarea[name="mesaj"]').attr("placeholder", "Message");
-  } else {
+  }
+  if (lang === "ru"){
+    $('input[name="isim"]').attr("placeholder", "Имя");
+    $('input[name="telefon"]').attr("placeholder", "Телефон");
+    $('input[name="email"]').attr("placeholder", "Эл. адрес");
+    $('textarea[name="mesaj"]').attr("placeholder", "Сообщение");
+  }
+  if (lang === "tr") {
     $('input[name="isim"]').attr("placeholder", "isim");
     $('input[name="telefon"]').attr("placeholder", "telefon");
     $('input[name="email"]').attr("placeholder", "email");
