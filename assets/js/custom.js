@@ -514,19 +514,19 @@ function getParameterByName(name, url = window.location.href) {
 
 function setContactFormPlaceholders(lang) {
   if (lang === "en") {
-    $('input[name="isim"]').attr("placeholder", "Name");
+    $('input[name="name"]').attr("placeholder", "Name");
     $('input[name="telefon"]').attr("placeholder", "Phone");
     $('input[name="email"]').attr("placeholder", "Email");
     $('textarea[name="mesaj"]').attr("placeholder", "Message");
   }
   if (lang === "ru"){
-    $('input[name="isim"]').attr("placeholder", "Имя");
+    $('input[name="name"]').attr("placeholder", "Имя");
     $('input[name="telefon"]').attr("placeholder", "Телефон");
     $('input[name="email"]').attr("placeholder", "Эл. адрес");
     $('textarea[name="mesaj"]').attr("placeholder", "Сообщение");
   }
   if (lang === "tr") {
-    $('input[name="isim"]').attr("placeholder", "isim");
+    $('input[name="name"]').attr("placeholder", "isim");
     $('input[name="telefon"]').attr("placeholder", "telefon");
     $('input[name="email"]').attr("placeholder", "email");
     $('textarea[name="mesaj"]').attr("placeholder", "mesaj");
