@@ -34,9 +34,9 @@ $.i18n.en = {
   question3:
     "What were your plans for the end of the course? Has any of these come true?",
   question4:
-    "What was your reason for choosing Cyprus Codes over other courses in the market (or online courses)?",
+    "What was your reason for choosing CyprusCodes over other courses in the market (or online courses)?",
   question5:
-    "What was the best moment for you in the Cyprus Codes Fastrack Full Stack Developer course?",
+    "What was the best moment for you in the CyprusCodes Fastrack Full Stack Developer course?",
   question6: "What challanged you the most throughout the course?",
   question7:
     "How did you achieve a balance between the course and your responsibilities in your social life?",
@@ -152,7 +152,50 @@ $.i18n.ru = {
   address_title: "Наш адресс",
   address_desc: "29 Şehit Idris Doğan Avenue, Gelibolu, Nicosia, North Cyprus",
 };
-
+$.i18n.fr = {
+  menu_1: "Éducation",
+  menu_2: "Cours",
+  menu_3: "carrière",
+  menu_4: "FAQ",
+  menu_5: "Contact",
+  menu_6: "Se Connecter",
+  about_me: "De musicien à développeur Full Stack",
+  question1: "Salut, comment t'appelles-tu ?",
+  question2: "Pourriez-vous s'il vous plaît nous parler un peu de vous?",
+  question3:
+    "Quels étaient vos plans pour la fin du stage ? Est-ce que l'un d'entre eux s'est réalisé?",
+  question4:
+    "Quelle était votre raison de choisir CyprusCodes plutôt que d'autres cours sur le marché (ou des cours en ligne) ?",
+  question5:
+    "Quel a été le meilleur moment pour vous dans le cours CyprusCodes Fastrack Full Stack Developer ?",
+  question6:
+    "Qu'est-ce qui vous a le plus interpellé tout au long du parcours ?",
+  question7:
+    "Comment avez-vous trouvé un équilibre entre le cours et vos responsabilités dans votre vie sociale ?",
+  question8:
+    "Y a-t-il autre chose que vous voudriez ajouter à propos de votre expérience dans le cours ?",
+  question9:
+    "Quels conseils donneriez-vous aux personnes qui suivent actuellement la formation ?",
+  answer2:
+    "Je suis musicien depuis dix ans. Mes diplômes de licence (traduction et interprétation) et de maîtrise (radio, télévision et cinéma) n'étaient pas liés au codage. Je peux définir ma motivation pour suivre le cours comme une recherche d'une sortie découlant de l'embargo appliqué à la musique pendant la période pandémique et un désir de m'améliorer dans un nouveau domaine.",
+  answer3:
+    "Comme cela ne fait pas longtemps que j'ai terminé le cours, mes plans à long terme n'ont pas encore été formés. Pour l'instant, j'ai pour projet de monter en compétence, d'acquérir de l'expérience dans le logiciel et de me perfectionner dans le domaine de l'application mobile. Je peux dire que j'ai réalisé les plans que j'ai mentionnés, en fonction de l'avantage de travailler sur différents projets pendant mon séjour à CyprusCodes.",
+  answer4:
+    "La raison pour laquelle j'ai choisi CyprusCodes est que le programme a déjà été testé et éprouvé au sein de ManchesterCodes et qu'ils ont réussi dans la vie réelle avec le programme.",
+  answer5:
+    "Comme je l'ai déjà dit, comme je n'avais aucune expérience avec les logiciels, je peux dire que voir ce que je peux faire avec la formation que j'ai reçue dans le cours a été le meilleur moment que j'ai vécu dans le cours.",
+  answer6:
+    "Le fait que le cours nécessitait un programme d'étude rigoureux et cohérent en raison de la quantité de sujets.",
+  answer7:
+    "Étant donné que les heures de cours sont adaptées aux personnes qui travaillent, cela n'a pas beaucoup affecté mes responsabilités dans ma vie sociale.",
+  answer8:
+    "Le contenu du cours est conçu pour inclure des technologies et des langages très courants dans la vie des affaires. Pour cette raison, lorsque je suis entré dans la vie professionnelle dans ce domaine 2-3 mois après avoir terminé le cours, je n'ai pas rencontré de grandes difficultés. En dehors de cela, je continue à échanger des idées et à apprendre, car nous sommes en contact à la fois avec ceux qui ont terminé le cours, les débutants et nos formateurs via notre plateforme de communication, Slack.",
+  answer9:
+    "Étant donné que le programme du cours comprend de nombreux sujets, je vous recommande de travailler sans relâche tout au long du cours, d'être ouvert aux bibliothèques avec les nouvelles technologies et de ne pas abandonner :)",
+  next: "Suivant",
+  address_title: "Notre adresse",
+  address_desc: "29 Şehit Idris Doğan Avenue, Gelibolu, Nicosia, North Cyprus",
+};
 var i18n = $.i18n();
 
 function getParameterByName(name, url = window.location.href) {
