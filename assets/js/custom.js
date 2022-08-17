@@ -75,8 +75,8 @@ $.i18n.en = {
   data_science: "Data Science",
   code_science_desc: "Data Science",
   code_science_time: "62 hrs",
-  corp_training: "Coorporate Training Packages",
-  corp_training_desc: "Coorporate Training Packages",
+  corp_training: "Corporate Training Packages",
+  corp_training_desc: "Corporate Training Packages",
   on_demand: "On Demand",
   graphic_design: "Graphic Design",
   graphic_design_desc: "Graphic Design",
@@ -101,7 +101,7 @@ $.i18n.en = {
   testimonial_desc: "What does our clients say about us?",
   testimonial_country: "Nicosia, Northern Cyprus",
   testimonial_erhan:
-    "First of all, I was very satisfied with the Cyprus Codes software engineering course. In addition to the content and expression, the biggest feature that distinguishes Cyprus Codes from other trainings is to be able to find answers to our questions at the points where the students are stuck, on the platform where you can find the instructors and other students. Also another contribution of the course was learning the right research techniques in the field of software engineering. In this way, I am still able to improve my software knowledge. Thank you Cyprus Codes family.",
+    "First of all, I was very satisfied with the CyprusCodes software engineering course. In addition to the content and expression, the biggest feature that distinguishes CyprusCodes from other trainings is to be able to find answers to our questions at the points where the students are stuck, on the platform where you can find the instructors and other students. Also another contribution of the course was learning the right research techniques in the field of software engineering. In this way, I am still able to improve my software knowledge. Thank you CyprusCodes family.",
   testimonial_erto:
     "Am very pleased with the education I received within the framework of this course which was offered by CyprusCodes team. We have gained a different point of view and became a Junior Developer from scratch only in 6 months with the help of our instructors. Now, I am able to pursue a career in the field of Software Engineering. <br/>The courses offered were really fun which made it easier to understand the given topics. With the attention and effort shown by the instructors, people from all aspects of live can find an answer to the question “What is Coding?",
   testimonial_rahmi:
@@ -494,6 +494,170 @@ $.i18n.ru = {
   select_course: "Выберите курс",
 };
 
+$.i18n.fr = {
+  menu_1: "Éducation",
+  menu_2: "Cours",
+  menu_3: "carrière",
+  menu_4: "FAQ",
+  menu_5: "Contact",
+  menu_6: "Se Connecter",
+  intro: "BIENVENUE À CYPRUSCODES",
+  title: "Façonnez Votre Avenir!",
+  home_page: "Accueil",
+  description:
+    "Vous souhaitez vous perfectionner dans le domaine du logiciel et vous créer de nouveaux domaines d'activité?",
+  description_2:
+    "<b>Suivez le monde en développement </b> avec la seule<br/> et unique école de programmation à <b>temps partiel</b><br/> de Chypre !",
+  info_btn: "Demander des Informations",
+  goal: "Votre rêve d'une nouvelle carrière n'est qu'à un pas si vous avez des objectifs tels que",
+  goals:
+    "<li>Commencer une nouvelle carrière</li> <li>Améliorer votre entreprise</li> <li>Devenir un entrepreneur numérique</li>",
+  goal_desc:
+    "tout ce que vous cherchez se trouve ici à <b>CyprusCodes</b>, la première et unique académie technologique du nord de Chypre.",
+  goal_desc2:
+    "En 24 semaines, vous acquerrez toutes les compétences d'un développeur de logiciel et serez capable de créer vos propres applications web et mobiles !",
+  education: "Éducation",
+  education_desc:
+    "Développé en collaboration avec la principale école de programmation du Royaume-Uni, <strong>ManchesterCodes</strong>, notre programme<br/> couvre les technologies les plus populaires utilisées par les leaders de l'industrie comme la <strong>BBC</strong> et <strong>Booking.com.</strong><br/> Vous vous rapprochez un peu plus de vos rêves avec notre classe située à Nicosie, notre personnel expert,<br/> notre programme de classe mondiale et nos cours du soir à temps partiel conçus pour les travailleurs.",
+  educ_portal: "Platforme d'Éducation",
+  educ_portal_desc:
+    "Vous pouvez accéder à notre platforme de formation en ligne 24h/24 et 7j/7. Vous pouvez trouver des vidéos enregistrées des cours, des exercices hebdomadaires et des ressources recommandées ici.",
+  cc_chat_desc:
+    "Nos étudiants et enseignants sont en contact 24h/24 et 7j/7 via l'application de chat appelée Slack.",
+  staff: "Enseignants Expert",
+  staff_desc:
+    "Notre personnel enseignant est composé de développeurs de logiciels professionnels d'Angleterre et de Chypre.",
+  night_mode: "Platforme d'Éducation – Mode Nuit ",
+  membership_title:
+    "Créer un abonnement sur la Platforme d'éducation de CyprusCodes<br/> maintenant",
+  membership_desc:
+    "*Vous pouvez accéder à notre module débutant gratuit dès maintenant!",
+  membership_btn: "S'inscrire",
+  main_courses_title: "Nos Cours Principaux",
+  main_courses_desc: "Découvrez nos cours les plus populaires ",
+  programming: "Programmation",
+  graphic_design: "Design Graphique",
+  digital_marketing: "Marketing Digital",
+  entrepreneurship: "Entrepreneuriat",
+  teen_kids: "Ados & Enfants",
+  fullstack: "Ingénieur Fullstack Voie rapide",
+  fullstack_desc: "Développer une application Web",
+  fullstack_time: "288 hrs",
+  code_fund: "Fondamentaux du codage",
+  code_fund_desc: "Codage de base",
+  code_fund_time: "64 hrs",
+  data_science: "Science des Données",
+  code_science_desc: "Science des Données",
+  code_science_time: "62 hrs",
+  corp_training: "Forfaits de formation en entreprise",
+  corp_training_desc: "Forfaits de formation en entreprise",
+  on_demand: "Sur Demande",
+  graphic_design: "Design Graphique",
+  graphic_design_desc: "Design Graphique",
+  graphic_design_time: "48 hrs",
+  ui_ux: "Masterclass de conception UX-UI",
+  ui_ux_desc: "Conception d'interfaces Web et mobiles",
+  ui_ux_time: "108 hrs",
+  digital_marketing_time: "62 hrs",
+  robotik: "Codage Robotique pour les 8-12 ans",
+  robotik_desc: "Codage Robotique pour les Enfants",
+  robotik_loc: "Nicosie et Famagouste",
+  robotik_time: "96 hrs",
+  pyhton: "Python pour les  12-18",
+  pyhton_desc: "Python pour les Ados",
+  pyhton_time: "96hrs",
+  venture: "Développement d'Entreprise",
+  venture_desc:
+    "Entrepreneuriat, planification financière et canevas d'entreprise",
+  venture_time: "96hrs",
+  partner_title: "Nos Partenaires d'Affaires ",
+  partner_desc:
+    "VEUILLEZ CONTACTER POUR LES PROGRAMMES DE DÉVELOPPEMENT PARTENAIRE",
+  testimonial: "Témoignage ",
+  testimonial_desc: "Que disent nos clients de nous?",
+  testimonial_country: "Nicosie, Chypre du Nord",
+  testimonial_erhan:
+    "Tout d'abord, j'ai été très satisfait du cours de génie logiciel de CyprusCodes. En plus du contenu et de l'expression, la plus grande caractéristique qui distingue CyprusCodes des autres formations est de pouvoir trouver des réponses à nos questions aux points où les étudiants sont bloqués, sur la plateforme où vous pouvez trouver les instructeurs et les autres étudiants. Une autre contribution du cours a également été l'apprentissage des bonnes techniques de recherche dans le domaine du génie logiciel. De cette façon, je suis encore en mesure d'améliorer mes connaissances en logiciels. Merci à la famille CyprusCodes.",
+  testimonial_erto:
+    "Je suis très satisfait de l'éducation que j'ai reçue dans le cadre de ce cours qui a été offert par l'équipe de CyprusCodes. J'ai acquis un point de vue différent et je suis devenu développeur junior à partir de rien en seulement 6 mois avec l'aide de nos instructeurs. Maintenant, je suis en mesure de poursuivre une carrière dans le domaine du génie logiciel. <br/>Les cours proposés étaient vraiment amusants, ce qui a facilité la compréhension des sujets abordés. Grâce à l'attention et aux efforts déployés par les instructeurs, les personnes de tous les aspects de la vie peuvent trouver une réponse à la question « Qu'est-ce que le codage?",
+  testimonial_rahmi:
+    "Quand j'ai commencé le cours, j'avais des doutes, même si le personnel enseignant avait une expérience à l'étranger. Peu de temps après le début du cours, je m'étais rendu compte que ces doutes n'étaient pas fondés, avec le soutien et l'aide de l'équipe pédagogique ainsi que l'aide de mes coéquipiers sur plateforme de communication (Slack).<br/> Je tiens à remercier les enseignants de CyprusCodes et mes coéquipiers qui m'ont tous deux aidé et soutenu pour m'améliorer avec ce cours, et je recommanderais volontiers le cours aux personnes de tous âges qui souhaitent accroître leurs compétences numériques.",
+  faq: "FAQ",
+  faq_title: "FAQ and Answers",
+  faq_category_1: "Général",
+  faq_category_2: "Cours/Plateforme",
+  faq_category_3: "Formulaire de demande d'aide",
+  faq_category_1_title_1: "Qu'est-ce que ChypreCodes ?",
+  faq_category_1_desc_1:
+    "Le seul et unique cours de programmation d'applications Web et mobiles à temps partiel dans le nord de Chypre. Notre objectif est de rassembler les talents de Chypre du Nord et de développer des applications Web et mobiles de classe mondiale.",
+  faq_category_1_title_2:
+    "Qui peut s'inscrire à ce cours? Y a-t-il une limite d'âge ?",
+  faq_category_1_desc_2:
+    "<b>N'importe qui </b>entre 16 et 60 ans peuvent s'inscrire à notre cours.",
+  faq_category_1_title_3: "Quelles sont les conditions de participation ?",
+  faq_category_1_desc_3:
+    "Quiconque souhaite poursuivre une carrière dans l'industrie du logiciel peut participer à notre cours. La porte de l'école de programmation CyprusCodes est toujours ouverte à tous ceux qui feront un pas dans le monde du logiciel pour la première fois, aux diplômés des départements connexes des universités ou à ceux qui travaillent activement dans le secteur et souhaitent améliorer leurs connaissances. C'est un avantage d'avoir un niveau d'anglais intermédiaire.",
+  faq_category_1_title_4: "Comment les heures de cours sont-elles organisées ?",
+  faq_category_1_desc_4:
+    "Nos heures de cours ont été préparées en tenant compte des personnes qui travaillent. À cet égard, les cours auront lieu entre 18h30 et 21h30 du lundi au mercredi et le samedi entre 10h00 et 16h00, le soutien nécessaire sera fourni aux étudiants.",
+  faq_category_1_title_5: "Quand puis-je postuler ?",
+  faq_category_1_desc_5:
+    "Nos applications sont lancées ! Pour bénéficier des dernières actualités, vous pouvez suivre la page CyprusCodes sur Instagram et Facebook.",
+  faq_category_1_title_6:
+    "Dois-je être bon en mathématiques pour apprendre la programmation ?",
+  faq_category_1_desc_6:
+    "<b>Non! </b>Penser logiquement est plus important lors de la création de sites Web et d'applications, et les mathématiques que vous avez apprises à l'école suffiront tout au long de notre cours.",
+  faq_category_1_title_7: "Vais-je obtenir un certificat à la fin du cours ?",
+  faq_category_1_desc_7:
+    "Oui! Le certificat de participation de la CyprusCodes Academy et le certificat de réussite de CyprusCodes Academy seront remis aux étudiants qui réussissent à la fin du cours.",
+  faq_category_2_title_1: "Votre cours est-il adapté au niveau débutant ?",
+  faq_category_2_desc_1:
+    "Oui! Notre cours est adapté au niveau débutant et vous n'avez besoin d'aucune expérience en programmation.",
+  faq_category_2_title_2:
+    "De quel équipement ai-je besoin pour participer au cours ?",
+  faq_category_2_desc_2:
+    "Les étudiants qui assisteront au cours n'auront qu'à apporter un ordinateur portable avec eux. Afin de bien comprendre le déroulement du cours et le langage de programmation, les étudiants doivent avoir un niveau intermédiaire en anglais.",
+  faq_category_2_title_3: "Quel est le coût des documents de cours ?",
+  faq_category_2_desc_3:
+    "Non. Même après la fin du cours, vous aurez accès aux supports de cours en ligne.",
+  faq_category_2_title_4: "Combien y a-t-il d'élèves dans chaque classe ?",
+  faq_category_2_desc_4: "Entre 6 et 12 personnes.",
+  faq_category_2_title_5:
+    "Est-ce que je vais avoir un portfolio que je peux utiliser à la fin du cours ?",
+  faq_category_2_desc_5:
+    "Oui. Les employeurs pourront voir au moins 10 projets sur leur propre compte GitHub avant la fin du cours. Il s'agit de l'approche standard pour les portefeuilles d'ingénieurs logiciels.",
+  faq_category_3_title_1: "Qu'est-ce que le Forum d'Aide ?",
+  faq_category_3_desc_1:
+    "« Assistance Forum » est une réunion de soutien qui se tient tous les samedis toute la journée. Vous pouvez demander tout ce qui vous passe par la tête et obtenir de l'aide pour les parties qui vous posent problème lors de la réalisation des projets donnés pendant le cours.",
+  faq_category_3_title_2:
+    "Offrez-vous des opportunités d'emploi à vos diplômés ?",
+  faq_category_3_desc_2:
+    "Oui. Nous soutenons nos étudiants qui réussissent dans la première étape de leur carrière.",
+  faq_category_3_title_3:
+    "Après mes études, aurai-je toujours accès aux forums d'assistance ?",
+  faq_category_3_desc_3: "Oui",
+  faq_category_3_title_4:
+    "Est-il obligatoire de participer au Forum Assistance ?",
+  faq_category_3_desc_4:
+    "Non. Le forum d'assistance est uniquement organisé pour vous apporter un soutien supplémentaire. Nous vous encourageons à rejoindre les forums d'aide, soit pour poser des questions, soit pour répondre aux questions des autres participants, mais il n'y a sûrement aucune obligation.",
+  contact_title: "FORMULAIRE DE CONTACT",
+  contact_desc:
+    "Vous souhaitez obtenir plus d'informations ? <br/> Nous vous contacterons !",
+  contact_btn: "Envoyer",
+  address_title: "Notre adresse",
+  address_desc: "29 Şehit Idris Doğan Avenue, Gelibolu, Nicosia, North Cyprus",
+  other: "Autre",
+  email_must: "L'e-mail doit être rempli",
+  name_must: "Le nom doit être rempli",
+  course_must: "Le cours doit être sélectionné",
+
+  // basarimlar
+
+  students: "Certains de nos diplômés",
+  testimonial_country_magusa: "Famagouste , Chypre du Nord",
+  select_course: "Sélectionnez votre cours",
+};
+
 var i18n = $.i18n();
 
 var changeLabels = function () {
@@ -530,6 +694,12 @@ function setContactFormPlaceholders(lang) {
     $('input[name="telefon"]').attr("placeholder", "telefon");
     $('input[name="email"]').attr("placeholder", "email");
     $('textarea[name="mesaj"]').attr("placeholder", "mesaj");
+  }
+  if (lang === "fr") {
+    $('input[name="name"]').attr("placeholder", "Nom");
+    $('input[name="telefon"]').attr("placeholder", "Téléphone");
+    $('input[name="email"]').attr("placeholder", "Email");
+    $('textarea[name="mesaj"]').attr("placeholder", "Message");
   }
 }
 
