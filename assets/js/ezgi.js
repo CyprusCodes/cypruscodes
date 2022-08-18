@@ -153,6 +153,51 @@ $.i18n.ru = {
   address_desc: "29 Şehit Idris Doğan Avenue, Gelibolu, Nicosia, North Cyprus",
 };
 
+$.i18n.fr = {
+  menu_1: "Éducation",
+  menu_2: "Cours",
+  menu_3: "carrière",
+  menu_4: "FAQ",
+  menu_5: "Contact",
+  menu_6: "Se Connecter",
+  about_me: "De barman à développeur junior",
+  question1: "Salut, quel est ton nom?",
+  question2: "Pourriez-vous s'il vous plaît nous parler un peu de vous?",
+  question3:
+    "Quels étaient vos plans pour la fin du stage ? Est-ce que l'un d'entre eux s'est réalisé?",
+  question4:
+    "Quelle était votre raison de choisir CyprusCodes plutôt que d'autres cours sur le marché (ou des cours en ligne) ?",
+  question5:
+    "Quel a été le meilleur moment pour vous dans le cours Chypre Codes Fastrack Full Stack Developer ?",
+  question6:
+    "Qu'est-ce qui vous a le plus interpellé tout au long du parcours ?",
+  question7:
+    "Comment avez-vous trouvé un équilibre entre le cours et vos responsabilités dans votre vie sociale ?",
+  question8:
+    "Y a-t-il autre chose que vous voudriez ajouter à propos de votre expérience dans le cours ?",
+  question9:
+    "Quels conseils donneriez-vous aux personnes qui suivent actuellement la formation ?",
+  answer2:
+    "J'ai obtenu mon diplôme du département de génie industriel de l'Université internationale de Chypre en 2019. Au cours de ma vie étudiante, j'ai travaillé comme barman dans des bars pour gagner ma vie. Je travaille comme barman dans un restaurant sur le ruisseau depuis très longtemps. Franchement, j'ai toujours considéré le métier de bar comme un travail temporaire, pensant qu'au bout du compte, je reviendrais dans l'ingénierie industrielle. Lorsque la pandémie est entrée dans l'entreprise, j'ai eu beaucoup de temps pour réfléchir et faire des recherches comme tout le monde. J'ai réalisé que les emplois que j'ai trouvés en tant qu'ingénieur industriel ne me satisferaient pas. Autant j'aime travailler dans un bar, autant je voulais changer ma vie de manière positive. Je voulais améliorer ma qualité de vie. Je peux dire que je veux être la personne qui sirote des cocktails incroyables à l'extérieur du bar, pas la personne qui prépare les cocktails à l'intérieur du bar.",
+  answer3:
+    "J'ai commencé un stage afin de renforcer la formation que j'ai reçue après le cours, d'acquérir de l'expérience dans le domaine du logiciel et de me perfectionner dans le domaine du frontend. Je suis sûr que je réaliserai mes projets avec le soutien de l'équipe de CyprusCodes et du développeur avec qui je suis en stage. J'ai évité de faire des plans à long terme, franchement, la raison en est que je me suis définitivement tourné vers moi-même maintenant, pour renforcer les domaines que je considère comme déficients et inadéquats. Je pense que la formation que nous avons reçue à CyprusCodes a été un grand pas en avant pour nous faire passer du niveau zéro au niveau de développeur junior. Mais si nous ne continuons pas à apprendre/à nous développer, l'effort de toute une équipe sera vain.",
+  answer4:
+    "Pendant la période où il y avait un couvre-feu dû à la pandémie, j'ai essayé de trouver un moyen en utilisant des plateformes telles que de nombreux cours en ligne / youtube / udemy. Mais je n'ai même pas pu terminer le niveau débutant. C'est durant cette période que j'ai réalisé l'importance du cursus. Parce que je ne savais pas par où commencer et où aller. La première de mes raisons pour choisir CyprusCodes est bien sûr le fait que le programme a été testé et éprouvé au sein de ManchesterCodes et qu'ils ont réussi dans la vraie vie avec le programme. L'autre raison est le travail d'équipe. Lorsque j'essayais d'apprendre par moi-même, j'arrêtais parfois de travailler sans raison et il me fallait beaucoup de temps pour me remettre devant l'ordinateur. Mais avec ce cours, même si vous trouvez parfois une excuse et que vous ne voulez pas travailler, c'est impossible car les instructeurs et les amis du cours vous ramènent immédiatement à vous et continuent avec un soutien total. Ce fut vraiment enrichissant pour moi. Parfois, vous ne pouvez pas vous motiver même si vous le souhaitez, donc cela aide beaucoup d'être un travail d'équipe.",
+  answer5:
+    "Je pense que c'était le moment où j'ai réalisé que je pouvais faire ce travail avec les bons conseils. C'est aussi à ce moment-là que j'ai réalisé que je ne perdais pas mon temps et mon argent dans le cours, ce qui est le plus important pour un salaire minimum comme moi.",
+  answer6:
+    "Ce qui m'a interpellé tout au long du cours, c'est que les documents étaient en anglais. Je pensais avoir un niveau d'anglais intermédiaire, mais il s'avère que ce n'était pas le cas. Mais cela ne m'a pas découragé. Pendant que j'apprenais à écrire du code, j'ai aussi amélioré mon anglais.",
+  answer7:
+    "Les heures de cours étaient organisées de manière à s'adapter aux horaires des personnes qui travaillaient, mais comme je travaillais au bar, mes heures de travail ne correspondaient pas. J'ai dû faire des sacrifices pour cela. Nous avons parlé à mon employeur et ajusté mes heures en conséquence, et il m'a soutenu de toutes les manières.",
+  answer8:
+    "Le programme du cours était vraiment préparé pour inclure les langues et les technologies les plus recherchées dans la vie des affaires, donc je n'ai eu aucune difficulté dans ma recherche de stage. J'avais déjà appris tout ce qu'ils voulaient que je sache dans le cours. Nous sommes en contact avec tous les stagiaires et formateurs via notre plateforme de communication, Slack. Nous n'avons pas cessé de communiquer simplement parce que le cours était terminé. Toute l'équipe continue d'échanger des idées et de nous aider à nous améliorer, même après la fin du cours.",
+  answer9:
+    "Ils doivent s'assurer de ne manquer aucune leçon. Dans de tels cas, ils doivent absolument regarder la leçon enregistrée. S'ils terminent les tâches données à temps, ils n'auront aucun problème. L'une des erreurs que moi et beaucoup de mes camarades de classe avons commises a été d'être gêné et de ne pas poser de questions. N'ayez pas peur de poser des questions. Rappelez-vous que personne n'achète un tel cours comme passe-temps. Tout le monde est là pour apprendre quelque chose. Le programme du cours a été préparé pour les personnes qui n'ont aucune expérience et qui souhaitent changer leurs objectifs de carrière à partir de zéro. Je peux dire que vous ne quitterez pas ce programme les mains vides avec un peu d'anglais et d'efforts.",
+  next: "Suivant",
+  address_title: "Notre adresse",
+  address_desc: "29 Şehit Idris Doğan Avenue, Gelibolu, Nicosia, North Cyprus",
+};
+
 var i18n = $.i18n();
 
 function getParameterByName(name, url = window.location.href) {
