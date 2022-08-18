@@ -34,10 +34,10 @@ $.i18n.en = {
   question3:
     "What were your plans for the end of the course? Has any of these come true?",
   question4:
-    "What was your reason for choosing Cyprus Codes over other courses in the market (or online courses)?",
+    "What was your reason for choosing CyprusCodes over other courses in the market (or online courses)?",
   question5:
     "What was the best moment for you in the Cyprus Codes Fastrack Full Stack Developer course?",
-  question6: "What challanged you the most throughout the course?",
+  question6: "What challenged you the most throughout the course?",
   question7:
     "How did you achieve a balance between the course and your responsibilities in your social life?",
   question8:
@@ -153,6 +153,50 @@ $.i18n.ru = {
   address_desc: "29 Şehit Idris Doğan Avenue, Gelibolu, Nicosia, North Cyprus",
 };
 
+$.i18n.fr = {
+  menu_1: "Éducation",
+  menu_2: "Cours",
+  menu_3: "carrière",
+  menu_4: "FAQ",
+  menu_5: "Contact",
+  menu_6: "Se Connecter",
+  about_me: "D'ingénieur en science des matériaux à développeur Full Stack",
+  question1: "Salut, quel est ton nom?",
+  question2: "Pourriez-vous s'il vous plaît nous parler un peu de vous?",
+  question3:
+    "Quels étaient vos plans pour la fin du stage ? Est-ce que l'un d'entre eux s'est réalisé?",
+  question4:
+    "Quelle était votre raison de choisir CyprusCodes plutôt que d'autres cours sur le marché (ou des cours en ligne) ?",
+  question5:
+    "Quel a été le meilleur moment pour vous dans le cours Chypre Codes Fastrack Full Stack Developer ?",
+  question6:
+    "Qu'est-ce qui vous a le plus interpellé tout au long du parcours ?",
+  question7:
+    "Comment avez-vous trouvé un équilibre entre le cours et vos responsabilités dans votre vie sociale ?",
+  question8:
+    "Y a-t-il autre chose que vous voudriez ajouter à propos de votre expérience dans le cours ?",
+  question9:
+    "Quels conseils donneriez-vous aux personnes qui suivent actuellement la formation ?",
+  answer2:
+    "La formation que j'ai reçue au cours de mes études de licence et de maîtrise dans les domaines de l'ingénierie des sciences des matériaux et de la technologie des panneaux solaires n'était pas vraiment liée aux logiciels, mais en apprenant de minuscules éléments de codage, j'ai réalisé que je voulais plonger dans ce grand monde. S'il y a une chose que j'ai apprise de mon expérience de travail en ingénierie, je suppose que c'est que je ne suis pas vraiment une personne de terrain. J'étais dans une période transitoire de ma vie quand j'ai commencé le cursus, doctorant basé sur la modélisation et la simulation. Puisque je suis un scientifique et un ingénieur dans l'âme, j'ai l'habitude d'apprendre et de me demander comment tout fonctionne. J'ai suivi le cours avec la motivation de m'améliorer dans le domaine des logiciels, d'apprendre le côté 'comment' de ce que ces appareils nous montrent chaque jour, et de n'exister que dans le domaine de l'ingénierie",
+  answer3:
+    "Le plan que j'ai en tête pendant le cours et à la fin est d'évaluer les options commerciales au niveau «développeur junior» et d'avancer dans ce domaine. Actuellement, je renforce l'éducation que j'ai reçue dans le cours, et j'ai eu la chance de faire partie de l'équipe de CyprusCodes, que j'aime beaucoup, d'acquérir de l'expérience dans ce domaine et de m'améliorer",
+  answer4:
+    "J'ai choisi CyprusCodes en raison du fait que le même programme de cours a été essayé et mis en œuvre au sein de ManchesterCodes avant et en raison de ma confiance dans les carrières et les connaissances des instructeurs du cours.",
+  answer5:
+    "Quand j'ai regardé mes amis ingénieurs en logiciel, j'étais heureux et satisfait de comprendre ce qu'ils faisaient. En particulier, nos expériences dans le processus de réalisation de notre propre projet, en tant que groupe, ont été les moments les plus agréables du cours.",
+  answer6:
+    "La nature intense et difficile de certaines matières nécessitait de longues heures d'étude et pouvoir consacrer un tel temps m'a mis au défi",
+  answer7:
+    "Étant donné que les heures de cours sont adaptées aux personnes qui travaillent, cela n'a pas beaucoup affecté mes responsabilités dans ma vie sociale",
+  answer8:
+    "Il est très agréable pour une personne qui est ingénieur de cœur et de profession de connaître l'envers de la technologie que nous utilisons dans notre vie quotidienne. Je me sens très chanceux de pouvoir vivre cette opportunité et d'avoir la chance de passer du temps avec une équipe aussi dynamique et solidaire",
+  answer9:
+    "Ne dites pas que vous ne pouvez pas, étudiez simplement et concentrez-vous sur l'apprentissage, pas sur la mémorisation. Si vous êtes curieux comme moi, si vous voulez un travail avec des options comme le travail à domicile, commencez sans perdre beaucoup de temps. Si nous ne commençons pas et ne tardons pas, nous ne réussirons pas, mais une fois que nous aurons commencé, nous pourrons",
+  next: "Suivant",
+  address_title: "Notre adresse",
+  address_desc: "29 Şehit Idris Doğan Avenue, Gelibolu, Nicosia, North Cyprus",
+};
 var i18n = $.i18n();
 
 function getParameterByName(name, url = window.location.href) {
