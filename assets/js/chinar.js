@@ -150,6 +150,52 @@ $.i18n.ru = {
   address_title: "Наш адресс",
   address_desc: "29 Şehit Idris Doğan Avenue, Gelibolu, Nicosia, North Cyprus",
 };
+
+$.i18n.fr = {
+  menu_1: "Éducation",
+  menu_2: "Cours",
+  menu_3: "carrière",
+  menu_4: "FAQ",
+  menu_5: "Contact",
+  menu_6: "Se Connecter",
+  about_me: "De barman à développeur junior",
+  question1: "Salut, quel est ton nom?",
+  question2: "Pourriez-vous s'il vous plaît nous parler un peu de vous?",
+  question3:
+    "Quels étaient vos plans pour la fin du stage ? Est-ce que l'un d'entre eux s'est réalisé?",
+  question4:
+    "Quelle était votre raison de choisir CyprusCodes plutôt que d'autres cours sur le marché (ou des cours en ligne) ?",
+  question5:
+    "Quel a été le meilleur moment pour vous dans le cours Chypre Codes Fastrack Full Stack Developer ?",
+  question6:
+    "Qu'est-ce qui vous a le plus interpellé tout au long du parcours ?",
+  question7:
+    "Comment avez-vous trouvé un équilibre entre le cours et vos responsabilités dans votre vie sociale ?",
+  question8:
+    "Y a-t-il autre chose que vous voudriez ajouter à propos de votre expérience dans le cours ?",
+  question9:
+    "Quels conseils donneriez-vous aux personnes qui suivent actuellement la formation ?",
+  answer2:
+    "J'étais étudiant en master de production cinématographique lorsque j'ai suivi le cours et malheureusement, l'industrie cinématographique est une industrie défaillante. Pour ne pas couler avec un navire qui coule, j'ai choisi la programmation qui était le métier de mon père. Le codage est l'avenir le plus logique pour moi avec mon expérience de codage presque nulle.",
+  answer3:
+    "Spécialisé dans l'industrie de l'IA après avoir acquis une expérience dans un poste de programmation dans une grande entreprise.Je travaille actuellement dans une grande entreprise",
+  answer4:
+    "Contrairement à d'autres cours, dans ce cours, les programmeurs qui réussissent prennent toujours soin de vous et vous aident lorsque vous êtes bloqué. Des milliers de personnes regardent des cours vidéo en ligne et tous les étudiants ne sont pas aidés individuellement.",
+  answer5:
+    "CyprusCodes m'a montré de nombreux concepts, techniques de recherche/apprentissage et m'a donné l'opportunité de me développer, ce qui m'a rendu très heureux en tant que programmeur.",
+  answer6:
+    "Les tests xit et intégration du système d'exploitation Windows dans Linux.",
+  answer7:
+    "Je n'ai pas pu le faire en première période parce que ça explose le cerveau, puis ça s'améliore avec beaucoup de chocolat et de répétitions.",
+  answer8:
+    "Le cours était très agréable et instructif. Regarder des rediffusions de conférences en direct n'a pas de prix.",
+  answer9:
+    "Dictionnaire anglais, beaucoup de collations, une chaise confortable et beaucoup de répétitions de leçons.",
+  next: "Suivant",
+  address_title: "Notre adresse",
+  address_desc: "29 Şehit Idris Doğan Avenue, Gelibolu, Nicosia, North Cyprus",
+};
+
 var i18n = $.i18n();
 
 function getParameterByName(name, url = window.location.href) {

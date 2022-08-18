@@ -151,6 +151,51 @@ $.i18n.ru = {
   address_desc: "29 Şehit Idris Doğan Avenue, Gelibolu, Nicosia, North Cyprus",
 };
 
+$.i18n.fr = {
+  menu_1: "Éducation",
+  menu_2: "Cours",
+  menu_3: "carrière",
+  menu_4: "FAQ",
+  menu_5: "Contact",
+  menu_6: "Se Connecter",
+  about_me: "De barman à développeur junior",
+  question1: "Salut, quel est ton nom?",
+  question2: "Pourriez-vous s'il vous plaît nous parler un peu de vous?",
+  question3:
+    "Quels étaient vos plans pour la fin du stage ? Est-ce que l'un d'entre eux s'est réalisé?",
+  question4:
+    "Quelle était votre raison de choisir CyprusCodes plutôt que d'autres cours sur le marché (ou des cours en ligne) ?",
+  question5:
+    "Quel a été le meilleur moment pour vous dans le cours Chypre Codes Fastrack Full Stack Developer ?",
+  question6:
+    "Qu'est-ce qui vous a le plus interpellé tout au long du parcours ?",
+  question7:
+    "Comment avez-vous trouvé un équilibre entre le cours et vos responsabilités dans votre vie sociale ?",
+  question8:
+    "Y a-t-il autre chose que vous voudriez ajouter à propos de votre expérience dans le cours ?",
+  question9:
+    "Quels conseils donneriez-vous aux personnes qui suivent actuellement la formation ?",
+  answer2:
+    "Je travaille comme analyste bancaire et financier dans une agence internationale de notation de crédit depuis 2017. En tant qu'analyste qui suit de près les développements technologiques dans le secteur de la finance et des technologies financières, j'ai commencé à m'intéresser au secteur de la technologie et des logiciels Web. . Je me suis inscrit au cours CyprusCodes Fast-Track SE afin d'avoir l'infrastructure pour développer mes propres idées à l'avenir et pour améliorer mes compétences générales en programmation que je peux utiliser en tant qu'analyste.",
+  answer3:
+    "Après le cours, j'ai postulé pour un emploi de chargé de cours à temps partiel à l'école de programmation ManchesterCodes. Fort de l'expérience que j'ai acquise au cours, j'ai réussi les entretiens de recrutement et commencé à donner des cours de programmation de base Javascript à temps partiel à des étudiants qui débutent. De plus, grâce à la progression de mes compétences en programmation, j'ai commencé à utiliser différents langages de programmation et techniques de collecte de données tout en développant les modèles financiers et économiques sur lesquels je travaillais dans le secteur de la finance.",
+  answer4:
+    "La raison la plus importante pour choisir CyprusCodes était le fait que le programme de cours était couvert par les Codes de Manchester depuis longtemps, et les réalisations significatives ont été obtenues en conséquence. De plus, l'expérience internationale du personnel enseignant a été l'un des facteurs importants qui m'ont fait choisir CyprusCodes. De plus, la promesse des instructeurs d'accompagner les étudiants de manière intense, presque 24h/24 et 7j/7, a joué un rôle important dans le choix de ce cours.",
+  answer5:
+    "Pouvoir développer à la fois la base de données et l'interface utilisateur d'un site Web à partir de zéro en 6 mois et améliorer mes compétences en programmation en général ont été les résultats les plus satisfaisants du cours. Pouvoir utiliser mes compétences en programmation dans la finance ainsi que ma carrière dans les logiciels Web a été un résultat positif pour moi.",
+  answer6:
+    "Ce fut une expérience extrêmement difficile de suivre le cours CyprusCodes à temps partiel tout en travaillant à plein temps à un rythme très intense.",
+  answer7:
+    "En assistant régulièrement aux cours et en étudiant régulièrement les sujets.",
+  answer8:
+    "Je pense que le projet de fin d'études du cours était la partie la plus amusante et aussi la plus éducative du cours. En travaillant sur le projet avec les instructeurs, nous avons bénéficié de leur expérience en développement de logiciels et avons rapidement résolu les problèmes et développé un site de haute qualité en peu de temps.",
+  answer9:
+    "Mon conseil pour eux est de donner la même importance à chaque partie du cours, de s'entraîner régulièrement et d'obtenir immédiatement le soutien des instructeurs dans les parties avec lesquelles ils ont du mal.",
+  next: "Suivant",
+  address_title: "Notre adresse",
+  address_desc: "29 Şehit Idris Doğan Avenue, Gelibolu, Nicosia, North Cyprus",
+};
+
   var i18n = $.i18n();
 
 function getParameterByName(name, url = window.location.href) {
