@@ -21,7 +21,9 @@
   <meta name="theme-color" content="#fa7070" />
 
   <!-- Dependency Styles -->
-  <link rel="stylesheet" href="dependencies/bootstrap/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="dependencies/bootstrap/css/bootstrap.min.css" type="text/css" /> -->
   <link rel="stylesheet" href="dependencies/fontawesome/css/all.min.css" type="text/css" />
   <link rel="stylesheet" href="dependencies/swiper/css/swiper.min.css" type="text/css" />
   <link rel="stylesheet" href="dependencies/wow/css/animate.css" type="text/css" />
@@ -79,7 +81,7 @@
             <span class="bar"></span>
           </div>
           <!-- /.toggle-menu -->
-
+    
           <div class="site-mobile-logo">
             <a href="index.html" class="logo">
               <img src="assets/img/cc_logo.png" alt="site logo" class="main-logo" />
@@ -87,55 +89,52 @@
               <!-- <h3>Cyprus<b>Codes.</b></h3> -->
             </a>
           </div>
-
+    
           <nav class="site-nav">
             <div class="close-menu">
               <span>Close</span>
               <i class="ei ei-icon_close"></i>
             </div>
-
+    
             <div class="site-logo">
               <a href="index.html" class="logo">
                 <img src="assets/img/cc_logo.png" alt="site logo" class="main-logo" />
                 <img src="assets/img/cc_logo.png" alt="site logo" class="sticky-logo" />
-
+    
                 <!-- <h3>Cyprus<b>Codes.</b></h3> -->
               </a>
             </div>
             <!-- /.site-logo -->
-
+    
             <div class="menu-wrapper" data-top="992">
-              <ul class="site-main-menu">
-                <li><a class="nav-kurs" href="#kurs">Eğitim</a></li>
-                <li class="menu-item-has-children">
-                  <a href="#egtim">Kurslar</a>
-                  <ul class="sub-menu">
-                    <li>
-                      <a href="kurs1.html">FullStack Engineering</a>
-                    </li>
-                    <li><a href="kurs2.html">Coding Fundamentals </a></li>
-                    <li><a href="kurs3.html">Ux-UI Design MasterClass</a></li>
-                    <li><a href="kurs4.html">Robotik Kodlama </a></li>
-                    <li><a href="kurs5.html">Phyton</a></li>
-                    <li>
-                      <a href="kurs6.html"> Visual Graphic Communication</a>
-                    </li>
-                    <li><a href="kurs7.html">Digital Marketting</a></li>
-                  </ul>
-                </li>
-                <li><a class="nav-kurs" href="#egtim">Kariyer Yolu</a></li>
+              <ul class="site-main-menu pix-tabs-nav">
+                <li><a class="nav-kurs" href="index.html#kurs" data-translate='menu_1'>Eğitim</a></li>
+                <li><a class="nav-kurs" href="#kurs" data-translate='menu_2'>Kurslar</a></li>
+                <li><a class="nav-kurs" href="basarimlar.html" data-translate='menu_3'>Kariyer Yolu</a></li>
                 <li>
-                  <a class="nav-faq" href="#faq">Sıkça Sorulan Sorular</a>
+                  <a class="nav-faq" href="index.html#faq" data-translate='menu_4'>Sıkça Sorulan Sorular</a>
                 </li>
-
-                <li><a class="nav-contact" href="#contact">İletişim</a></li>
+    
+                <li><a class="nav-contact" href="index.html#contact" data-translate='menu_5'>İletişim</a></li>
               </ul>
-
+    
               <div class="nav-right">
-                <a id="tek" class="nav-btn">Yerini Ayır</a>
+                <a id="tek" href="https://platform.cypruscodes.com/" target="_blank" class="nav-btn"
+                  data-translate='menu_6'>Giriş Yap</a>
               </div>
-            </div>
-            <!-- /.menu-wrapper -->
+              <div class="dropdown droplang">
+                <button class="btn dropdown-toggle dropdownMenuButton" type="button" id="dropdownMenuButton"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  EN
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="lang">
+                  <a class="dropdown-item" href="?lang=tr">TR <img src="assets/img/tr.png" alt="tr" width="20%" /></a>
+                  <a class="dropdown-item" href="?lang=en">EN <img src="assets/img/en.png" alt="en" width="20%" /></a>
+                  <!-- <a class="dropdown-item" href="?lang=ru">RU <img src="assets/img/ru.png" alt="ru" width="20%" /></a> -->
+                  <a class="dropdown-item" href="?lang=fr">FR <img src="assets/img/fr.png" alt="fr" width="20%" /></a>
+                </div>
+              </div>
+              <!-- /.menu-wrapper -->
           </nav>
           <!-- /.site-nav -->
         </div>
@@ -235,9 +234,9 @@
     <section id="kurs" class="countup-two" style="margin-top: 70px">
       <div class="container mt-5 pt-3">
         <div class="section-title color-two text-center">
-          <h2 class="title wow pixFadeUp">FullStack Engineering Fastrack</h2>
+          <h2 class="title wow pixFadeUp" data-translate="fullstack">FullStack Engineering Fastrack</h2>
 
-          <p class="wow fadeInUp" data-wow-delay="0.3s">
+          <p class="wow fadeInUp" data-wow-delay="0.3s" data-translate="education_desc">
             İngiltere’nin önde gelen programlama okulu
             <strong>ManchesterCodes</strong> işbirliğiyle geliştirilen
             müfredatımız, <br /><strong>BBC</strong> ve
@@ -256,7 +255,7 @@
                 </div>
                 <div class="counter">
                   <h4 class="count" data-counter="24">24</h4>
-                  <p>Hafta</p>
+                  <p data-translate="duration_time_week">Hafta</p>
                 </div>
                 <!-- /.counter -->
               </div>
@@ -271,7 +270,7 @@
                 </div>
                 <div class="counter">
                   <h4 class="count" data-counter="288">288</h4>
-                  <p>Ders Saati</p>
+                  <p data-translate="duration_time_hours">Ders Saati</p>
                 </div>
                 <!-- /.counter -->
               </div>
@@ -288,7 +287,7 @@
                 </div>
                 <div class="counter">
                   <h4 class="count" data-counter="10’u">10’u</h4>
-                  <p>Aşkın proje</p>
+                  <p data-translate="project_count">Aşkın proje</p>
                 </div>
                 <!-- /.counter -->
               </div>
@@ -320,11 +319,11 @@
                 visibility: visible;
                 animation-delay: 0.3s;
                 animation-name: pixFadeUp;
-              ">
+              " data-translate="curriculum">
             Öğretim Programı
           </h2>
 
-          <p class="wow pixFadeUp" data-wow-delay="0.5s">
+          <p class="wow pixFadeUp" data-wow-delay="0.5s" data-translate="curriculum_desc">
             Yazılım Mühendisliği programımız sayesinde sadece 24 hafta
             içerisinde sıfırdan işe hazır yazılımcı seviyesine geleceksiniz.
             <br />
@@ -343,24 +342,24 @@
               <nav class="pix-tab-navs">
                 <ul class="gp-tabs-navigation">
                   <li data-content="inbox" class="active-tab active tab-nav-item">
-                    <a href="#0" class="acc-btn">Başlangıç (4 hafta)</a>
+                    <a href="#0" class="acc-btn" data-translate="schedule1_title">Başlangıç (4 hafta)</a>
                     <div class="content">
-                      <p>
+                      <p data-translate="schedule1_desc1">
                         Kursun ilk 4 haftasında bir yazılımcının günlük
                         hayatında kullandığı tüm araç ve programlarla haşır
                         neşir olacaksınız.
                       </p>
-                      <p>
+                      <p data-translate="schedule1_desc2">
                         Yazdığınız kodu depolamak veya paylaşmak için
                         <strong>Git ve GitHub</strong> servislerini kullanmayı
                         öğreneceksiniz.
                       </p>
-                      <p>
+                      <p data-translate="schedule1_desc3">
                         Bilgisayarınızı daha etkili bir şekilde kullanabilmek
                         için <strong>terminal</strong> becerileri
                         edineceksiniz.
                       </p>
-                      <p>
+                      <p data-translate="schedule1_desc4">
                         İlk web sayfanızı oluşturmak için
                         <strong>HTML, CSS ve JavaScript</strong>'in
                         temellerini öğreneceksiniz.
@@ -368,27 +367,27 @@
                     </div>
                   </li>
                   <li class="tab-nav-item" data-content="new">
-                    <a href="#0" class="acc-btn">Temel Programlama (6 hafta)</a>
+                    <a href="#0" class="acc-btn" data-translate="schedule2_title">Temel Programlama (6 hafta)</a>
                     <div class="content">
-                      <p>
+                      <p data-translate="schedule2_desc1">
                         Değişkenler, koşullar, diziler ve döngüler gibi temel
                         programlama konseptleriyle tanışacaksınız.
                       </p>
-                      <p>
+                      <p data-translate="schedule2_desc2">
                         Yazdığınız kodun doğru çalışıp çalışmadığını test
                         etmeyi öğreneceksiniz. Buna ilaveten,
                         <strong>Test Driven Development (TDD)</strong> adı
                         verilen, test yazmayı önplana taşıyan programlama
                         metodunu öğreneceksiniz.
                       </p>
-                      <p>
+                      <p data-translate="schedule2_desc3">
                         Dünyayı kasıp kavuran en popüler programlama
                         dillerinden <strong>JavaScript</strong> dilinin
                         temellerini ve modern kullanım alanlarını
                         öğreneceksiniz. JavaScript sayesinde kendi web-tabanlı
                         veya mobil uygulamalarınızı geliştirebilirsiniz.
                       </p>
-                      <p>
+                      <p data-translate="schedule2_desc4">
                         Profesyonal yazılımcıların program yazarken dikkat
                         ettiği endüstri standartlarını ve işin püf noktalarını
                         öğreneceksiniz.
@@ -396,36 +395,36 @@
                     </div>
                   </li>
                   <li class="tab-nav-item" data-content="gallery" class="">
-                    <a href="#0" class="acc-btn">Veritabanları ve API Geliştirme (6 hafta)</a>
+                    <a href="#0" class="acc-btn" data-translate="schedule3_title">Veritabanları ve API Geliştirme (6 hafta)</a>
                     <div class="content">
-                      <p>
+                      <p data-translate="schedule3_desc1"></p>>
                         Dünyanın en popüler veritabanı yazılımlarından MySQL'i
                         kullanarak kendi veritabanlarınızı tasarlayıp, veri
                         depolayıp ve sorgulayabileceksiniz.
                       </p>
-                      <p>
+                      <p data-translate="schedule3_desc2">
                         İnternetin nasıl çalıştığını, HTTP protokolünün
                         temellerini ve internete bağlı cihazların
                         birbirleriyle nasıl iletişim kurduğunu öğreneceksiniz.
                       </p>
-                      <p>
+                      <p data-translate="schedule3_desc3">
                         Nodejs ve Express kütüphanelerini kullanarak Internet
                         tabanlı sunucu servisleri (API) geliştirebileceksiniz.
                       </p>
                     </div>
                   </li>
                   <li class="tab-nav-item" data-content="gallery" class="">
-                    <a href="#0" class="acc-btn">Kullanıcı Arayüzü Geliştirme (6 hafta)</a>
+                    <a href="#0" class="acc-btn" data-translate="schedule3_title">Kullanıcı Arayüzü Geliştirme (6 hafta)</a>
 
                     <div class="content">
-                      <p>
+                      <p data-translate="schedule4_desc1">
                         Facebook tarafından geliştirilmiş dünya çapında
                         onbinlerce firma tarafından kullanılan
                         <strong>React</strong> arayüz geliştirme kütüphanesini
                         kullanarak kendi web tabanlı ve mobil uygulamalarınızı
                         geliştirebileceksiniz.
                       </p>
-                      <p>
+                      <p data-translate="schedule4_desc2">
                         Geliştirdiğiniz uygulamaları otomatik bir şekilde test
                         edebileceksiniz.
                       </p>
@@ -521,12 +520,12 @@
         <div class="row align-items-center">
           <div class="col-md-8">
             <div class="signup-heading wow pixFadeUp">
-              <h2 class="title">
-                Start managing your<br />
-                SaaSpik. bettet
+              <h2 class="title" data-translate="membership_title">
+                CyprusCodes Eğitim Portalına<br />
+                Hemen Üye Ol
               </h2>
 
-              <p>try any products free for 30 days</p>
+              <p data-translate="membership_desc">*Ücretsiz başlangıç modülümüze anında erişebilirsin!</p>
             </div>
             <!-- /.signup-heading -->
           </div>
@@ -547,9 +546,9 @@
     <section class="testimonials swiper-init">
       <div class="container">
         <div class="section-title text-center">
-          <h3 class="sub-title wow pixFadeUp">Testiimonial</h3>
-          <h2 class="title wow pixFadeUp" data-wow-delay="0.3s">
-            What our client say about us
+          <h3 class="sub-title wow pixFadeUp" data-translate="testimonial">Referanslar</h3>
+          <h2 class="title wow pixFadeUp" data-wow-delay="0.3s" data-translate="testimonial_desc">
+            Müşterilerimiz bizim hakkımızda ne diyor
           </h2>
         </div>
         <!-- /.section-title -->
@@ -560,23 +559,28 @@
               <div class="swiper-slide">
                 <div class="testimonial">
                   <div class="single-bio-thumb">
-                    <img src="media/testimonial/1.jpg" alt="testimonial" />
+                    <img src="media/testimonial/erto.png" alt="testimonial" />
                   </div>
                   <!-- /.single-bio-thumb -->
 
                   <div class="testimonial-content">
-                    <p>
-                      Tosser nancy boy super tickety-boo lemon squeezy easy
-                      peasy quaint, hunky-dory baking cakes pear shaped butty
-                      do one, it's all gone to pot chinwag I cuppa Eaton.
-                      Porkies amongst cockup absolutely bladdered cobblers.!
+                    <p data-translate="testimonial_erto">
+                      Cyprus codes team olarak yapılan bu kursda verilen eğitimden çok memnunum 6 aylık kısa bir sürecin
+                      içinde 0 dan junior
+                      developer olmamızı sağlayan hocalarımız sayesinde hayata bakış açımız değişti ve şu andaki meslek
+                      yönelimimi yazılım
+                      mühendisliğine çevrildi. <br />
+                      Verilen dersleri anlatımı ve yapım eğlencesi açısından konuya hakim olabilmemizi çok güçlü
+                      olmuştur, hocaların öğrencilere verdiği ilgi ve efor sayesinde "yazılım nedir" sorusunu soran 7
+                      den 70 e herkesin bu
+                      kursu aldıktan sonra yazılım bilgisini çok güçlü bir şekilde arttıran eğlenceli bir kursdur.
                     </p>
                   </div>
                   <!-- /.testimonial-content -->
 
                   <div class="bio-info">
-                    <h3 class="name">Desmond Eagle</h3>
-                    <span class="job">Web designer</span>
+                    <h3 class="name">Erto Coskuner</h3>
+                    <span class="job" data-translate="testimonial_country">Lefkoşa, Kuzey Kıbrıs Türk Cumhuriyeti</span>
                   </div>
                   <!-- /.bio-info -->
                 </div>
@@ -586,54 +590,65 @@
               <div class="swiper-slide">
                 <div class="testimonial">
                   <div class="single-bio-thumb">
-                    <img src="media/testimonial/1.jpg" alt="testimonial" />
+                    <img src="media/testimonial/ersoy.png" alt="testimonial" />
                   </div>
                   <!-- /.single-bio-thumb -->
 
                   <div class="testimonial-content">
-                    <p>
-                      Tosser nancy boy super tickety-boo lemon squeezy easy
-                      peasy quaint, hunky-dory baking cakes pear shaped butty
-                      do one, it's all gone to pot chinwag I cuppa Eaton.
-                      Porkies amongst cockup absolutely bladdered cobblers.!
+                    <p data-translate="testimonial_erhan">
+                      Öncelikle Cyprus Codes yazılım mühendisliği kursundan çok memnun kaldım. İçerik ve anlatıma ek
+                      olarak Cyprus Codes'u
+                      diğer eğitimlerden ayıran en büyük özellik, öğrencilerin takıldığı noktalarda, eğitmen ve diğer
+                      öğrencilerin bulunduğu
+                      platformda sorularımıza yanıt bulabilmek olmuştur.
+                      <br />
+                      Ayrıca kursun diğer bir katkısı, yazılım için doğru araştırma
+                      tekniklerini öğrenmek olmuştur. Bu sayede yazılım bilgimi geliştirmeye devam ediyorum. Cyprus
+                      Codes ailesine teşekkür
+                      ederim.
                     </p>
                   </div>
                   <!-- /.testimonial-content -->
 
                   <div class="bio-info">
-                    <h3 class="name">Desmond Eagle</h3>
-                    <span class="job">Web designer</span>
+                    <h3 class="name">Erhan Ersoy</h3>
+                    <span class="job" data-translate="testimonial_country">Lefkoşa, Kuzey Kıbrıs Türk Cumhuriyeti</span>
                   </div>
                   <!-- /.bio-info -->
                 </div>
                 <!-- /.testimonial -->
               </div>
-
               <div class="swiper-slide">
                 <div class="testimonial">
                   <div class="single-bio-thumb">
-                    <img src="media/testimonial/1.jpg" alt="testimonial" />
+                    <img src="media/testimonial/rahmi.jpeg" alt="testimonial" />
                   </div>
                   <!-- /.single-bio-thumb -->
 
                   <div class="testimonial-content">
-                    <p>
-                      Tosser nancy boy super tickety-boo lemon squeezy easy
-                      peasy quaint, hunky-dory baking cakes pear shaped butty
-                      do one, it's all gone to pot chinwag I cuppa Eaton.
-                      Porkies amongst cockup absolutely bladdered cobblers.!
+                    <p data-translate="testimonial_rahmi">
+                      Kursa başlarken her ne kadar eğitim kadrosnunun yurt dışı tecrübesi olsa da, bir takım şüphelerim
+                      vardı. Kurs başladıktan kısa bir süre sonra, hem eğitim kadrosunun ilgi ve alakası hem de
+                      kullanılan iletişim platformundaki (Slack) ekip arkadaşlarımın yardımlaşması ile bu şüphelerimin
+                      yersiz olduğunu anladım.
+                      <br />
+                      Bu süreçte hem kendi başıma doğru kaynaklarla kod yazmayı hem de
+                      projelerle problem çözme becerilerimi geliştirmemde yardımcı olan CyprusÇodes eğitmenlerine ve
+                      grup arkadaşlarıma çok teşekkür eder, kursu dijital yetkinliklerini artırmak isteyen her yaştan
+                      insana memnuniyetle tavsiye ederim.
                     </p>
                   </div>
                   <!-- /.testimonial-content -->
 
                   <div class="bio-info">
-                    <h3 class="name">Desmond Eagle</h3>
-                    <span class="job">Web designer</span>
+                    <h3 class="name">Rahmi Atalay</h3>
+                    <span class="job" data-translate="testimonial_country">Lefkoşa, Kuzey Kıbrıs Türk Cumhuriyeti</span>
                   </div>
                   <!-- /.bio-info -->
                 </div>
                 <!-- /.testimonial -->
               </div>
+
             </div>
             <!-- /.swiper-wrapper -->
           </div>
@@ -653,7 +668,7 @@
       <!-- /.container -->
 
       <div class="scroll-circle wow pixFadeDown">
-        <img src="media/background/circle9.png" data-parallax='{"y" : 250}' alt="circle" />
+        <img src="media/background/ellipse2.png" data-parallax='{"y" : 250}' alt="circle" />
       </div>
     </section>
     <!-- /.testimonial -->
@@ -665,22 +680,22 @@
       <div class="container">
         <div class="tabs-wrapper">
           <div class="section-title text-center">
-            <h3 class="sub-title">S.S.S</h3>
+            <h3 class="sub-title" data-translate="faq">S.S.S</h3>
 
-            <h2 class="title">Sıkça Sorulan Sorular ve Cevapları</h2>
+            <h2 class="title" data-translate="faq_title">Sıkça Sorulan Sorular ve Cevapları</h2>
           </div>
           <ul class="nav faq-tabs" role="tablist">
             <li class="nav-item">
               <a class="nav-link active" id="design-tab" data-toggle="tab" href="#design" role="tab"
-                aria-controls="design" aria-selected="true">Genel</a>
+                aria-controls="design" aria-selected="true" data-translate="faq_category_1">Genel</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" id="service-tab" data-toggle="tab" href="#service" role="tab" aria-controls="service"
-                aria-selected="false">Kurs/Platform</a>
+                aria-selected="false" data-translate="faq_category_2">Kurs/Platform</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" id="general-tab" data-toggle="tab" href="#general" role="tab" aria-controls="general"
-                aria-selected="false">Yardım Formu</a>
+                aria-selected="false" data-translate="faq_category_3">Yardım Formu</a>
             </li>
           </ul>
           <div class="tab-content">
@@ -690,14 +705,14 @@
                   <div class="card-header" id="heading10">
                     <h5>
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse00"
-                        aria-expanded="false" aria-controls="collapse00">
+                        aria-expanded="false" aria-controls="collapse00" data-translate="faq_category_1_title_1">
                         CyprusCodes nedir?
                       </button>
                     </h5>
                   </div>
                   <div id="collapse00" class="collapse" aria-labelledby="heading10" data-parent="#accordionsing">
                     <div class="card-body">
-                      <p>
+                      <p data-translate="faq_category_1_desc_1">
                         Kuzey Kıbrısın ilk ve tek yarı-zamanlı web ve mobil
                         uygulama (web & mobile app) programlama kursu.
                         Amacımız Kuzey Kıbrıs içindeki yetenekleri biraraya
@@ -711,7 +726,7 @@
                   <div class="card-header" id="heading20">
                     <h5>
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse10"
-                        aria-expanded="false" aria-controls="collapse10">
+                        aria-expanded="false" aria-controls="collapse10" data-translate="faq_category_1_title_2">
                         Kimler bu kursa müracaat edebilir? Herhangi bir yaş
                         sınırlaması var mı?
                       </button>
@@ -720,7 +735,7 @@
                   <div id="collapse10" class="collapse" aria-labelledby="heading20" data-parent="#accordionsing"
                     style="">
                     <div class="card-body">
-                      <p>
+                      <p data-translate="faq_category_1_desc_2">
                         Kursumuza 16-60 yaş arası <b>herkes</b> muracaat
                         edebilir.
                       </p>
@@ -731,14 +746,14 @@
                   <div class="card-header" id="heading30">
                     <h5>
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse20"
-                        aria-expanded="false" aria-controls="collapse20">
+                        aria-expanded="false" aria-controls="collapse20" data-translate="faq_category_1_title_3">
                         Katılım koşulları nedir?
                       </button>
                     </h5>
                   </div>
                   <div id="collapse20" class="collapse" aria-labelledby="heading30" data-parent="#accordionsing">
                     <div class="card-body">
-                      <p>
+                      <p data-translate="faq_category_1_desc_3">
                         Kursumuza yazılım sektöründe kariyer yapmak isteyen
                         herkes katılabilir. CyprusCodes programlama okulunun
                         kapıları yazılım dünyasına ilk kez adım atacak
@@ -754,14 +769,14 @@
                   <div class="card-header" id="heading40">
                     <h5>
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse30"
-                        aria-expanded="false" aria-controls="collapse30">
+                        aria-expanded="false" aria-controls="collapse30" data-translate="faq_category_1_title_4">
                         Kurs saatleri ne şekildedir?
                       </button>
                     </h5>
                   </div>
                   <div id="collapse30" class="collapse" aria-labelledby="heading40" data-parent="#accordionsing">
                     <div class="card-body">
-                      <p>
+                      <p data-translate="faq_category_1_desc_4">
                         Kurs saatlerimiz çalışan bireyler göz önünde
                         bulundurularak hazırlanmıştır. Bu bağlamda dersler
                         Pazartesi - Çarşamba 18.30 - 21.30 saatleri arasında
@@ -776,14 +791,14 @@
                   <div class="card-header" id="heading42">
                     <h5>
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse32"
-                        aria-expanded="false" aria-controls="collapse32">
+                        aria-expanded="false" aria-controls="collapse32" data-translate="faq_category_1_title_5">
                         Ne zaman başvurabilirim?
                       </button>
                     </h5>
                   </div>
                   <div id="collapse32" class="collapse" aria-labelledby="heading42" data-parent="#accordionsing">
                     <div class="card-body">
-                      <p>
+                      <p data-translate="faq_category_1_desc_5">
                         Başvurularımız başlamıştır! Güncel haberlerden
                         faydalanmak için İnstagram ve Facebook üzerinden
                         CyprusCodes sayfasını takip edebilirsiniz.
@@ -795,7 +810,7 @@
                   <div class="card-header" id="heading43">
                     <h5>
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse33"
-                        aria-expanded="false" aria-controls="collapse33">
+                        aria-expanded="false" aria-controls="collapse33" data-translate="faq_category_1_title_6">
                         Programlama öğrenmek için matematiğimin iyi olması
                         gerekiyor mu?
                       </button>
@@ -803,7 +818,7 @@
                   </div>
                   <div id="collapse33" class="collapse" aria-labelledby="heading43" data-parent="#accordionsing">
                     <div class="card-body">
-                      <p>
+                      <p data-translate="faq_category_1_desc_6">
                         <b>Hayır!</b> Web sitesi e uygulama oluşturmak için
                         mantıklı düşünmek daha önemlidir ve okulda
                         öğrendiğiniz matematik kursumuz boyunca size yeterli
@@ -816,7 +831,7 @@
                   <div class="card-header" id="heading45">
                     <h5>
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse35"
-                        aria-expanded="false" aria-controls="collapse35">
+                        aria-expanded="false" aria-controls="collapse35" data-translate="faq_category_1_title_7">
                         Kurs bitiminde sertifika alacak mıyım?
                       </button>
                     </h5>
@@ -824,7 +839,7 @@
                   <div id="collapse35" class="collapse" aria-labelledby="heading45" data-parent="#accordionsing"
                     style="">
                     <div class="card-body">
-                      <p>
+                      <p data-translate="faq_category_1_desc_7">
                         Evet, kurs bitiminde başarılı öğrencilere CyprusCodes
                         Akademi Katılım Sertifikası ve CyprusCodes Akademi
                         Başarı Sertifikası verilecektir.
@@ -840,7 +855,7 @@
                   <div class="card-header" id="heading101">
                     <h5>
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse001"
-                        aria-expanded="false" aria-controls="collapse001">
+                        aria-expanded="false" aria-controls="collapse001" data-translate="faq_category_2_title_1">
                         Kursunuz başlangıç seviyesindekiler için uygun mu?
                       </button>
                     </h5>
@@ -848,7 +863,7 @@
                   <div id="collapse001" class="collapse show" aria-labelledby="heading101"
                     data-parent="#accordionsing-2">
                     <div class="card-body">
-                      <p>
+                      <p data-translate="faq_category_2_desc_1">
                         Evet! Kursumuz başlangıç seviyesindekiler için
                         uygundur ve herhangi bir programlama deneyimine
                         gereksinim yoktur.
@@ -860,14 +875,14 @@
                   <div class="card-header" id="heading201">
                     <h5>
                       <button class="btn btn-link" data-toggle="collapse" data-target="#collapse101"
-                        aria-expanded="true" aria-controls="collapse101">
+                        aria-expanded="true" aria-controls="collapse101" data-translate="faq_category_2_title_2">
                         Kursa katılırken ne gibi donanıma ihtiyacım var?
                       </button>
                     </h5>
                   </div>
                   <div id="collapse101" class="collapse" aria-labelledby="heading201" data-parent="#accordionsing-2">
                     <div class="card-body">
-                      <p>
+                      <p data-translate="faq_category_2_desc_2">
                         Kursa katılacak öğrencilerin yanlarında laptop
                         getirmeleri yeterli olacaktır. Öğrencilerin ders
                         akışını ve programlama dilini tam olarak
@@ -881,14 +896,14 @@
                   <div class="card-header" id="heading301">
                     <h5>
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse201"
-                        aria-expanded="false" aria-controls="collapse201">
+                        aria-expanded="false" aria-controls="collapse201" data-translate="faq_category_2_title_3">
                         Ders dokümanları ücretli mi?
                       </button>
                     </h5>
                   </div>
                   <div id="collapse201" class="collapse" aria-labelledby="heading301" data-parent="#accordionsing-2">
                     <div class="card-body">
-                      <p>
+                      <p data-translate="faq_category_2_desc_3">
                         Hayır. Ders dokümanlarına kursdan sonra bile internet
                         üzerinden erişiminiz olacaktır.
                       </p>
@@ -899,14 +914,14 @@
                   <div class="card-header" id="heading401">
                     <h5>
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse301"
-                        aria-expanded="false" aria-controls="collapse301">
+                        aria-expanded="false" aria-controls="collapse301" data-translate="faq_category_2_title_4">
                         Sınıflar kaç kişilik?
                       </button>
                     </h5>
                   </div>
                   <div id="collapse301" class="collapse" aria-labelledby="heading401" data-parent="#accordionsing-2">
                     <div class="card-body">
-                      <p>6-12 kişi arası.</p>
+                      <p data-translate="faq_category_2_desc_4">6-12 kişi arası.</p>
                     </div>
                   </div>
                 </div>
@@ -914,7 +929,7 @@
                   <div class="card-header" id="heading511">
                     <h5>
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse411"
-                        aria-expanded="false" aria-controls="collapse411">
+                        aria-expanded="false" aria-controls="collapse411" data-translate="faq_category_2_title_5">
                         Kurs bitiminde kullanabileceğim bir portföye sahip
                         olacak mıyım?
                       </button>
@@ -922,7 +937,7 @@
                   </div>
                   <div id="collapse411" class="collapse" aria-labelledby="heading511" data-parent="#accordionsing-2">
                     <div class="card-body">
-                      <p>
+                      <p data-translate="faq_category_2_desc_5">
                         Evet. Kursun sonunda, işverenlerin bakabileceği
                         kişisel GitHub hesabınızda en az 10 projeniz olacak.
                         Yazılım Mühendisi portföyleri için standart yaklaşım
@@ -939,7 +954,7 @@
                   <div class="card-header" id="heading102">
                     <h5>
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse002"
-                        aria-expanded="false" aria-controls="collapse002">
+                        aria-expanded="false" aria-controls="collapse002" data-translate="faq_category_3_title_1">
                         Yardım Formu nedir?
                       </button>
                     </h5>
@@ -947,7 +962,7 @@
                   <div id="collapse002" class="collapse show" aria-labelledby="heading102"
                     data-parent="#accordionsing-3">
                     <div class="card-body">
-                      <p>
+                      <p data-translate="faq_category_3_desc_1">
                         "Yardım Formu" cumartesi gunleri tüm gün gerçekleşen
                         online bir destek toplantısıdır. Burada aklınıza
                         gelebelicek tüm soruları sorabilir ve kurs sırasında
@@ -961,14 +976,14 @@
                   <div class="card-header" id="heading202">
                     <h5>
                       <button class="btn btn-link" data-toggle="collapse" data-target="#collapse102"
-                        aria-expanded="true" aria-controls="collapse102">
+                        aria-expanded="true" aria-controls="collapse102" data-translate="faq_category_3_title_2">
                         Mezunlarınıza iş imkanı sağlayabiliyor musunuz?
                       </button>
                     </h5>
                   </div>
                   <div id="collapse102" class="collapse" aria-labelledby="heading202" data-parent="#accordionsing-3">
                     <div class="card-body">
-                      <p>
+                      <p data-translate="faq_category_3_desc_2">
                         Evet. Başarılı öğrencileremize kariyerlerinin ilk
                         adımında destek olabiliyoruz.
                       </p>
@@ -979,7 +994,7 @@
                   <div class="card-header" id="heading302">
                     <h5>
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse202"
-                        aria-expanded="false" aria-controls="collapse202">
+                        aria-expanded="false" aria-controls="collapse202" data-translate="faq_category_3_title_3">
                         Mezun olduktan sonra da yardım formlarına erişimim
                         olacak mı?
                       </button>
@@ -987,7 +1002,7 @@
                   </div>
                   <div id="collapse202" class="collapse" aria-labelledby="heading302" data-parent="#accordionsing-3">
                     <div class="card-body">
-                      <p>Evet.</p>
+                      <p data-translate="faq_category_3_desc_3">Evet.</p>
                     </div>
                   </div>
                 </div>
@@ -995,14 +1010,14 @@
                   <div class="card-header" id="heading402">
                     <h5>
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse302"
-                        aria-expanded="false" aria-controls="collapse302">
+                        aria-expanded="false" aria-controls="collapse302" data-translate="faq_category_3_title_4">
                         Yardım Forumuna katılım zorunlu mu?
                       </button>
                     </h5>
                   </div>
                   <div id="collapse302" class="collapse" aria-labelledby="heading402" data-parent="#accordionsing-3">
                     <div class="card-body">
-                      <p>
+                      <p data-translate="faq_category_3_desc_4">
                         Hayır. Yardım Forumu tamamen size ekstradan destek
                         saglamak icin gercekleşiyor. Biz herzaman, gerek soru
                         sormak; gerek başkalarının sorularını yanıtlamak
@@ -1022,27 +1037,42 @@
 
         <div class="faq-forms">
           <div class="section-title text-center">
-            <h3 class="sub-title">İletişim formu</h3>
+            <h3 class="sub-title" data-translate="contact_title">İletişim formu</h3>
 
-            <h2 class="title">
+            <h2 class="title" data-translate="contact_desc">
               Daha fazla bilgi almak mı istiyorsun?<br />Biz seni arayalım!
             </h2>
           </div>
           <!-- /.section-title -->
-          <form action="#" class="faq-form" id="contact" data-pixsaas="contact-forms">
-            <div class="row">
+          <form action="#" class="faq-form" id="contact" data-pixsaas="contact-forms" name="myForm">
+            <div class=" row">
               <div class="col-md-6">
-                <input type="text" name="isim" placeholder="Ad Soyad" />
+                <input type="text" name="name" placeholder="Ad Soyad" id="names" />
+                <label class="alert-danger p-1" id="un" data-translate="name_must">Name must be filled out</label>
+
               </div>
 
               <div class="col-md-6">
-                <input type="text" name="telefon" placeholder="Telefon No" aria-required="" required="" />
+                <input type="text" name="telefon" placeholder="Telefon No" aria-required="" required />
+              </div>
+
+              <div class="col-md-6">
+                <select name="courseType" id="courseType">
+                  <option data-translate="select_course" disabled selected="selected">Select your course</option>
+                  <option data-translate="fullstack" value="fast-track">Fullstack Engineer Fastrack</option>
+                  <option data-translate="robotik" value="robotic">Robotic Coding for ages 8-12</option>
+                  <option data-translate="other" value="other">Others</option>
+                </select>
+                <label class="alert-danger p-1" id="deux" data-translate="course_must">Course must be selected</label>
+              </div>
+              <div class="col-md-6">
+                <input type="email" name="email" placeholder="Email" id="email" />
+                <label class="alert-danger p-1" id="trois" data-translate="email_must">Email must be filled out</label>
               </div>
             </div>
-
             <textarea name="mesaj" cols="30" rows="10" placeholder="Mesaj"></textarea>
 
-            <button type="submit" id="submit-Contactform" class="pix-btn submit-btn">
+            <button type="button" id="submit-Contactform" class="pix-btn submit-btn" data-translate="contact_btn">
               Gönder
             </button>
 
@@ -1077,31 +1107,30 @@
                 aren’t ﬂexible. Neither is a violin, or a typewriter, until
                 you learn how to use it.” <br />- Marvin Minsky
               </p>
-
               <!-- /.widget footer-widget -->
             </div>
             <!-- /.col-lg-3 col-md-6 -->
 
             <div class="col-lg-3 col-md-6">
               <!-- <div class="widget footer-widget">
-								<h3 class="widget-title">Bize Ulaşın</h3>
-
-								<ul class="footer-menu">
-									<li><a class="nav-faq" href="#faq">Kurs</li>
-									<li><a class="nav-faq" href="#faq">Eğitim Portalı</li>
-									<li><a class="nav-faq" href="#faq">Sıkca Sorulan Sorular</li>
-									<li><a class="nav-contact" href="#contact">İletişim</a></li>							
-								</ul>
-							</div> -->
+    								<h3 class="widget-title">Bize Ulaşın</h3>
+    
+    								<ul class="footer-menu">
+    									<li><a class="nav-faq" href="#faq">Kurs</li>
+    									<li><a class="nav-faq" href="#faq">Eğitim Portalı</li>
+    									<li><a class="nav-faq" href="#faq">Sıkca Sorulan Sorular</li>
+    									<li><a class="nav-contact" href="#contact">İletişim</a></li>							
+    								</ul>
+    							</div> -->
               <!-- /.widget footer-widget -->
             </div>
             <!-- /.col-lg-3 col-md-6 -->
 
             <div class="col-lg-3 col-md-6">
               <div class="widget footer-widget">
-                <h3 class="widget-title">Adresimiz</h3>
+                <h3 class="widget-title" data-translate="address_title">Adresimiz</h3>
 
-                <p>
+                <p data-translate="address_desc">
                   29 Şehit Idris Doğan Sokak, Gelibolu, Lefkoşa, Kuzey Kıbrıs
                 </p>
 
@@ -1133,7 +1162,7 @@
 
         <div class="site-info">
           <div class="copyright">
-            <p>
+            <p id="p2">
               © 2021 All Rights Reserved Design by
               <a href="https://cypruscodes.com/" target="_blank">Cyprus<b>Codes.</b></a>
             </p>
@@ -1149,7 +1178,12 @@
 
   <!-- Dependency Scripts -->
   <script src="dependencies/jquery/jquery.min.js"></script>
-  <script src="dependencies/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
   <script src="dependencies/swiper/js/swiper.min.js"></script>
   <script src="dependencies/jquery.appear/jquery.appear.js"></script>
   <script src="dependencies/wow/js/wow.min.js"></script>
@@ -1159,6 +1193,20 @@
   <script src="dependencies/jquery.parallax-scroll/js/jquery.parallax-scroll.js"></script>
   <script src="dependencies/magnific-popup/js/jquery.magnific-popup.min.js"></script>
   <script src="dependencies/gmap3/js/gmap3.min.js"></script>
+  <script src="assets/js/kurs1.js"></script>
+
+
+  <!-- <script src="dependencies/jquery/jquery.min.js"></script>
+  <script src="dependencies/bootstrap/js/bootstrap.min.js"></script>
+  <script src="dependencies/swiper/js/swiper.min.js"></script>
+  <script src="dependencies/jquery.appear/jquery.appear.js"></script>
+  <script src="dependencies/wow/js/wow.min.js"></script>
+  <script src="dependencies/countUp.js/countUp.min.js"></script>
+  <script src="dependencies/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="dependencies/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="dependencies/jquery.parallax-scroll/js/jquery.parallax-scroll.js"></script>
+  <script src="dependencies/magnific-popup/js/jquery.magnific-popup.min.js"></script>
+  <script src="dependencies/gmap3/js/gmap3.min.js"></script> -->
   <script type="text/javascript"
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk2HrmqE4sWSei0XdKGbOMOHN3Mm2Bf-M&#038;ver=2.1.6"></script>
 
