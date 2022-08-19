@@ -507,7 +507,7 @@ $.i18n.fr = {
   description:
     "Vous souhaitez vous perfectionner dans le domaine du logiciel et vous créer de nouveaux domaines d'activité?",
   description_2:
-    "<b>Suivez le monde en développement </b> avec la seule<br/> et unique école de programmation à <b>temps partiel</b><br/> de Chypre !",
+    "<b>Suivez le monde en développement </b> avec la seule<br/> et l'unique école de programmation à <b>temps partiel</b><br/> de Chypre !",
   info_btn: "Demander des Informations",
   goal: "Votre rêve d'une nouvelle carrière n'est qu'à un pas si vous avez des objectifs tels que",
   goals:

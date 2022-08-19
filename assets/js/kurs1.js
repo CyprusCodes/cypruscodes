@@ -44,7 +44,7 @@ $.i18n.en = {
   curriculum: "Curriculum",
   curriculum_desc:
     "Thanks to our Software Engineering program, you will come from zero to the ready-to-work programmer level in just 24 weeks.<br />Our Software Engineering program has a comprehensive program spread over 6 months. It covers how software engineers work and the tools they use, the basics of the JavaScript programming language, how data is stored and processed, and how to create visual and interactive web-based interfaces that consume and present data.",
-  schedule1_title1: "Beginning (4 weeks)",
+  schedule1_title: "Beginning (4 weeks)",
   schedule1_desc1:
     "In the first 4 weeks of the course, you will be familiar with all the tools and programs that a software developer uses in his daily life.",
   schedule1_desc2:
@@ -429,7 +429,7 @@ $.i18n.fr = {
   curriculum: "Curriculum",
   curriculum_desc:
     "Grâce à notre programme de génie logiciel, vous passerez de zéro au niveau de programmeur prêt à travailler en seulement 24 semaines.<br />Notre programme de génie logiciel comprend un programme complet étalé sur 6 mois. Il couvre le fonctionnement des ingénieurs logiciels et les outils qu'ils utilisent, les bases du langage de programmation JavaScript, le stockage et le traitement des données et la création d'interfaces Web visuelles et interactives qui consomment et présentent des données.",
-  schedule1_title1: "Début (4 semaines)",
+  schedule1_title: "Début (4 semaines)",
   schedule1_desc1:
     "Au cours des 4 premières semaines du cours, vous vous familiariserez avec tous les outils et programmes qu'un développeur de logiciels utilise dans sa vie quotidienne.",
   schedule1_desc2:
