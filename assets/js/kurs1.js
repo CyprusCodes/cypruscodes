@@ -75,6 +75,9 @@ $.i18n.en = {
     "You will be able to develop your own web-based and mobile applications by using the <strong>React</strong> interface development library developed by Facebook, which is used by tens of thousands of companies worldwide.",
   schedule4_desc2:
     "You will be able to automatically test the applications you have developed.",
+  schedule5_title: "Group Project (2 weeks)",
+  schedule5_desc:
+    "Now you will be able to use all the skills you have learned throughout the course. You will have a graduation project that you can proudly show at the end of 2 weeks, working with your coursemates on an idea of your own choosing! 🎓🚀",
 
   testimonial: "Testimonial",
   testimonial_desc: "What does our clients say about us?",
@@ -208,8 +211,13 @@ $.i18n.tr = {
   schedule3_desc3:
     "Nodejs ve Express kütüphanelerini kullanarak Internet tabanlı sunucu servisleri (API) geliştirebileceksiniz.",
   schedule4_title: "Kullanıcı Arayüzü Geliştirme (6 hafta)",
-  schedule4_desc1: "Facebook tarafından geliştirilmiş dünya çapında onbinlerce firma tarafından kullanılan<strong>React</strong> arayüz geliştirme kütüphanesini kullanarak kendi web tabanlı ve mobil uygulamalarınızı geliştirebileceksiniz.",
-  schedule4_desc2: "Geliştirdiğiniz uygulamaları otomatik bir şekilde test edebileceksiniz.",
+  schedule4_desc1:
+    "Facebook tarafından geliştirilmiş dünya çapında onbinlerce firma tarafından kullanılan<strong>React</strong> arayüz geliştirme kütüphanesini kullanarak kendi web tabanlı ve mobil uygulamalarınızı geliştirebileceksiniz.",
+  schedule4_desc2:
+    "Geliştirdiğiniz uygulamaları otomatik bir şekilde test edebileceksiniz.",
+  schedule5_title: "Grup Projesi (2 hafta)",
+  schedule5_desc:
+    "İşte şimdi kurs boyunca öğrendiğiniz tüm becerileri kullanabileceksiniz. Kendi seçtiğiniz bir fikir üzerinde kurs arkadaşlarınız ile birlikte çalışıp, 2 haftanın sonunda gururla gösterebileceğiniz bir bitirme projesine sahip olacaksınız! 🎓🚀",
 
   testimonial: "Referanslar",
   testimonial_desc: "Müşterimiz bizim hakkımızda ne diyor",
@@ -291,120 +299,6 @@ $.i18n.tr = {
   select_course: "Kursunuzu seçin",
 };
 
-$.i18n.ru = {
-  menu_1: "Education",
-  menu_2: "Course",
-  menu_3: "Career Path",
-  menu_4: "FAQ",
-  menu_5: "Contact",
-  menu_6: "Sign In",
-  intro: "WELCOME TO CYPRUSCODES",
-  title: "Shape Your Future!",
-  home_page: "Home",
-  education_desc:
-    "Developed in collaboration with the UK's leading programming school, <strong>ManchesterCodes</strong>, our curriculum </br>covers the hottest technologies used by industry leaders like the <strong>BBC</strong> and <strong>Booking.com</strong>.",
-  membership_title:
-    "Create a membership on CyprusCodes<br/> Education Portal Now",
-  membership_desc: "*You can access our free beginner module right now!",
-  membership_btn: "Sign Up",
-  fullstack: "FullStack Engineering Fastrack",
-  duration_time_hours: "Lesson Hours",
-  duration_time_week: "Weeks",
-  project_count: "projects",
-  curriculum: "Curriculum",
-  curriculum_desc:
-    "Thanks to our Software Engineering program, you will come from zero to the ready-to-work programmer level in just 24 weeks.<br />Our Software Engineering program has a comprehensive program spread over 6 months. It covers how software engineers work and the tools they use, the basics of the JavaScript programming language, how data is stored and processed, and how to create visual and interactive web-based interfaces that consume and present data.",
-  schedule1_title1: "Beginning (4 weeks)",
-  schedule1_desc1:
-    "In the first 4 weeks of the course, you will be familiar with all the tools and programs that a software developer uses in his daily life.",
-  schedule1_desc2:
-    "You will learn to use <strong>Git and GitHub</strong> services to store or share the code you have written.",
-  schedule1_desc3:
-    "You will acquire <strong>terminal</strong> skills to use your computer more effectively.",
-  schedule1_desc4:
-    "You will learn the basics of <strong>HTML, CSS and JavaScript</strong> to create your first web page.",
-  testimonial: "Testimonial",
-  testimonial_desc: "What does our clients say about us?",
-  testimonial_country: "Nicosia, Northern Cyprus",
-  testimonial_erhan:
-    "First of all, I was very satisfied with the CyprusCodes software engineering course. In addition to the content and expression, the biggest feature that distinguishes CyprusCodes from other trainings is to be able to find answers to our questions at the points where the students are stuck, on the platform where you can find the instructors and other students. Also another contribution of the course was learning the right research techniques in the field of software engineering. In this way, I am still able to improve my software knowledge. Thank you CyprusCodes family.",
-  testimonial_erto:
-    "Am very pleased with the education I received within the framework of this course which was offered by CyprusCodes team. We have gained a different point of view and became a Junior Developer from scratch only in 6 months with the help of our instructors. Now, I am able to pursue a career in the field of Software Engineering. <br/>The courses offered were really fun which made it easier to understand the given topics. With the attention and effort shown by the instructors, people from all aspects of live can find an answer to the question “What is Coding?",
-  testimonial_rahmi:
-    "When I started the course, I had some doubts, even though the teaching staff had experience abroad. Shortly after the course has started, I had realized that these doubts were unfounded, with the support and help of the teaching staff as well as the help of my teammates in the communication platform (Slack).<br/> I would like to thank the CyprusCodes teachers and my teammates who both helped me and supported me to improve myself with this course, and I would gladly recommend the course to people of all ages who want to increase their digital competencies.",
-  faq: "FAQ",
-  faq_title: "FAQ and Answers",
-  faq_category_1: "General",
-  faq_category_2: "Course/Platform",
-  faq_category_3: "Application Form for Assistance",
-  faq_category_1_title_1: "What is CyprusCodes?",
-  faq_category_1_desc_1:
-    "The one and only part-time web and mobile application programming course in Northern Cyprus. Our goal is to gather the talents in Northern Cyprus and to develop world-class web and mobile applications.",
-  faq_category_1_title_2:
-    "Who can apply for this course? Are there any age restrictions?",
-  faq_category_1_desc_2:
-    "<b>Anyone </b>between the ages of 16-60 can apply for our course.",
-  faq_category_1_title_3: "What are the requirements for participation?",
-  faq_category_1_desc_3:
-    "Anyone who wants to pursue a career in the software industry can participate to our course. CyprusCodes programming school’s door is always open for everyone who will take a step into the software world for the first time, graduates from the related departments of universities or those who work actively in the sector and want to improve their knowledge. It is an advantage to have an intermediate level of English.",
-  faq_category_1_title_4: "How are the hours of the course arranged?",
-  faq_category_1_desc_4:
-    "Our course hours have been prepared by taking working individuals into consideration. In this regard, the lessons will be held between 18.30 – 21.30 on Monday – Wednesday, and on Saturday between 10.00 – 16.00, the necessary support will be provided to students.",
-  faq_category_1_title_5: "When can I apply?",
-  faq_category_1_desc_5:
-    "Our applications have started! To benefit from the latest news, you can follow the CyprusCodes page on Instagram and Facebook.",
-  faq_category_1_title_6:
-    "Do I need to be good at mathematics to learn programming?",
-  faq_category_1_desc_6:
-    "<b>No! </b>Thinking logically is more important when creating websites and applications, and the mathematics that you learned at school will suffice throughout our course.",
-  faq_category_1_title_7: "Will I get a certificate at the end of the course?",
-  faq_category_1_desc_7:
-    "Yes! CyprusCodes Academy Certificate of Participation and CyprusCodes Academy Certificate of Achievement will be given to successful students at the end of the course.",
-  faq_category_2_title_1: "Is your course suitable for beginner level?",
-  faq_category_2_desc_1:
-    "Yes! Our course is suitable for beginner level and you don’t need any programming experience.",
-  faq_category_2_title_2:
-    "What equipment do I need to participate in the course?",
-  faq_category_2_desc_2:
-    "The students who will attend the course will just need to bring a laptop with them. In order to properly comprehend the course flow and programming language, students need have intermediate level of English ability.",
-  faq_category_2_title_3: "What is the cost of course documents?",
-  faq_category_2_desc_3:
-    "No. Even after the conclusion of the course, you will have access to the course materials in online.",
-  faq_category_2_title_4: "How many students are there in each class?",
-  faq_category_2_desc_4: "Between 6 and 12 people.",
-  faq_category_2_title_5:
-    "Am I going to have a portfolio that I can use at the end of the course?",
-  faq_category_2_desc_5:
-    "Yes. Employers will be able to see at least 10 projects on their own GitHub account before the end of the course. This is the standard approach for software engineer portfolios.",
-  faq_category_3_title_1: "What is the Assistance Forum?",
-  faq_category_3_desc_1:
-    "“Assistance Forum” is a support meeting that is held daylong every Saturday. You can ask anything that comes to your mind and get help for the parts that you have trouble with while doing the given projects during the course.",
-  faq_category_3_title_2: "Do you provide job opportunities to your graduates?",
-  faq_category_3_desc_2:
-    "Yes. We support our successful students in the first step of their careers.",
-  faq_category_3_title_3:
-    "After graduating, will I still have access to the assistance forums?",
-  faq_category_3_desc_3: "Yes",
-  faq_category_3_title_4: "Is it compulsory to attend the Assistance Forum?",
-  faq_category_3_desc_4:
-    "No. The Assistance Forum is just held to provide you with extra support. We encourage you to join the help forums, either to ask questions or answer other participants’ questions but surely there is no obligation.",
-  contact_title: "CONTACT FORM",
-  contact_desc:
-    "Want to get more information ? <br/> We will get in touch with you!",
-  contact_btn: "Send",
-  address_title: "Our address",
-  address_desc: "29 Şehit Idris Doğan Avenue, Gelibolu, Nicosia, North Cyprus",
-  other: "Other",
-  email_must: "Email must be filled out",
-  name_must: "Name must be filled out",
-  course_must: "Course must be selected",
-
-  // basarimlar
-  students: "Some of Our Graduates",
-  testimonial_country_magusa: "Famagusta , Northern Cyprus",
-  select_course: "Select your course",
-};
-
 $.i18n.fr = {
   menu_1: "Éducation",
   menu_2: "Cours",
@@ -460,6 +354,9 @@ $.i18n.fr = {
     "Vous pourrez développer vos propres applications Web et mobiles en utilisant la bibliothèque de développement d'interface <strong>React</strong> développée par Facebook, qui est utilisée par des dizaines de milliers d'entreprises dans le monde.",
   schedule4_desc2:
     "Vous pourrez tester automatiquement les applications que vous avez développées.",
+  schedule5_title: "Projet de groupe (2 semaines)",
+  schedule5_desc:
+    "Vous pourrez maintenant utiliser toutes les compétences que vous avez acquises tout au long du cours. Vous aurez un projet de fin d'études que vous pourrez montrer fièrement au bout de 2 semaines, en travaillant avec vos camarades de cours sur une idée de votre choix ! 🎓🚀",
 
   testimonial: "Témoignage ",
   testimonial_desc: "Que disent nos clients de nous?",
