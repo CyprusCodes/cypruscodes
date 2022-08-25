@@ -5430,6 +5430,11 @@ select {
   color: #fa7070;
 }
 
+.section-title h2 span {
+  font-weight: normal; 
+  font-size: 30px;
+}
+
 .section-title .title-two {
   font-size: 30px;
   font-weight: 500;
