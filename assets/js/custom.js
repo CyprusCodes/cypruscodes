@@ -600,7 +600,7 @@ $.i18n.fr = {
     "Quiconque souhaite poursuivre une carrière dans l'industrie du logiciel peut participer à notre cours. La porte de l'école de programmation CyprusCodes est toujours ouverte à tous ceux qui feront un pas dans le monde du logiciel pour la première fois, aux diplômés des départements connexes des universités ou à ceux qui travaillent activement dans le secteur et souhaitent améliorer leurs connaissances. C'est un avantage d'avoir un niveau d'anglais intermédiaire.",
   faq_category_1_title_4: "Comment les heures de cours sont-elles organisées ?",
   faq_category_1_desc_4:
-    "Nos heures de cours ont été préparées en tenant compte des personnes qui travaillent. À cet égard, les cours auront lieu entre 18h30 et 21h30 du lundi au mercredi et le samedi entre 10h00 et 16h00, le soutien nécessaire sera fourni aux étudiants.",
+    "Nos heures de cours ont été préparées en tenant compte des personnes qui travaillent. Nos étudiants peuvent accéder à nos modules et à nos vidéos préenregistrées, avec des conseils à suivre chaque semaine. Les mardis et jeudis, nous proposons une assistance en face à face de 10h00 à 16h00 en semaine, et une assistance en ligne individuelle est proposée aux étudiants entre 10h00 et 16h00 le samedi.",
   faq_category_1_title_5: "Quand puis-je postuler ?",
   faq_category_1_desc_5:
     "Nos applications sont lancées ! Pour bénéficier des dernières actualités, vous pouvez suivre la page CyprusCodes sur Instagram et Facebook.",
@@ -622,7 +622,8 @@ $.i18n.fr = {
   faq_category_2_desc_3:
     "Non. Même après la fin du cours, vous aurez accès aux supports de cours en ligne.",
   faq_category_2_title_4: "Combien y a-t-il d'élèves dans chaque classe ?",
-  faq_category_2_desc_4: "Entre 6 et 12 personnes.",
+  faq_category_2_desc_4:
+    "Le quota de nos cours de codage robotique pour enfants est de 6 à 12 personnes. Dans notre cours accéléré, nous n'avons pas de concept de salle de classe car les étudiants suivent le cours à leur propre rythme.",
   faq_category_2_title_5:
     "Est-ce que je vais avoir un portfolio que je peux utiliser à la fin du cours ?",
   faq_category_2_desc_5:
@@ -633,7 +634,7 @@ $.i18n.fr = {
   faq_category_3_title_2:
     "Offrez-vous des opportunités d'emploi à vos diplômés ?",
   faq_category_3_desc_2:
-    "Oui. Nous soutenons nos étudiants qui réussissent dans la première étape de leur carrière.",
+    "Oui. Notre formation se compose de 5 modules. Il y aura une évaluation à la fin de chaque module. Si notre étudiant termine avec succès tous les modules, il ou elle se verra offrir un emploi. Notre étudiant peut accepter ou refuser l'offre, mais si vous refusez, nous exigeons le prix total de notre cours (8000 TL).",
   faq_category_3_title_3:
     "Après mes études, aurai-je toujours accès aux forums d'assistance ?",
   faq_category_3_desc_3: "Oui",
