@@ -661,8 +661,7 @@ $("a.nav-contact").click(function () {
 
 var $formBooking = $("#booking-form"),
   url =
-    "https://script.google.com/macros/s/AKfycbwXYukJ1OUGnDJGsG5zw4xv_wOiEJSxmwOPPDBL_azHfS8MBaA/exec";
-
+    "https://script.google.com/macros/s/AKfycby5uon9g-8uykVwtUgUqrWREvl4XXfn73x6gueKOiOAPfQYRxdNdnfiz7zUbb9TXL_-/exec"
 $("#submit-Bookingform").on("click", function (e) {
   e.preventDefault();
 
@@ -761,7 +760,7 @@ $("#submit-Contactform").click(function () {
       ],
     });
     var jqxhr = $.ajax({
-      url: "https://script.google.com/macros/s/AKfycbwXYukJ1OUGnDJGsG5zw4xv_wOiEJSxmwOPPDBL_azHfS8MBaA/exec",
+      url: "https://script.google.com/macros/s/AKfycby5uon9g-8uykVwtUgUqrWREvl4XXfn73x6gueKOiOAPfQYRxdNdnfiz7zUbb9TXL_-/exec",
       method: "GET",
       dataType: "json",
       data: $formContact.serializeArray(),
